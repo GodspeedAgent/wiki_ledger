@@ -1,7 +1,7 @@
 title: WikiLedger
 description: "A daily log of the most-read Wikipedia sentence."
-url: ""
-baseurl: ""
+url: "https://godspeedagent.github.io"
+baseurl: "/wiki_ledger"
 
 markdown: kramdown
 
