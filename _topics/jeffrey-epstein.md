@@ -12,7 +12,7 @@ description: "American financier and child sex offender (1953–2019)"
 description_source: "wikipedia_rest_summary"
 canonical_title: "Jeffrey Epstein"
 normalized_title: "Jeffrey Epstein"
-times_seen_total: 1
+times_seen_total: 2
 sentence_changed_count: 1
 sentence_history:
   - date: "2026-02-09"
@@ -21,5 +21,12 @@ sentence_history:
     lead_sentence: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
     sentence_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
     change_type: "first_seen"
+    source_revision_id: 1337369979
+  - date: "2026-01-31"
+    rank: 58
+    pageviews: 61117
+    lead_sentence: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
+    sentence_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
+    change_type: "unchanged"
     source_revision_id: 1337369979
 ---
