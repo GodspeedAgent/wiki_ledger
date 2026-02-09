@@ -1,0 +1,28 @@
+title: WikiLedger
+description: "A daily log of the most-read Wikipedia sentence."
+url: ""
+baseurl: ""
+
+markdown: kramdown
+
+collections:
+  entries:
+    output: true
+    permalink: /entries/:name/
+  topics:
+    output: true
+    permalink: /topics/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: entries
+    values:
+      layout: entry
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
+
+# GitHub Pages-safe (no custom plugins)

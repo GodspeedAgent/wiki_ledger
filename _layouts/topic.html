@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="topic">
+  <header class="topic__header">
+    <div class="kicker">Topic history</div>
+    <h1 class="topic__title">{{ page.topic_title | default: page.title }}</h1>
+    {% if page.description %}<p class="topic__desc">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <section class="card">
+    <div class="card__title">Times seen</div>
+    <div class="big">{{ page.times_seen_total | default: 1 }}</div>
+  </section>
+
+  <section class="stack">
+    <h2 class="h2">Sentence history</h2>
+    {% if page.sentence_history %}
+      {% for item in page.sentence_history %}
+        <div class="card">
+          <div class="kicker">{{ item.date }} · Rank {{ item.rank }} · {{ item.pageviews }} views</div>
+          <p class="sentence__text" data-diff-target>{{ item.lead_sentence }}</p>
+          <div class="muted small">{{ item.change_type }}{% if item.source_revision_id %} · rev {{ item.source_revision_id }}{% endif %}</div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="card muted">No history yet.</div>
+    {% endif %}
+  </section>
+
+  <script>
+    // Mark this page so diff.js can run safely.
+    document.documentElement.dataset.pageKind = 'topic';
+  </script>
+</article>

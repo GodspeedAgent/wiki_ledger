@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<article class="entry">
+  <header class="entry__header">
+    <div class="kicker">{{ page.date | date: '%Y-%m-%d' }} · Rank {{ page.rank }} · {{ page.pageviews }} views</div>
+    <h1 class="entry__title">{{ page.topic_title }}</h1>
+    {% if page.description %}<p class="entry__desc">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <section class="card sentence">
+    <div class="sentence__label">Most-read lead sentence</div>
+    <p class="sentence__text">{{ page.lead_sentence }}</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <div class="card__title">Links</div>
+      <div class="stack">
+        <a class="link" href="{{ page.topic_url }}" target="_blank" rel="noopener">Wikipedia article</a>
+        {% if page.wikibase_item %}<div class="muted">Wikidata: {{ page.wikibase_item }}</div>{% endif %}
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__title">Provenance</div>
+      <div class="kv">
+        <div class="kv__row"><div class="kv__k">Page ID</div><div class="kv__v">{{ page.topic_page_id }}</div></div>
+        <div class="kv__row"><div class="kv__k">Revision</div><div class="kv__v">{{ page.source_revision_id }}</div></div>
+        <div class="kv__row"><div class="kv__k">Fetched</div><div class="kv__v">{{ page.fetch_timestamp }}</div></div>
+      </div>
+    </div>
+  </section>
+
+  {% if page.thumbnail_url %}
+  <figure class="thumb">
+    <img src="{{ page.thumbnail_url }}" width="{{ page.thumbnail_width }}" height="{{ page.thumbnail_height }}" alt="" loading="lazy" />
+  </figure>
+  {% endif %}
+
+  <div class="muted small">Sentence hash: <code>{{ page.sentence_hash }}</code></div>
+</article>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | escape }}{% else %}{{ site.description | escape }}{% endif %}" />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+    <script defer src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/diff.js' | relative_url }}"></script>
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand__mark">WL</span>
+          <span class="brand__name">{{ site.title }}</span>
+        </a>
+
+        <nav class="nav">
+          <a class="nav__link" href="{{ '/' | relative_url }}">Daily</a>
+          <a class="nav__link" href="{{ '/stats' | relative_url }}">Stats</a>
+        </nav>
+
+        <div class="actions">
+          <button class="btn btn--ghost" type="button" data-theme-toggle aria-label="Toggle theme">
+            <span class="btn__icon" aria-hidden="true">◐</span>
+            <span class="btn__text">Theme</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="content" class="container">
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="muted">Built for GitHub Pages · Jekyll</div>
+        <div class="muted"><a href="https://github.com/{{ site.github.repository_nwo }}">Source</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
