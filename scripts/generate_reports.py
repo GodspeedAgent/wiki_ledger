@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Generate weekly + monthly report markdown pages under _reports/.
 
-LLM-generated narrative should be written by the agent; this script focuses on
-assembling stats & a stable structure the agent can fill/extend.
+Reports are allowed to contain narrative analysis, but the site should not
+mention LLMs explicitly. This script assembles stats + a media-rich structure
+that an agent can fill with an objective narrative and supporting sources.
 
 No dependencies.
 """
@@ -57,10 +58,14 @@ def load_entries():
         entries.append(
             {
                 "date": d,
+                "entry_name": ep.stem,
                 "topic_title": fm.get("topic_title"),
                 "normalized_title": fm.get("normalized_title"),
                 "rank": int(fm.get("rank", "0") or 0),
                 "pageviews": int(fm.get("pageviews", "0") or 0),
+                "lead_sentence": fm.get("lead_sentence"),
+                "thumbnail_url": fm.get("thumbnail_url"),
+                "topic_url": fm.get("topic_url"),
                 "sentence_changed": fm.get("sentence_changed") == "true",
                 "change_type": fm.get("change_type"),
             }
@@ -102,8 +107,9 @@ def summarize(entries):
     topic_counts = Counter(topics)
     top_topics = topic_counts.most_common(10)
     total_views = sum(e["pageviews"] for e in entries)
-    changed = sum(1 for e in entries if e["change_type"] == "modified")
-    return top_topics, total_views, changed
+    changed = sum(1 for e in entries if e.get("change_type") == "modified")
+    top_by_views = sorted(entries, key=lambda e: e["pageviews"], reverse=True)[:6]
+    return top_topics, total_views, changed, top_by_views
 
 
 def main():
@@ -127,7 +133,7 @@ def main():
         we = ws + _dt.timedelta(days=6)
         week_entries = [e for e in all_entries if ws <= e["date"] <= we]
 
-    top_topics, total_views, changed = summarize(week_entries)
+    top_topics, total_views, changed, top_by_views = summarize(week_entries)
 
     weekly_name = f"weekly-{ws.isoformat()}"
     weekly_path = REPORTS_DIR / f"{weekly_name}.md"
@@ -139,6 +145,33 @@ def main():
         "period_end": we.isoformat(),
         "summary": f"Top themes and connections for the week of {ws.isoformat()}.",
     }
+    cards = [
+        "## Top attention\n",
+        "<div class=\"grid\">",
+    ]
+    for e in top_by_views:
+        href = f"{{{{ '/entries/{e['entry_name']}/' | relative_url }}}}"
+        img = (
+            f"<img src=\"{e['thumbnail_url']}\" alt=\"\" loading=\"lazy\" />"
+            if e.get("thumbnail_url")
+            else ""
+        )
+        title = (e.get("topic_title") or "").replace("\"", "&quot;")
+        kicker = f"{e['date'].isoformat()} · Rank {e['rank']} · {e['pageviews']} views"
+        cards.append(
+            "\n".join(
+                [
+                    f"<a class=\"card card--link\" href=\"{href}\">",
+                    f"  <div class=\"kicker\">{kicker}</div>",
+                    f"  <div class=\"card__title\">{title}</div>",
+                    f"  <div class=\"thumb\">{img}</div>" if img else "",
+                    f"  <div class=\"quote\">{(e.get('lead_sentence') or '')}</div>",
+                    "</a>",
+                ]
+            )
+        )
+    cards.append("</div>")
+
     weekly_body = "\n".join(
         [
             "## Highlights\n",
@@ -148,11 +181,12 @@ def main():
             "\n## Most frequent topics\n",
         ]
         + [f"- {t} — {c} day(s)" for t, c in top_topics]
+        + ["\n" + "\n".join(cards) + "\n"]
         + [
-            "\n## Narrative (LLM)\n",
-            "(Fill: why these topics likely spiked; what connects them; what to watch next.)\n",
+            "## Narrative\n",
+            "\n",
             "## Sources\n",
-            "(Fill: 5–10 supporting links from web search.)\n",
+            "\n",
         ]
     )
     write_report(weekly_path, weekly_front, weekly_body)
@@ -167,7 +201,7 @@ def main():
         ms = month_start(prev)
         me = month_end(prev)
         month_entries = [e for e in all_entries if ms <= e["date"] <= me]
-    top_topics_m, total_views_m, changed_m = summarize(month_entries)
+    top_topics_m, total_views_m, changed_m, top_by_views_m = summarize(month_entries)
 
     monthly_name = f"monthly-{ms.isoformat()[:7]}"
     monthly_path = REPORTS_DIR / f"{monthly_name}.md"
@@ -179,6 +213,33 @@ def main():
         "period_end": me.isoformat(),
         "summary": f"What captured attention in {ms.isoformat()[:7]} — with connections and context.",
     }
+    cards_m = [
+        "## Top attention\n",
+        "<div class=\"grid\">",
+    ]
+    for e in top_by_views_m:
+        href = f"{{{{ '/entries/{e['entry_name']}/' | relative_url }}}}"
+        img = (
+            f"<img src=\"{e['thumbnail_url']}\" alt=\"\" loading=\"lazy\" />"
+            if e.get("thumbnail_url")
+            else ""
+        )
+        title = (e.get("topic_title") or "").replace("\"", "&quot;")
+        kicker = f"{e['date'].isoformat()} · Rank {e['rank']} · {e['pageviews']} views"
+        cards_m.append(
+            "\n".join(
+                [
+                    f"<a class=\"card card--link\" href=\"{href}\">",
+                    f"  <div class=\"kicker\">{kicker}</div>",
+                    f"  <div class=\"card__title\">{title}</div>",
+                    f"  <div class=\"thumb\">{img}</div>" if img else "",
+                    f"  <div class=\"quote\">{(e.get('lead_sentence') or '')}</div>",
+                    "</a>",
+                ]
+            )
+        )
+    cards_m.append("</div>")
+
     monthly_body = "\n".join(
         [
             "## Highlights\n",
@@ -188,11 +249,12 @@ def main():
             "\n## Most frequent topics\n",
         ]
         + [f"- {t} — {c} day(s)" for t, c in top_topics_m]
+        + ["\n" + "\n".join(cards_m) + "\n"]
         + [
-            "\n## Narrative (LLM)\n",
-            "(Fill: biggest storylines; recurring motifs; surprising spikes.)\n",
+            "## Narrative\n",
+            "\n",
             "## Sources\n",
-            "(Fill: 10–20 supporting links from web search.)\n",
+            "\n",
         ]
     )
     write_report(monthly_path, monthly_front, monthly_body)
