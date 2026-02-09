@@ -4,6 +4,7 @@
 Adds/updates front matter keys:
 - entity_type
 - domain
+- tags (1–4 tags)
 - tags_version
 
 No external dependencies.
@@ -41,41 +42,66 @@ def read_front(path: Path) -> tuple[dict, list[str]]:
 
 
 def classify(title: str, desc: str, lead: str):
-    text = " ".join([title or "", desc or "", lead or ""]).lower()
+    title = title or ""
+    desc = desc or ""
+    lead = lead or ""
+    text = " ".join([title, desc, lead]).lower()
 
-    # Entity type
-    if re.search(r"\bis a (film|song|album|novel|video game|television series|tv series|miniseries|book)\b", text):
+    # Entity type (use title/desc keywords as well as "is/was" patterns)
+    if re.search(r"\b(film|song|album|novel|video game|television series|tv series|miniseries|book)\b", text):
         entity = "work"
-    elif re.search(r"\bis (a|an) (country|city|town|village|island|state|province|river|mountain|continent)\b", text):
+    elif re.search(r"\b(country|city|town|village|island|state|province|river|mountain|continent|district|county)\b", desc.lower()):
         entity = "place"
-    elif re.search(r"\b(was|is) (a|an) (battle|war|protest|massacre|incident|election|referendum|storm|earthquake|shooting|attack|case)\b", text):
+    elif re.search(r"\b(protest|massacre|incident|election|referendum|storm|earthquake|shooting|attack|case|trial|war|battle|final|cup|day)\b", title.lower() + " " + desc.lower()):
         entity = "event"
-    elif re.search(r"\bis (a|an) (company|organization|club|team|agency|university|government department)\b", text):
+    elif re.search(r"\b(company|organization|club|team|agency|university|government|committee|association)\b", desc.lower()):
         entity = "org"
-    elif re.search(r"\b(was|is) (a|an) (politician|actor|actress|singer|rapper|footballer|player|manager|coach|writer|journalist|financier|socialite|scientist|engineer)\b", text):
+    elif re.search(r"\b(was|is) (a|an)\b", lead.lower()) and re.search(
+        r"\b(politician|actor|actress|singer|rapper|footballer|player|manager|coach|writer|journalist|financier|socialite|scientist|engineer|quarterback|president)\b",
+        text,
+    ):
         entity = "person"
     else:
-        entity = "other"
+        # fallback heuristic: many biographies follow "X is/was a" even without a profession match
+        entity = "person" if re.match(r"^[A-Z][^,]{2,80} was an? ", lead) else "other"
 
-    # Domain
-    if re.search(r"\b(football|soccer|cricket|nba|nfl|mlb|premier league|coach|manager|quarterback|goal|match)\b", text):
+    # Domain (primary)
+    if re.search(r"\b(football|soccer|cricket|nba|nfl|mlb|premier league|fa cup|coach|manager|quarterback|goal|match)\b", text):
         domain = "sports"
-    elif re.search(r"\b(film|movie|tv|television|series|album|song|rapper|singer|actor|actress|netflix)\b", text):
+    elif re.search(r"\b(film|movie|tv|television|series|album|song|rapper|singer|actor|actress|netflix|super bowl|halftime)\b", text):
         domain = "entertainment"
-    elif re.search(r"\b(murder|rape|sex offender|traffick|trial|court|arrest|fraud|crime|criminal)\b", text):
+    elif re.search(r"\b(murder|rape|sex offender|traffick|trial|court|arrest|fraud|crime|criminal|abuse)\b", text):
         domain = "crime"
-    elif re.search(r"\b(election|president|prime minister|parliament|senate|congress|party|government|minister)\b", text):
+    elif re.search(r"\b(election|president|prime minister|parliament|senate|congress|party|government|minister|coup)\b", text):
         domain = "politics"
-    elif re.search(r"\b(software|internet|domain|protocol|ai|chatgpt|computer|website|app)\b", text):
+    elif re.search(r"\b(software|internet|domain|protocol|computer|website|app|cyber)\b", text):
         domain = "tech"
-    elif re.search(r"\b(century|massacre|protests|revolution|dynasty|ancient|historical)\b", text):
+    elif re.search(r"\b(century|dynasty|ancient|historical|massacre|protests|revolution)\b", text):
         domain = "history"
-    elif re.search(r"\b(science|physics|chemistry|biology|astronomy|space|nasa|medicine)\b", text):
+    elif re.search(r"\b(science|physics|chemistry|biology|astronomy|space|nasa|medicine|disease)\b", text):
         domain = "science"
     else:
         domain = "news"
 
-    return entity, domain
+    # Secondary tags (0–2), keep total <= 4
+    extra = []
+    if re.search(r"\b(court|trial|judge|lawsuit|indictment|doj|fbi)\b", text):
+        extra.append("legal")
+    if re.search(r"\b(internet|domain|website|protocol|tld)\b", text):
+        extra.append("internet")
+    if re.search(r"\b(china|tiananmen)\b", text):
+        extra.append("china")
+    if re.search(r"\b(super bowl|halftime)\b", text):
+        extra.append("superbowl")
+
+    tags = []
+    for t in [domain, entity] + extra:
+        if t and t not in tags:
+            tags.append(t)
+        if len(tags) >= 4:
+            break
+
+    return entity, domain, tags
 
 
 def upsert_front_matter(path: Path, key: str, value: str, raw_text: str) -> str:
@@ -109,11 +135,22 @@ def main():
         desc = fm.get("description", "")
         lead = fm.get("lead_sentence", "")
 
-        entity, domain = classify(title, desc, lead)
+        entity, domain, tags = classify(title, desc, lead)
 
         new = txt
         new = upsert_front_matter(p, "entity_type", entity, new)
         new = upsert_front_matter(p, "domain", domain, new)
+        # YAML list for tags (1–4 values)
+        if re.search(r"^tags:\s*$", new, flags=re.M):
+            pass
+        elif re.search(r"^tags:\s*\[.*\]\s*$", new, flags=re.M):
+            new = re.sub(r"^tags:\s*\[.*\]\s*$", "tags: [" + ", ".join('"'+t+'"' for t in tags) + "]", new, flags=re.M)
+        else:
+            # insert as inline list
+            new = upsert_front_matter(p, "tags", "[" + ", ".join(tags) + "]", new)
+            # upsert_front_matter quotes the whole value; fix to raw YAML list
+            new = re.sub(r"^tags: \"\[(.*)\]\"$", r"tags: [\1]", new, flags=re.M)
+
         new = upsert_front_matter(p, "tags_version", TAGS_VERSION, new)
 
         if new != txt:

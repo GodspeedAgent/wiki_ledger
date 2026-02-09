@@ -273,6 +273,23 @@ def main():
         else:
             domain = "news"
 
+        extra = []
+        if _has(r"\b(court|trial|judge|lawsuit|indictment|doj|fbi)\b"):
+            extra.append("legal")
+        if _has(r"\b(internet|domain|website|protocol|tld)\b"):
+            extra.append("internet")
+        if _has(r"\b(china|tiananmen)\b"):
+            extra.append("china")
+        if _has(r"\b(super bowl|halftime)\b"):
+            extra.append("superbowl")
+
+        tags = []
+        for t in [domain, entity_type] + extra:
+            if t and t not in tags:
+                tags.append(t)
+            if len(tags) >= 4:
+                break
+
         topic_path = TOPICS_DIR / f"{topic_slug}.md"
 
         # Read topic history (minimal)
@@ -378,6 +395,7 @@ def main():
             yaml_kv("entity_type", entity_type),
             yaml_kv("domain", domain),
             yaml_kv("tags_version", "v1"),
+            "tags: [" + ", ".join('"' + t + '"' for t in tags) + "]",
             yaml_kv("top_articles_date", top_day_used.isoformat()),
             "---",
             "",

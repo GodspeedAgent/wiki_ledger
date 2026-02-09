@@ -1,12 +1,8 @@
 ---
 layout: default
 title: Daily log
+page_kind: daily
 ---
-
-<script>
-  // Mark this page so filter.js can run safely.
-  document.documentElement.dataset.pageKind = 'daily';
-</script>
 
 <section class="hero">
   <h1 class="hero__title">Daily tracker</h1>

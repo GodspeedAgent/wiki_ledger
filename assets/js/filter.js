@@ -1,7 +1,7 @@
 (function(){
   // Simple client-side filter/search for the Daily page.
   const root = document.documentElement;
-  const pageKind = root.dataset.pageKind;
+  const pageKind = root.dataset.pageKind || root.getAttribute('data-page-kind');
   if (pageKind !== 'daily') return;
 
   const q = document.querySelector('[data-filter-q]');
