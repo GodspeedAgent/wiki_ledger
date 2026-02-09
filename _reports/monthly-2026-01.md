@@ -62,26 +62,73 @@ summary: "What captured attention in 2026-01 — with connections and context."
 <a class="card card--link" href="{{ '/entries/2026-01-03/' | relative_url }}">
   <div class="kicker">2026-01-03 · Rank 9 · 265044 views</div>
   <div class="card__title">Trinidad Chambliss</div>
-  <div class="thumb"><img src="null" alt="" loading="lazy" /></div>
   <div class="quote">Trinidad Jay Chambliss is an American college football quarterback for the Ole Miss Rebels.</div>
 </a>
 </div>
 
 ## Narrative
 
-This month’s sample shows a mix of spikes rather than a single unified storyline. The highest-attention entries are often driven by (1) a direct news hook, (2) an anniversary effect, or (3) a media ‘routing’ moment where a widely shared item funnels readers into a reference page.
+### Executive Summary
 
+- January’s attention is **multi-modal**: one massive historical/political spike (*1989 Tiananmen Square protests and massacre*) alongside sports and entertainment churn.
+- The month looks less like a single storyline and more like a **rotating spotlight**—issue-of-the-day attention punctuated by a few outsized surges.
+- Repeats exist but are light (*Avatar: Fire and Ash*, *The Rip (film)* at 2× each), suggesting “ongoing anticipation” rather than a sustained breaking-news cascade.
+- The dataset reads as **curiosity with triggers** (events, releases, anniversaries, viral routing) rather than stable popularity rankings.
+- In this sample, sentence-level change is near-zero; meaning comes from **where attention goes**, not how articles rewrite.
 
+### Observed Patterns
 
-Across the month, recurring topics can be read as persistence of a story-thread; one-offs tend to reflect day-specific events (sports results, entertainment releases, viral clips). Multiple hypotheses can fit the same pattern; the safest read is to treat Wikipedia attention as a proxy for *curiosity with a trigger*, not a vote of approval.
+- **Outlier day:** *1989 Tiananmen Square protests and massacre* reaches ~1.5M views (rank 2), dwarfing typical days.
+- **Sports micro-cycles:** multiple athlete/manager pages appear (e.g., *Fernando Mendoza*, *Carson Beck*, *Álvaro Arbeloa*, *Trinidad Chambliss*), consistent with match/result/news cadence.
+- **Entertainment anticipation:** repeat appearances for titles like *Avatar: Fire and Ash* and *The Rip (film)*, consistent with trailer/casting chatter.
+- **Infrastructure curiosity:** *.xxx* appears, hinting at occasional “explain the internet” lookup behavior.
 
+### Narrative Hypotheses
 
+**Media Routing Hypothesis**
+- Observation: one extreme outlier and many one-offs.
+- Logic chain: a widely shared article/video/post points to a specific reference page → Wikipedia absorbs the spike as the canonical explainer.
+- Alternative explanation: an anniversary effect or curriculum/media programming can create similar surges without a single viral catalyst.
+
+**Agenda-Setting Hypothesis (soft)**
+- Observation: attention can concentrate intensely on one historical/political topic.
+- One interpretation is that institutional media focus (or platform amplification) can temporarily set the public’s lookup agenda.
+- Alternative explanation: decentralized curiosity can converge naturally when a topic becomes salient, even without coordinated emphasis.
+
+**Distraction / Relief Valve Hypothesis**
+- Observation: heavy topics coexist with entertainment and sports spikes in close proximity.
+- This could indicate a social oscillation between threat/justice narratives and identity/fandom narratives.
+- Alternative explanation: the mix may simply be the expected texture of a large population’s daily interests.
+
+### Psychological & Social Signals
+
+- Outlier spikes on historical/political pages may reflect **collective sense-making**: people seeking background, definitions, and timelines.
+- Sports/entertainment spikes may reflect **community signaling** and “keeping up” behavior—attention used to maintain social belonging.
+
+### Media & Power Considerations
+
+- Wikipedia functions as a neutral “backplane” that both mainstream and alternative media can route to; the same pageview spike can be consistent with many different editorial motives.
+- Platform incentives (engagement, controversy, novelty) can amplify certain topics, but pageviews alone cannot demonstrate intent.
+
+### Counterpoints & Limitations
+
+- Weighted sampling favors higher ranks and can miss long-tail interest.
+- Pageviews don’t distinguish between organic interest and “link-driven” traffic.
+- Without cross-platform corroboration, hypotheses remain provisional.
+
+### Questions for the Reader
+
+- When a single page dominates a day (like Tiananmen), what was the trigger: new information, new framing, or new distribution?
+- Do repeat entertainment pages reflect genuine anticipation—or marketing-driven attention capture?
+- What would it take to distinguish organic curiosity from media routing in this dataset?
 
 ## Sources
 
 - https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
 - https://en.wikipedia.org/wiki/Fernando_Mendoza
-- https://en.wikipedia.org/wiki/Alex_Honnold
 - https://en.wikipedia.org/wiki/Carson_Beck
 - https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa
 - https://en.wikipedia.org/wiki/Trinidad_Chambliss
+- https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash
+- https://en.wikipedia.org/wiki/The_Rip_(film)
+- https://en.wikipedia.org/wiki/.xxx

@@ -151,9 +151,10 @@ def main():
     ]
     for e in top_by_views:
         href = f"{{{{ '/entries/{e['entry_name']}/' | relative_url }}}}"
+        thumb_url = (e.get("thumbnail_url") or "").strip()
         img = (
-            f"<img src=\"{e['thumbnail_url']}\" alt=\"\" loading=\"lazy\" />"
-            if e.get("thumbnail_url")
+            f"<img src=\"{thumb_url}\" alt=\"\" loading=\"lazy\" />"
+            if thumb_url and thumb_url.lower() != "null"
             else ""
         )
         title = (e.get("topic_title") or "").replace("\"", "&quot;")
@@ -223,9 +224,10 @@ def main():
     ]
     for e in top_by_views_m:
         href = f"{{{{ '/entries/{e['entry_name']}/' | relative_url }}}}"
+        thumb_url = (e.get("thumbnail_url") or "").strip()
         img = (
-            f"<img src=\"{e['thumbnail_url']}\" alt=\"\" loading=\"lazy\" />"
-            if e.get("thumbnail_url")
+            f"<img src=\"{thumb_url}\" alt=\"\" loading=\"lazy\" />"
+            if thumb_url and thumb_url.lower() != "null"
             else ""
         )
         title = (e.get("topic_title") or "").replace("\"", "&quot;")
