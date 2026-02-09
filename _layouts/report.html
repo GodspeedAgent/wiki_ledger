@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="report">
+  <header class="topic__header">
+    <div class="kicker">{{ page.report_kind | capitalize }} report · {{ page.period_start }}{% if page.period_end %} → {{ page.period_end }}{% endif %}</div>
+    <h1 class="topic__title">{{ page.title }}</h1>
+    {% if page.summary %}<p class="topic__desc">{{ page.summary }}</p>{% endif %}
+  </header>
+
+  <section class="stack">
+    <div class="card">
+      {{ content }}
+    </div>
+  </section>
+</article>

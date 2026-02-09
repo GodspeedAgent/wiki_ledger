@@ -12,6 +12,9 @@ collections:
   topics:
     output: true
     permalink: /topics/:name/
+  reports:
+    output: true
+    permalink: /reports/:name/
 
 defaults:
   - scope:
@@ -24,5 +27,10 @@ defaults:
       type: topics
     values:
       layout: topic
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: report
 
 # GitHub Pages-safe (no custom plugins)
