@@ -1,0 +1,25 @@
+---
+layout: "topic"
+title: "De De Pyaar De 2"
+topic_title: "De De Pyaar De 2"
+topic_page_id: "80305593"
+wikibase_item: "Q126908584"
+topic_url: "https://en.wikipedia.org/wiki/De_De_Pyaar_De_2"
+language: "en"
+namespace_id: 0
+article_type: "standard"
+description: "2025 film directed by Anshul Sharma"
+description_source: "wikipedia_rest_summary"
+canonical_title: "De De Pyaar De 2"
+normalized_title: "De De Pyaar De 2"
+times_seen_total: 1
+sentence_changed_count: 1
+sentence_history:
+  - date: "2025-11-17"
+    rank: 61
+    pageviews: 63524
+    lead_sentence: "De De Pyaar De 2 is a 2025 Indian Hindi-language romantic comedy film directed by Anshul Sharma, written by Luv Ranjan and Tarun Jain and produced by T-Series Films and Luv Films."
+    sentence_hash: "83448a65b4be04492eff6f64fa2b3456c8494a5b0218a1114f269e3420892200"
+    change_type: "first_seen"
+    source_revision_id: 1335103763
+---
