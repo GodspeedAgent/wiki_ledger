@@ -125,10 +125,16 @@ summary: "What captured attention in 2026-01 — with connections and context."
 ## Sources
 
 - https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+- https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash
+- https://en.wikipedia.org/wiki/The_Rip_(film)
 - https://en.wikipedia.org/wiki/Fernando_Mendoza
 - https://en.wikipedia.org/wiki/Carson_Beck
 - https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa
-- https://en.wikipedia.org/wiki/Trinidad_Chambliss
-- https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash
-- https://en.wikipedia.org/wiki/The_Rip_(film)
 - https://en.wikipedia.org/wiki/.xxx
+
+External (context)
+- https://www.britannica.com/event/Tiananmen-Square-incident
+- https://www.history.com/articles/tiananmen-square
+
+Reddit (optional signal)
+- https://www.reddit.com/r/changemyview/comments/1q6wivt/cmv_the_united_states_media_has_just_had_a/
