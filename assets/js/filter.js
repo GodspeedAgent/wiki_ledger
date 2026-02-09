@@ -19,7 +19,8 @@
     const query = norm(q && q.value);
     const domain = norm(selDomain && selDomain.value);
     const entity = norm(selEntity && selEntity.value);
-    const activeChip = norm((chips.find(c => c.classList.contains('chip--on')) || {}).dataset.filterChip);
+    const activeChipEl = chips.find(c => c.classList.contains('chip--on'));
+    const activeChip = norm(activeChipEl && activeChipEl.dataset && activeChipEl.dataset.filterChip);
 
     let shown = 0;
     cards.forEach(card => {

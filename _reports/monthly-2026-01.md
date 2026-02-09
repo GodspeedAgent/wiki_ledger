@@ -124,17 +124,18 @@ summary: "What captured attention in 2026-01 — with connections and context."
 
 ## Sources
 
-- <https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre>
-- <https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash>
-- <https://en.wikipedia.org/wiki/The_Rip_(film)>
-- <https://en.wikipedia.org/wiki/Fernando_Mendoza>
-- <https://en.wikipedia.org/wiki/Carson_Beck>
-- <https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa>
-- <https://en.wikipedia.org/wiki/.xxx>
+Wikipedia (primary)
+- [1989 Tiananmen Square protests and massacre](https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre)
+- [Avatar: Fire and Ash](https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash)
+- [The Rip (film)](https://en.wikipedia.org/wiki/The_Rip_(film))
+- [Fernando Mendoza](https://en.wikipedia.org/wiki/Fernando_Mendoza)
+- [Carson Beck](https://en.wikipedia.org/wiki/Carson_Beck)
+- [Álvaro Arbeloa](https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa)
+- [.xxx](https://en.wikipedia.org/wiki/.xxx)
 
 External (context)
-- <https://www.britannica.com/event/Tiananmen-Square-incident>
-- <https://www.history.com/articles/tiananmen-square>
+- [Tiananmen Square Protests: 1989, Massacre & Tank Man (HISTORY)](https://www.history.com/articles/tiananmen-square)
+- [Tiananmen Square, 1989 (U.S. Office of the Historian)](https://history.state.gov/milestones/1989-1992/tiananmen-square)
 
 Reddit (optional signal)
-- <https://www.reddit.com/r/changemyview/comments/1q6wivt/cmv_the_united_states_media_has_just_had_a/>
+- [CMV thread referencing “Tiananmen Square moment” (Changemyview)](https://www.reddit.com/r/changemyview/comments/1q6wivt/cmv_the_united_states_media_has_just_had_a/)
