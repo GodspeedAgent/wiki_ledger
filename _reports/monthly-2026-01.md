@@ -69,6 +69,19 @@ summary: "What captured attention in 2026-01 — with connections and context."
 
 ## Narrative
 
+This month’s sample shows a mix of spikes rather than a single unified storyline. The highest-attention entries are often driven by (1) a direct news hook, (2) an anniversary effect, or (3) a media ‘routing’ moment where a widely shared item funnels readers into a reference page.
+
+
+
+Across the month, recurring topics can be read as persistence of a story-thread; one-offs tend to reflect day-specific events (sports results, entertainment releases, viral clips). Multiple hypotheses can fit the same pattern; the safest read is to treat Wikipedia attention as a proxy for *curiosity with a trigger*, not a vote of approval.
+
 
 
 ## Sources
+
+- https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre
+- https://en.wikipedia.org/wiki/Fernando_Mendoza
+- https://en.wikipedia.org/wiki/Alex_Honnold
+- https://en.wikipedia.org/wiki/Carson_Beck
+- https://en.wikipedia.org/wiki/%C3%81lvaro_Arbeloa
+- https://en.wikipedia.org/wiki/Trinidad_Chambliss

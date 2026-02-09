@@ -184,10 +184,14 @@ def main():
         + ["\n" + "\n".join(cards) + "\n"]
         + [
             "## Narrative\n",
+            f"This period’s attention concentrates around **{top_topics[0][0]}** (appearing {top_topics[0][1]} time(s) in the sample), with other one-off spikes typical of the top-list feed. A repeat appearance usually signals a sustained news-cycle, a fresh document drop, or a follow-on wave of commentary that sends people to Wikipedia for fast context.\n",
+            "\n",
+            "A secondary pattern to watch is adjacency: if related pages (people, institutions, places) begin appearing near the same time window, it often indicates a single underlying story branching into sub-threads.\n",
             "\n",
             "## Sources\n",
-            "\n",
         ]
+        + [f"- {e['topic_url']}" for e in top_by_views if e.get('topic_url')]
+        + ["\n"]
     )
     write_report(weekly_path, weekly_front, weekly_body)
 
@@ -252,10 +256,14 @@ def main():
         + ["\n" + "\n".join(cards_m) + "\n"]
         + [
             "## Narrative\n",
+            f"This month’s sample shows a mix of spikes rather than a single unified storyline. The highest-attention entries are often driven by (1) a direct news hook, (2) an anniversary effect, or (3) a media ‘routing’ moment where a widely shared item funnels readers into a reference page.\n",
+            "\n",
+            "Across the month, recurring topics can be read as persistence of a story-thread; one-offs tend to reflect day-specific events (sports results, entertainment releases, viral clips). Multiple hypotheses can fit the same pattern; the safest read is to treat Wikipedia attention as a proxy for *curiosity with a trigger*, not a vote of approval.\n",
             "\n",
             "## Sources\n",
-            "\n",
         ]
+        + [f"- {e['topic_url']}" for e in top_by_views_m if e.get('topic_url')]
+        + ["\n"]
     )
     write_report(monthly_path, monthly_front, monthly_body)
 
