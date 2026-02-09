@@ -239,6 +239,40 @@ def main():
         sentence_hash = hashlib.sha256(lead_sentence.encode("utf-8")).hexdigest()
         sentence_length = len(lead_sentence)
 
+        # Tagging (heuristic; must not mention AI/LLMs on-site)
+        tag_text = " ".join([canonical_title or "", desc or "", lead_sentence or ""]).lower()
+        def _has(p):
+            return re.search(p, tag_text)
+        if _has(r"\bis a (film|song|album|novel|video game|television series|tv series|miniseries|book)\b"):
+            entity_type = "work"
+        elif _has(r"\bis (a|an) (country|city|town|village|island|state|province|river|mountain|continent)\b"):
+            entity_type = "place"
+        elif _has(r"\b(was|is) (a|an) (battle|war|protest|massacre|incident|election|referendum|storm|earthquake|shooting|attack|case)\b"):
+            entity_type = "event"
+        elif _has(r"\bis (a|an) (company|organization|club|team|agency|university|government department)\b"):
+            entity_type = "org"
+        elif _has(r"\b(was|is) (a|an) (politician|actor|actress|singer|rapper|footballer|player|manager|coach|writer|journalist|financier|socialite|scientist|engineer)\b"):
+            entity_type = "person"
+        else:
+            entity_type = "other"
+
+        if _has(r"\b(football|soccer|cricket|nba|nfl|mlb|premier league|coach|manager|quarterback|goal|match)\b"):
+            domain = "sports"
+        elif _has(r"\b(film|movie|tv|television|series|album|song|rapper|singer|actor|actress|netflix)\b"):
+            domain = "entertainment"
+        elif _has(r"\b(murder|rape|sex offender|traffick|trial|court|arrest|fraud|crime|criminal)\b"):
+            domain = "crime"
+        elif _has(r"\b(election|president|prime minister|parliament|senate|congress|party|government|minister)\b"):
+            domain = "politics"
+        elif _has(r"\b(software|internet|domain|protocol|ai|chatgpt|computer|website|app)\b"):
+            domain = "tech"
+        elif _has(r"\b(century|massacre|protests|revolution|dynasty|ancient|historical)\b"):
+            domain = "history"
+        elif _has(r"\b(science|physics|chemistry|biology|astronomy|space|nasa|medicine)\b"):
+            domain = "science"
+        else:
+            domain = "news"
+
         topic_path = TOPICS_DIR / f"{topic_slug}.md"
 
         # Read topic history (minimal)
@@ -341,6 +375,9 @@ def main():
             yaml_kv("original_image_url", orig.get("source")),
             yaml_kv("agent_name", AGENT_NAME),
             yaml_kv("agent_version", AGENT_VERSION),
+            yaml_kv("entity_type", entity_type),
+            yaml_kv("domain", domain),
+            yaml_kv("tags_version", "v1"),
             yaml_kv("top_articles_date", top_day_used.isoformat()),
             "---",
             "",
