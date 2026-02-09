@@ -165,15 +165,12 @@ def main():
 
     today = _dt.date.today()  # host local date; OK for daily schedule
 
-    # Abort if we already have 3 entries for today
-    existing_today = 0
+    # Abort if we already have an entry for today
     for ep in ENTRIES_DIR.glob("*.md"):
         fm = read_front(ep)
         if fm.get("date") == today.isoformat():
-            existing_today += 1
-    if existing_today >= 3:
-        print("ABORT: today already has 3 entries")
-        return 0
+            print("ABORT: today already has an entry")
+            return 0
 
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
@@ -187,39 +184,30 @@ def main():
     weights = [1.0 / max(1, int(a["rank"])) for a in cand]
 
     rng = random.Random(int(today.strftime("%Y%m%d")))
-    picked_raw = weighted_sample_without_replacement(cand, weights, 3, rng)
 
-    # Resolve summaries; if a pick fails sentence extraction, replace deterministically.
-    picks: list[tuple[dict, dict, str, str]] = []
-    used_articles = set()
+    # Weighted random pick from top 100 (single entry)
+    pick = rng.choices(cand, weights=weights, k=1)[0]
+
+    # Resolve summary; if sentence extraction fails, retry deterministically.
     attempts = 0
-    idx = 0
-    while len(picks) < 3:
+    while True:
         attempts += 1
-        if attempts > 100:
-            raise RuntimeError("Too many attempts to build 3 entries")
-
-        if idx < len(picked_raw):
-            pick = picked_raw[idx]
-            idx += 1
-        else:
-            # deterministic extra picks
-            rng2 = random.Random(int(today.strftime("%Y%m%d")) + attempts)
-            pick = weighted_sample_without_replacement(cand, weights, 1, rng2)[0]
+        if attempts > 25:
+            raise RuntimeError("Too many attempts to build entry")
 
         article = pick["article"]
-        if article in used_articles:
-            continue
-        used_articles.add(article)
-
         url_sum = f"https://{LANG}.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(article, safe='')}"
         sumj, trace_sum, code = get_json(session, url_sum)
-        if code != 200:
-            continue
-        sent = first_declarative(sumj.get("extract"))
-        if not sent:
-            continue
-        picks.append((pick, sumj, trace_sum, sent))
+        if code == 200:
+            sent = first_declarative(sumj.get("extract"))
+            if sent:
+                lead_sentence = sent
+                break
+
+        rng2 = random.Random(int(today.strftime("%Y%m%d")) + attempts)
+        pick = rng2.choices(cand, weights=weights, k=1)[0]
+
+    picks = [(pick, sumj, trace_sum, lead_sentence)]
 
     # Create entries and update topics incrementally
     # NOTE: topic pages are append-only; sentence_changed compares to last occurrence in that topic.
@@ -404,7 +392,7 @@ def main():
 
         topic_path.write_text("\n".join(out), encoding="utf-8")
 
-    print("OK: wrote 3 entries")
+    print("OK: wrote 1 entry")
     return 0
 
 
