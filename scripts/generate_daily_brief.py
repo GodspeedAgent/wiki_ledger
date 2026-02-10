@@ -162,22 +162,90 @@ def main():
 
     # Tighter content skeleton; narrative can be edited/enriched by the agent.
     body = []
-    # Minimal auto-draft (no placeholders). You can later enrich with web search.
+    # Auto-draft (specific to today’s 10 picks; no placeholders)
     body.append('## The Pulse\n')
-    top3 = sorted(items, key=lambda x: x['pageviews'], reverse=True)[:3]
-    body.append(f"- Dominant attention: {', '.join(i['topic_title'] for i in top3)}.\n")
-    body.append(f"- Scale: ~{total_views:,} total views across today’s 10-pick snapshot.\n")
-    body.append('- Connective tissue: look for shared institutions, legal threads, or platform moments across otherwise unrelated topics.\n')
-    body.append('- Watchlist: if one of today’s topics reappears tomorrow, it often signals a sustained news-cycle or follow-on coverage.\n')
+    items_by_views = sorted(items, key=lambda x: x['pageviews'], reverse=True)
+    top3 = items_by_views[:3]
+
+    body.append(f"- **Dominant:** {top3[0]['topic_title']} (rank {top3[0]['rank']}, {top3[0]['pageviews']:,} views) leads the day.\n")
+    body.append(f"- **Scale:** ~{total_views:,} total views across today’s 10-pick snapshot (top-100 weighted sample).\n")
+
+    # cluster heuristics
+    has_superbowl = any('super bowl' in (i['topic_title'] + ' ' + i.get('lead_sentence','')).lower() or 'halftime' in (i['topic_title'] + ' ' + i.get('lead_sentence','')).lower() for i in items)
+
+    def bucket(it):
+        t = (it['topic_title'] + ' ' + it.get('lead_sentence','')).lower()
+        if any(k in t for k in ['super bowl', 'halftime']):
+            return 'superbowl'
+        # If the day includes Super Bowl/halftime, treat performers as part of that attention engine.
+        if has_superbowl and any(k in t for k in ['singer', 'songwriter', 'rapper', 'record producer', 'actor', 'actress', 'concert']):
+            return 'superbowl'
+        if any(k in t for k in ['seahawks', 'nfl', 'quarterback', 'placekicker']):
+            return 'nfl'
+        if any(k in t for k in ['epstein', 'maxwell']):
+            return 'epstein'
+        if 'winter olympics' in t or 'olympic' in t:
+            return 'olympics'
+        return 'other'
+
+    buckets = {}
+    for it in items:
+        b = bucket(it)
+        buckets.setdefault(b, []).append(it)
+
+    # Summarize top clusters by total views
+    cluster_order = sorted(buckets.items(), key=lambda kv: sum(x['pageviews'] for x in kv[1]), reverse=True)
+    lead_cluster, lead_items = cluster_order[0]
+    body.append(f"- **Cluster signal:** today’s list concentrates around **{lead_cluster}** ("
+                f"{len(lead_items)} of 10 picks). That kind of density often points to a single real-world ‘attention engine’ driving multiple lookups.\n")
+
+    # a concrete connective bullet
+    # If superbowl + epstein both present, mention the contrast explicitly.
+    if 'superbowl' in buckets and 'epstein' in buckets:
+        body.append("- **Contrast:** a high-gloss spectacle thread (Super Bowl / performers) sits alongside an accountability thread (Epstein / Maxwell) — a common ‘two-track day’ where entertainment and legal salience compete for mindshare.\n")
+    elif 'nfl' in buckets and 'superbowl' in buckets:
+        body.append("- **Connection:** multiple Seahawks-linked lookups inside a Super Bowl-shaped day suggests fans are triangulating rosters, key plays, and names in real time.\n")
 
     body.append('\n## Hidden Connections\n')
-    body.append('Thread A: Public institutions & accountability — a pattern consistent with legal/administrative attention routing.\n\n')
-    body.append('Thread B: Identity & fandom maintenance — entertainment/sports spikes that coexist with heavier news.\n\n')
-    body.append('Thread C: Internet infrastructure curiosity — technical lookups that often arrive as secondary rabbit holes.\n')
 
-    body.append('\n## Competing Explanations\n')
-    body.append('- **Organic curiosity:** readers independently converge on the same pages because the same real-world events are salient.\n')
-    body.append('- **Media routing/amplification:** distribution channels funnel attention toward a small set of reference pages, creating spikes.\n')
+    # Build up to 3 threads from top clusters, each listing 2–5 topics
+    for idx, (b, its) in enumerate(cluster_order[:3], 1):
+        topics = ', '.join([f"[{x['topic_title']}]({x['topic_url']})" for x in its[:5] if x.get('topic_url')])
+        tot = sum(x['pageviews'] for x in its)
+        if b == 'superbowl':
+            label = 'Spectacle stack (game + performers + counter-programming)'
+            expl = ("This cluster is consistent with a live-event attention loop: "
+                    "people bounce between the event page, performer pages, and adjacent ‘meta’ pages. "
+                    "The presence of an alternative/online halftime entry alongside the main Super Bowl node may suggest a parallel narrative ecosystem forming around the same time anchor.")
+        elif b == 'epstein':
+            label = 'Accountability / document-thread'
+            expl = ("Epstein-related pages often re-cluster when there’s a new filing, document drop, or recap wave. "
+                    "A multi-page cluster (files + associate) is consistent with readers mapping networks rather than reading a single headline summary.")
+        elif b == 'nfl':
+            label = 'Team-specific triangulation'
+            expl = ("Multiple Seattle Seahawks-linked pages in the same snapshot is consistent with fans chasing specific roster/role context (QB, kicker) rather than general league news.")
+        elif b == 'olympics':
+            label = 'Scheduled-event gravity'
+            expl = ("A live, calendar-fixed event can pull attention even without a single viral trigger; Wikipedia becomes a standings/venues reference layer.")
+        else:
+            label = 'Background curiosity'
+            expl = ("These look like one-off curiosity spikes that hitch a ride on the day’s larger attention currents.")
+
+        body.append(f"**Thread {idx}: {label}**\n\n")
+        body.append(f"Topics: {topics}\n\n")
+        body.append(f"Why they may connect: {expl}\n\n")
+
+    body.append('## Competing Explanations\n')
+    # Make these specific to the dominant cluster
+    if lead_cluster == 'superbowl':
+        body.append("- **Organic curiosity:** a major live event creates genuine, decentralized lookups across rules, performers, and personalities — Wikipedia is the common ‘second screen.’\n")
+        body.append("- **Media routing/amplification:** broadcast + social clips + official promos can funnel attention toward a tight set of pages (performers + event), making the spike look more unified than the underlying reasons.\n")
+    elif lead_cluster == 'epstein':
+        body.append("- **Organic curiosity:** a resurfacing scandal drives people to rebuild the timeline and relationships.\n")
+        body.append("- **Media routing/amplification:** a concentrated wave of coverage routes audiences into a small cluster of reference pages, which can persist even if no new facts were added that day.\n")
+    else:
+        body.append("- **Organic curiosity:** readers converge on the same pages because the same real-world events are salient.\n")
+        body.append("- **Media routing/amplification:** distribution channels funnel attention toward a small set of reference pages, creating spikes.\n")
 
     body.append('\n## Receipts\n')
     for it in top3:
