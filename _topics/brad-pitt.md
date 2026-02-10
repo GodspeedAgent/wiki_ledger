@@ -19,7 +19,9 @@ sentence_history:
     rank: 83
     pageviews: 45897
     lead_sentence: "William Bradley Pitt is an American actor and film producer."
+    lead_paragraph: "William Bradley Pitt is an American actor and film producer."
     sentence_hash: "852ba1e35aab73b56100f155a8b5145c609d68ebf337d04225e52ba1a0e7e60e"
+    paragraph_hash: "852ba1e35aab73b56100f155a8b5145c609d68ebf337d04225e52ba1a0e7e60e"
     change_type: "first_seen"
     source_revision_id: 1337362397
 ---

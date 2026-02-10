@@ -19,7 +19,9 @@ sentence_history:
     rank: 76
     pageviews: 43627
     lead_sentence: "Edi Mūe Gathegi is a Kenyan-American actor."
+    lead_paragraph: "Edi Mūe Gathegi is a Kenyan-American actor."
     sentence_hash: "62ebdd503bef6b0195baac98b94f48c19586db56e5b87fad0f2c3a9494364741"
+    paragraph_hash: "62ebdd503bef6b0195baac98b94f48c19586db56e5b87fad0f2c3a9494364741"
     change_type: "first_seen"
     source_revision_id: 1336755290
 ---

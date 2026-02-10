@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 530451
     lead_sentence: "David Anthony Burke, known professionally as D4vd, is an American singer-songwriter."
+    lead_paragraph: "David Anthony Burke, known professionally as D4vd, is an American singer-songwriter."
     sentence_hash: "da5ac03ee3ab55e13bc6ffd26981a822ccf17b2b78632a4620a07f1300e1cf37"
+    paragraph_hash: "da5ac03ee3ab55e13bc6ffd26981a822ccf17b2b78632a4620a07f1300e1cf37"
     change_type: "first_seen"
     source_revision_id: 1336175618
 ---

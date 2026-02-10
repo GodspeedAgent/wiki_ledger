@@ -19,7 +19,9 @@ sentence_history:
     rank: 52
     pageviews: 58782
     lead_sentence: "All's Fair is an American legal drama television series created by Ryan Murphy, and starring Kim Kardashian, Naomi Watts, Niecy Nash-Betts, Teyana Taylor, Sarah Paulson and Glenn Close."
+    lead_paragraph: "All's Fair is an American legal drama television series created by Ryan Murphy, and starring Kim Kardashian, Naomi Watts, Niecy Nash-Betts, Teyana Taylor, Sarah Paulson and Glenn Close."
     sentence_hash: "31445ee93efa56ee9a91f597cf7f99cfca11739ac57e60e3ccb88777bb990be5"
+    paragraph_hash: "31445ee93efa56ee9a91f597cf7f99cfca11739ac57e60e3ccb88777bb990be5"
     change_type: "first_seen"
     source_revision_id: 1336875371
 ---

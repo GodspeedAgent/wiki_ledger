@@ -19,7 +19,9 @@ sentence_history:
     rank: 33
     pageviews: 99762
     lead_sentence: "The Gorge is a 2025 American science fiction romantic action horror film directed by Scott Derrickson and written by Zach Dean."
+    lead_paragraph: "The Gorge is a 2025 American science fiction romantic action horror film directed by Scott Derrickson and written by Zach Dean."
     sentence_hash: "8adbc062f32f5aba32d5f167fd1e942fca088810796fe72e6996b066c1d688b4"
+    paragraph_hash: "8adbc062f32f5aba32d5f167fd1e942fca088810796fe72e6996b066c1d688b4"
     change_type: "first_seen"
     source_revision_id: 1334459391
 ---

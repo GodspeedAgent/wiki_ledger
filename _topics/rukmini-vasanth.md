@@ -19,7 +19,9 @@ sentence_history:
     rank: 43
     pageviews: 70573
     lead_sentence: "Rukmini Vasanth is an Indian actress who works in Kannada, Tamil, and Telugu films."
+    lead_paragraph: "Rukmini Vasanth is an Indian actress who works in Kannada, Tamil, and Telugu films."
     sentence_hash: "7d6c0cadd904d1a0ed94cf111c5ff1015544a1e8053efca4ecec6fbb1feec85f"
+    paragraph_hash: "7d6c0cadd904d1a0ed94cf111c5ff1015544a1e8053efca4ecec6fbb1feec85f"
     change_type: "first_seen"
     source_revision_id: 1336725859
 ---

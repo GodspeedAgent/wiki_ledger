@@ -19,7 +19,9 @@ sentence_history:
     rank: 18
     pageviews: 160129
     lead_sentence: "Katherine LaNasa is an American actress."
+    lead_paragraph: "Katherine LaNasa is an American actress."
     sentence_hash: "786f637c922ba3485f50841f88aaf9599ae6b13218b7a3a4fc0d02e9ed464f3a"
+    paragraph_hash: "786f637c922ba3485f50841f88aaf9599ae6b13218b7a3a4fc0d02e9ed464f3a"
     change_type: "first_seen"
     source_revision_id: 1337173019
 ---

@@ -19,14 +19,18 @@ sentence_history:
     rank: 2
     pageviews: 1045992
     lead_sentence: "Anne W. Burrell was an American chef, television personality, and instructor at the Institute of Culinary Education."
+    lead_paragraph: "Anne W. Burrell was an American chef, television personality, and instructor at the Institute of Culinary Education."
     sentence_hash: "08431a12a329e4ae579fdf5394670f5b1ffc63158210ac11c6d31f1a6c2d0dc8"
+    paragraph_hash: "08431a12a329e4ae579fdf5394670f5b1ffc63158210ac11c6d31f1a6c2d0dc8"
     change_type: "first_seen"
     source_revision_id: 1336024045
   - date: "2025-06-20"
     rank: 5
     pageviews: 320422
     lead_sentence: "Anne W. Burrell was an American chef, television personality, and instructor at the Institute of Culinary Education."
+    lead_paragraph: "Anne W. Burrell was an American chef, television personality, and instructor at the Institute of Culinary Education."
     sentence_hash: "08431a12a329e4ae579fdf5394670f5b1ffc63158210ac11c6d31f1a6c2d0dc8"
+    paragraph_hash: "08431a12a329e4ae579fdf5394670f5b1ffc63158210ac11c6d31f1a6c2d0dc8"
     change_type: "unchanged"
     source_revision_id: 1336024045
 ---

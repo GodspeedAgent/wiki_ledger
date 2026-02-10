@@ -19,7 +19,9 @@ sentence_history:
     rank: 94
     pageviews: 39287
     lead_sentence: "Ethan Samuel Slater is an American actor and singer."
+    lead_paragraph: "Ethan Samuel Slater is an American actor and singer."
     sentence_hash: "8ce2ca64845aa33d52c301fb4f34a76e586f4497b81fe2bf41898b424763cdd1"
+    paragraph_hash: "8ce2ca64845aa33d52c301fb4f34a76e586f4497b81fe2bf41898b424763cdd1"
     change_type: "first_seen"
     source_revision_id: 1333787678
 ---

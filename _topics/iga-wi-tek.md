@@ -19,7 +19,9 @@ sentence_history:
     rank: 37
     pageviews: 64779
     lead_sentence: "Iga Natalia Świątek is a Polish professional tennis player."
+    lead_paragraph: "Iga Natalia Świątek is a Polish professional tennis player."
     sentence_hash: "d576f6fd2fc88c67b0216c1314be9daae1b948dd9d3022cd101f67cf2b97f9c7"
+    paragraph_hash: "d576f6fd2fc88c67b0216c1314be9daae1b948dd9d3022cd101f67cf2b97f9c7"
     change_type: "first_seen"
     source_revision_id: 1336345102
 ---

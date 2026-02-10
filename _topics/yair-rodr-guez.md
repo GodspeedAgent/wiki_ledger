@@ -19,7 +19,9 @@ sentence_history:
     rank: 79
     pageviews: 56831
     lead_sentence: "Yair Raziel Rodríguez Portillo is a Mexican professional mixed martial artist."
+    lead_paragraph: "Yair Raziel Rodríguez Portillo is a Mexican professional mixed martial artist."
     sentence_hash: "bdb132ed9a26a13f71d79bb4bf6e6f19ab43b8ca10805d186159dadb967f8ba6"
+    paragraph_hash: "bdb132ed9a26a13f71d79bb4bf6e6f19ab43b8ca10805d186159dadb967f8ba6"
     change_type: "first_seen"
     source_revision_id: 1336384228
 ---

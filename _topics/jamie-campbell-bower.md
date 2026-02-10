@@ -19,7 +19,9 @@ sentence_history:
     rank: 42
     pageviews: 70426
     lead_sentence: "James Metcalfe Campbell Bower is an English actor, singer, and musician."
+    lead_paragraph: "James Metcalfe Campbell Bower is an English actor, singer, and musician."
     sentence_hash: "724ce70068a27bcf3dbd41a4f9f576bddb8018ae9d907c35612b0b8726bcb085"
+    paragraph_hash: "724ce70068a27bcf3dbd41a4f9f576bddb8018ae9d907c35612b0b8726bcb085"
     change_type: "first_seen"
     source_revision_id: 1336921015
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 187068
     lead_sentence: "This is a list of characters from Disney and Pixar's Toy Story franchise which includes animated feature films Toy Story, Toy Story 2, Toy Story 3, Toy Story 4, and Lightyear as well as the Toy Story Toons series and television specials Toy Story of Terror! and Toy Story That Time Forgot."
+    lead_paragraph: "This is a list of characters from Disney and Pixar's Toy Story franchise which includes animated feature films Toy Story, Toy Story 2, Toy Story 3, Toy Story 4, and Lightyear as well as the Toy Story Toons series and television specials Toy Story of Terror! and Toy Story That Time Forgot."
     sentence_hash: "2bf1e45764abd47e325ac30db2a453fb475cc5d79baaa7a7c18503b7e597b7e8"
+    paragraph_hash: "2bf1e45764abd47e325ac30db2a453fb475cc5d79baaa7a7c18503b7e597b7e8"
     change_type: "first_seen"
     source_revision_id: 1337212031
 ---

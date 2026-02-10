@@ -19,7 +19,9 @@ sentence_history:
     rank: 61
     pageviews: 58354
     lead_sentence: "Melanie Janine Brown McPhee, MBE, commonly known as Mel B or Melanie B, is an English singer, songwriter, dancer, television personality, and actress."
+    lead_paragraph: "Melanie Janine Brown McPhee, MBE, commonly known as Mel B or Melanie B, is an English singer, songwriter, dancer, television personality, and actress."
     sentence_hash: "8a73bebc3113c5be656307d74b6ad963fc64989b93870bdb84c8eb73f1b2eb2b"
+    paragraph_hash: "8a73bebc3113c5be656307d74b6ad963fc64989b93870bdb84c8eb73f1b2eb2b"
     change_type: "first_seen"
     source_revision_id: 1336441116
 ---

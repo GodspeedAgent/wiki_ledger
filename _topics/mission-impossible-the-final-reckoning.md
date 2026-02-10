@@ -19,14 +19,18 @@ sentence_history:
     rank: 5
     pageviews: 134116
     lead_sentence: "Mission: Impossible – The Final Reckoning is a 2025 American action spy film directed by Christopher McQuarrie from a screenplay he co-wrote with Erik Jendresen."
+    lead_paragraph: "Mission: Impossible – The Final Reckoning is a 2025 American action spy film directed by Christopher McQuarrie from a screenplay he co-wrote with Erik Jendresen."
     sentence_hash: "082994d8a601628e650a9702765f86938fa297e91dd6744f8680185106c53ebd"
+    paragraph_hash: "082994d8a601628e650a9702765f86938fa297e91dd6744f8680185106c53ebd"
     change_type: "first_seen"
     source_revision_id: 1337248278
   - date: "2025-05-31"
     rank: 7
     pageviews: 121444
     lead_sentence: "Mission: Impossible – The Final Reckoning is a 2025 American action spy film directed by Christopher McQuarrie from a screenplay he co-wrote with Erik Jendresen."
+    lead_paragraph: "Mission: Impossible – The Final Reckoning is a 2025 American action spy film directed by Christopher McQuarrie from a screenplay he co-wrote with Erik Jendresen."
     sentence_hash: "082994d8a601628e650a9702765f86938fa297e91dd6744f8680185106c53ebd"
+    paragraph_hash: "082994d8a601628e650a9702765f86938fa297e91dd6744f8680185106c53ebd"
     change_type: "unchanged"
     source_revision_id: 1337248278
 ---

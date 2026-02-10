@@ -19,14 +19,18 @@ sentence_history:
     rank: 8
     pageviews: 152147
     lead_sentence: "War of the Worlds is a 2025 American screenlife science fiction film based on the 1898 novel by H."
+    lead_paragraph: "War of the Worlds is a 2025 American screenlife science fiction film based on the 1898 novel by H."
     sentence_hash: "0a3aec00e896693691a68cf20d9eddb4ea5f8349abb6507ac1037667629b9f8d"
+    paragraph_hash: "0a3aec00e896693691a68cf20d9eddb4ea5f8349abb6507ac1037667629b9f8d"
     change_type: "first_seen"
     source_revision_id: 1335352326
   - date: "2025-08-08"
     rank: 13
     pageviews: 125338
     lead_sentence: "War of the Worlds is a 2025 American screenlife science fiction film based on the 1898 novel by H."
+    lead_paragraph: "War of the Worlds is a 2025 American screenlife science fiction film based on the 1898 novel by H."
     sentence_hash: "0a3aec00e896693691a68cf20d9eddb4ea5f8349abb6507ac1037667629b9f8d"
+    paragraph_hash: "0a3aec00e896693691a68cf20d9eddb4ea5f8349abb6507ac1037667629b9f8d"
     change_type: "unchanged"
     source_revision_id: 1335352326
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 352733
     lead_sentence: "Disney's Snow White, or simply Snow White, is a 2025 American musical fantasy film."
+    lead_paragraph: "Disney's Snow White, or simply Snow White, is a 2025 American musical fantasy film."
     sentence_hash: "3f9bcbc1e595c6c4ee46b0aee96da6c9024ab09fc3ce113f0613f9a21997cadd"
+    paragraph_hash: "3f9bcbc1e595c6c4ee46b0aee96da6c9024ab09fc3ce113f0613f9a21997cadd"
     change_type: "first_seen"
     source_revision_id: 1337368915
 ---

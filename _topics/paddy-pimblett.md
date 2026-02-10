@@ -19,7 +19,9 @@ sentence_history:
     rank: 38
     pageviews: 98976
     lead_sentence: "Patrick Mark Pimblett is an English professional mixed martial artist."
+    lead_paragraph: "Patrick Mark Pimblett is an English professional mixed martial artist."
     sentence_hash: "5c4b1daf02afb04b3b7ef2386070f3594c911c9806c3c5b1b7258a10e04dc811"
+    paragraph_hash: "5c4b1daf02afb04b3b7ef2386070f3594c911c9806c3c5b1b7258a10e04dc811"
     change_type: "first_seen"
     source_revision_id: 1336950021
 ---

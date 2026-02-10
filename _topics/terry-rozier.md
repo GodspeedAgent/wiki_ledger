@@ -19,7 +19,9 @@ sentence_history:
     rank: 19
     pageviews: 120796
     lead_sentence: "Terry William Rozier III, nicknamed \"Scary Terry\", is an American professional basketball player for the Miami Heat of the National Basketball Association (NBA)."
+    lead_paragraph: "Terry William Rozier III, nicknamed \\\"Scary Terry\\\", is an American professional basketball player for the Miami Heat of the National Basketball Association (NBA)."
     sentence_hash: "f0e1d24136855b423664da8ab04e7709084c11cc7a92b0ff49b7a1c6ce770f53"
+    paragraph_hash: "f0e1d24136855b423664da8ab04e7709084c11cc7a92b0ff49b7a1c6ce770f53"
     change_type: "first_seen"
     source_revision_id: 1330834606
 ---

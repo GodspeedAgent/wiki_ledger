@@ -19,7 +19,9 @@ sentence_history:
     rank: 41
     pageviews: 108900
     lead_sentence: "Carrie Alexandra Coon is an American actress."
+    lead_paragraph: "Carrie Alexandra Coon is an American actress."
     sentence_hash: "65f65aadaf3fa515f530a276bc46f05593ed14fcd7287838360ce1b1c992c1e0"
+    paragraph_hash: "65f65aadaf3fa515f530a276bc46f05593ed14fcd7287838360ce1b1c992c1e0"
     change_type: "first_seen"
     source_revision_id: 1333973339
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 61
     pageviews: 56355
     lead_sentence: "Sitaare Zameen Par is a 2025 Indian Hindi-language sports comedy-drama film directed by R."
+    lead_paragraph: "Sitaare Zameen Par is a 2025 Indian Hindi-language sports comedy-drama film directed by R."
     sentence_hash: "b698868e7fdb31534e363bb25a45280ca870dd0ecc63d43ed198e4d73314acf6"
+    paragraph_hash: "b698868e7fdb31534e363bb25a45280ca870dd0ecc63d43ed198e4d73314acf6"
     change_type: "first_seen"
     source_revision_id: 1336268686
 ---

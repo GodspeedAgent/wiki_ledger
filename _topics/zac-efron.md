@@ -19,7 +19,9 @@ sentence_history:
     rank: 29
     pageviews: 93793
     lead_sentence: "Zachary David Alexander Efron is an American actor."
+    lead_paragraph: "Zachary David Alexander Efron is an American actor."
     sentence_hash: "c269e9404134e80a9c88466f7a9b7876d50b68e85a36d6ddb1c83f423334e1e6"
+    paragraph_hash: "c269e9404134e80a9c88466f7a9b7876d50b68e85a36d6ddb1c83f423334e1e6"
     change_type: "first_seen"
     source_revision_id: 1336374890
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 18
     pageviews: 99036
     lead_sentence: "Nick Woltemade is a German professional footballer who plays as a forward or attacking midfielder for Premier League club Newcastle United and the Germany national team."
+    lead_paragraph: "Nick Woltemade is a German professional footballer who plays as a forward or attacking midfielder for Premier League club Newcastle United and the Germany national team."
     sentence_hash: "f205ac9db08432a89db0f7f282a37993738e2fe4ae85d4f10bedafd621434c35"
+    paragraph_hash: "f205ac9db08432a89db0f7f282a37993738e2fe4ae85d4f10bedafd621434c35"
     change_type: "first_seen"
     source_revision_id: 1336737752
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 70
     pageviews: 49938
     lead_sentence: "Concetta Rosa Maria Franconero, known professionally as Connie Francis, was an American singer and actress."
+    lead_paragraph: "Concetta Rosa Maria Franconero, known professionally as Connie Francis, was an American singer and actress."
     sentence_hash: "830136f7e156c818ea1df9b82cc6bcb828a87728ea723a30dd10d9092107c4a1"
+    paragraph_hash: "830136f7e156c818ea1df9b82cc6bcb828a87728ea723a30dd10d9092107c4a1"
     change_type: "first_seen"
     source_revision_id: 1336080846
 ---

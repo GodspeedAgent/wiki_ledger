@@ -19,7 +19,9 @@ sentence_history:
     rank: 5
     pageviews: 194425
     lead_sentence: "Coolie is a 2025 Indian Tamil-language action thriller film written and directed by Lokesh Kanagaraj and produced by Kalanithi Maran under Sun Pictures."
+    lead_paragraph: "Coolie is a 2025 Indian Tamil-language action thriller film written and directed by Lokesh Kanagaraj and produced by Kalanithi Maran under Sun Pictures."
     sentence_hash: "a070a7a4745cd590b086419633e84768b386a86c79c34ff3a448530b07791994"
+    paragraph_hash: "a070a7a4745cd590b086419633e84768b386a86c79c34ff3a448530b07791994"
     change_type: "first_seen"
     source_revision_id: 1336745015
 ---

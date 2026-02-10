@@ -19,7 +19,9 @@ sentence_history:
     rank: 98
     pageviews: 32709
     lead_sentence: "Nancy Ruth Mace is an American politician serving as the U.S."
+    lead_paragraph: "Nancy Ruth Mace is an American politician serving as the U.S."
     sentence_hash: "c92620eec41bc5e4eaac662420c955dafa1691073ec71fcc44e8705c8e53e780"
+    paragraph_hash: "c92620eec41bc5e4eaac662420c955dafa1691073ec71fcc44e8705c8e53e780"
     change_type: "first_seen"
     source_revision_id: 1337152258
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 240557
     lead_sentence: "A total lunar eclipse occurred at the Moon's ascending node of orbit on Sunday, September 7, 2025, with an umbral magnitude of 1.3638."
+    lead_paragraph: "A total lunar eclipse occurred at the Moon's ascending node of orbit on Sunday, September 7, 2025, with an umbral magnitude of 1.3638."
     sentence_hash: "469d42071f450fe86b486e4c1ccc9a55491bb231261305670de63fb4bda6f678"
+    paragraph_hash: "469d42071f450fe86b486e4c1ccc9a55491bb231261305670de63fb4bda6f678"
     change_type: "first_seen"
     source_revision_id: 1329643294
 ---

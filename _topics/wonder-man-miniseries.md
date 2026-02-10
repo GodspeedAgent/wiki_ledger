@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 161237
     lead_sentence: "Wonder Man is an American television miniseries created by Destin Daniel Cretton and Andrew Guest for the streaming service Disney+, based on the Marvel Comics character of the same name."
+    lead_paragraph: "Wonder Man is an American television miniseries created by Destin Daniel Cretton and Andrew Guest for the streaming service Disney+, based on the Marvel Comics character of the same name."
     sentence_hash: "e213e8c626c87b638237eeb08e97d75b024f60f6627ab1ee1c9cd4903e140e34"
+    paragraph_hash: "e213e8c626c87b638237eeb08e97d75b024f60f6627ab1ee1c9cd4903e140e34"
     change_type: "first_seen"
     source_revision_id: 1337345640
 ---

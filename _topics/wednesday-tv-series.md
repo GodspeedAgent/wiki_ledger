@@ -19,7 +19,9 @@ sentence_history:
     rank: 17
     pageviews: 79865
     lead_sentence: "Wednesday is an American supernatural mystery comedy television series based on the character Wednesday Addams by Charles Addams."
+    lead_paragraph: "Wednesday is an American supernatural mystery comedy television series based on the character Wednesday Addams by Charles Addams."
     sentence_hash: "cae8006c92ab3b281b93e30b1d6e1fb56fa2caa096f35d4488d6fdfa4c330c98"
+    paragraph_hash: "cae8006c92ab3b281b93e30b1d6e1fb56fa2caa096f35d4488d6fdfa4c330c98"
     change_type: "first_seen"
     source_revision_id: 1336736460
 ---

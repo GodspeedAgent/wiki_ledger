@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 410058
     lead_sentence: "Luis Enrique Martínez García, known as Luis Enrique, is a Spanish football manager and former player."
+    lead_paragraph: "Luis Enrique Martínez García, known as Luis Enrique, is a Spanish football manager and former player."
     sentence_hash: "3c50e6800e65e506232c4ede83e2770e209bba4bd08483bffcaa54f973de6465"
+    paragraph_hash: "3c50e6800e65e506232c4ede83e2770e209bba4bd08483bffcaa54f973de6465"
     change_type: "first_seen"
     source_revision_id: 1337338457
 ---

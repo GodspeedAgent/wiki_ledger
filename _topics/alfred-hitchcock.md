@@ -19,7 +19,9 @@ sentence_history:
     rank: 41
     pageviews: 68047
     lead_sentence: "Sir Alfred Joseph Hitchcock was an English filmmaker."
+    lead_paragraph: "Sir Alfred Joseph Hitchcock was an English filmmaker."
     sentence_hash: "23cc49412908c0ae0e21062ef122cda4720619f415e353e8f450da3c004388db"
+    paragraph_hash: "23cc49412908c0ae0e21062ef122cda4720619f415e353e8f450da3c004388db"
     change_type: "first_seen"
     source_revision_id: 1336168409
 ---

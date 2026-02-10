@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 138684
     lead_sentence: "Bob Vylan are an English punk rap duo based in London."
+    lead_paragraph: "Bob Vylan are an English punk rap duo based in London."
     sentence_hash: "4cfbce4d0433a0ec3464a23073eb4dee96ef70e543ab6a6c8027cb46fec20196"
+    paragraph_hash: "4cfbce4d0433a0ec3464a23073eb4dee96ef70e543ab6a6c8027cb46fec20196"
     change_type: "first_seen"
     source_revision_id: 1336687399
 ---

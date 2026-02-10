@@ -19,7 +19,9 @@ sentence_history:
     rank: 23
     pageviews: 80675
     lead_sentence: "Carlos Alcaraz Garfia is a Spanish professional tennis player."
+    lead_paragraph: "Carlos Alcaraz Garfia is a Spanish professional tennis player."
     sentence_hash: "8e6dccd3d4af8b4f748694e73520518ee4aa7b27957c7c8b621b65db900530cc"
+    paragraph_hash: "8e6dccd3d4af8b4f748694e73520518ee4aa7b27957c7c8b621b65db900530cc"
     change_type: "first_seen"
     source_revision_id: 1337373999
 ---

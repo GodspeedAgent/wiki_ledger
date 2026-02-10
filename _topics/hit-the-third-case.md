@@ -19,7 +19,9 @@ sentence_history:
     rank: 16
     pageviews: 111184
     lead_sentence: "HIT: The Third Case is a 2025 Indian Telugu-language action thriller film written and directed by Sailesh Kolanu."
+    lead_paragraph: "HIT: The Third Case is a 2025 Indian Telugu-language action thriller film written and directed by Sailesh Kolanu."
     sentence_hash: "dd3bdd755ccf1f7e69817317b3eede745d1830872a874419f1dce27472b3e580"
+    paragraph_hash: "dd3bdd755ccf1f7e69817317b3eede745d1830872a874419f1dce27472b3e580"
     change_type: "first_seen"
     source_revision_id: 1337272683
 ---

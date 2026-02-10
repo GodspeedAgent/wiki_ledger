@@ -19,7 +19,9 @@ sentence_history:
     rank: 61
     pageviews: 53829
     lead_sentence: "1xBet is an online gambling company licensed by Curaçao eGaming License."
+    lead_paragraph: "1xBet is an online gambling company licensed by Curaçao eGaming License."
     sentence_hash: "3ab59a10d41d7705a4c15af73587b6b788f428f6dc75b163c4e339ecd6dcd320"
+    paragraph_hash: "3ab59a10d41d7705a4c15af73587b6b788f428f6dc75b163c4e339ecd6dcd320"
     change_type: "first_seen"
     source_revision_id: 1337159468
 ---

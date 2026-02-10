@@ -19,7 +19,9 @@ sentence_history:
     rank: 48
     pageviews: 51591
     lead_sentence: "The European section of the 2026 FIFA World Cup qualification competition is acting as qualifiers for the 2026 FIFA World Cup, to be held in Canada, Mexico and the United States, for national teams that are members of the Union of European Football Associations (UEFA)."
+    lead_paragraph: "The European section of the 2026 FIFA World Cup qualification competition is acting as qualifiers for the 2026 FIFA World Cup, to be held in Canada, Mexico and the United States, for national teams that are members of the Union of European Football Associations (UEFA)."
     sentence_hash: "11097db22504817425afed3daea694d60738c4a7fd9e2287ab20eb7560fa55e7"
+    paragraph_hash: "11097db22504817425afed3daea694d60738c4a7fd9e2287ab20eb7560fa55e7"
     change_type: "first_seen"
     source_revision_id: 1331131414
 ---

@@ -19,21 +19,27 @@ sentence_history:
     rank: 7
     pageviews: 452386
     lead_sentence: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
+    lead_paragraph: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
     sentence_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
+    paragraph_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
     change_type: "first_seen"
     source_revision_id: 1337369002
   - date: "2026-01-04"
     rank: 16
     pageviews: 222454
     lead_sentence: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
+    lead_paragraph: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
     sentence_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
+    paragraph_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
     change_type: "unchanged"
     source_revision_id: 1337369002
   - date: "2026-01-12"
     rank: 12
     pageviews: 149235
     lead_sentence: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
+    lead_paragraph: "Avatar: Fire and Ash is a 2025 American epic science fiction film directed by James Cameron, and written by Cameron, Rick Jaffa and Amanda Silver."
     sentence_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
+    paragraph_hash: "349fea09ad43aab6dc53ed68a008a72bdfdf0f809f13b4984f20488823aa4fc3"
     change_type: "unchanged"
     source_revision_id: 1337369002
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 60
     pageviews: 57786
     lead_sentence: "Lamar Demeatrice Jackson Jr."
+    lead_paragraph: "Lamar Demeatrice Jackson Jr."
     sentence_hash: "2f3e8584837c22d54b31b972e88f5b8fc4bef26907851c32d5eae5df25b67b49"
+    paragraph_hash: "2f3e8584837c22d54b31b972e88f5b8fc4bef26907851c32d5eae5df25b67b49"
     change_type: "first_seen"
     source_revision_id: 1336485118
 ---

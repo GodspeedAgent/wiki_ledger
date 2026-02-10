@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 224851
     lead_sentence: "Alejandro \"Alex\" Padilla is an American politician and engineer serving as the senior United States senator from California, a seat he has held since 2021."
+    lead_paragraph: "Alejandro \\\"Alex\\\" Padilla is an American politician and engineer serving as the senior United States senator from California, a seat he has held since 2021."
     sentence_hash: "86060c11f9975231e844f78ec16aecbd2bda045907176db8df465846a73d5c3c"
+    paragraph_hash: "86060c11f9975231e844f78ec16aecbd2bda045907176db8df465846a73d5c3c"
     change_type: "first_seen"
     source_revision_id: 1336364107
 ---

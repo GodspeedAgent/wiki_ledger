@@ -19,7 +19,9 @@ sentence_history:
     rank: 29
     pageviews: 85013
     lead_sentence: "Patrick Andrew Spencer is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA), on a two-way contract with the Santa Cruz Warriors of the NBA G League."
+    lead_paragraph: "Patrick Andrew Spencer is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA), on a two-way contract with the Santa Cruz Warriors of the NBA G League."
     sentence_hash: "fe89142cf0445372a18db85da8f2b78fbdab4e0b296497431faad030a7ebd0ea"
+    paragraph_hash: "fe89142cf0445372a18db85da8f2b78fbdab4e0b296497431faad030a7ebd0ea"
     change_type: "first_seen"
     source_revision_id: 1335580940
 ---

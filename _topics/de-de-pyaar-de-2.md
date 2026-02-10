@@ -19,7 +19,9 @@ sentence_history:
     rank: 61
     pageviews: 63524
     lead_sentence: "De De Pyaar De 2 is a 2025 Indian Hindi-language romantic comedy film directed by Anshul Sharma, written by Luv Ranjan and Tarun Jain and produced by T-Series Films and Luv Films."
+    lead_paragraph: "De De Pyaar De 2 is a 2025 Indian Hindi-language romantic comedy film directed by Anshul Sharma, written by Luv Ranjan and Tarun Jain and produced by T-Series Films and Luv Films."
     sentence_hash: "83448a65b4be04492eff6f64fa2b3456c8494a5b0218a1114f269e3420892200"
+    paragraph_hash: "83448a65b4be04492eff6f64fa2b3456c8494a5b0218a1114f269e3420892200"
     change_type: "first_seen"
     source_revision_id: 1335103763
 ---

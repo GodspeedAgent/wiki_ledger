@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 266424
     lead_sentence: "Harikrishan Giri Goswami, professionally known as Manoj Kumar, was an Indian actor, director, screenwriter, lyricist and editor who worked in Hindi cinema."
+    lead_paragraph: "Harikrishan Giri Goswami, professionally known as Manoj Kumar, was an Indian actor, director, screenwriter, lyricist and editor who worked in Hindi cinema."
     sentence_hash: "dbd8f6907d6a587eb32b03612f3b49312d5679c9a437ca96a35729e4a8ef0ea6"
+    paragraph_hash: "dbd8f6907d6a587eb32b03612f3b49312d5679c9a437ca96a35729e4a8ef0ea6"
     change_type: "first_seen"
     source_revision_id: 1333230500
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 48
     pageviews: 61379
     lead_sentence: "UPS Airlines Flight 2976 was a scheduled domestic cargo flight in the United States from Louisville Muhammad Ali International Airport in Louisville, Kentucky, to Honolulu, Hawaii."
+    lead_paragraph: "UPS Airlines Flight 2976 was a scheduled domestic cargo flight in the United States from Louisville Muhammad Ali International Airport in Louisville, Kentucky, to Honolulu, Hawaii."
     sentence_hash: "865e2c78f50b45bf603b9b07be619dd65a867010bd1231162caefb5b51e6211c"
+    paragraph_hash: "865e2c78f50b45bf603b9b07be619dd65a867010bd1231162caefb5b51e6211c"
     change_type: "first_seen"
     source_revision_id: 1337184896
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 159886
     lead_sentence: "The 2026 FIFA World Cup qualification will decide the 45 teams that will join hosts Canada, Mexico, and the United States at the 2026 FIFA World Cup."
+    lead_paragraph: "The 2026 FIFA World Cup qualification will decide the 45 teams that will join hosts Canada, Mexico, and the United States at the 2026 FIFA World Cup."
     sentence_hash: "b01b4433eb83279ce324eaa5f5b9a2aa846591d753374ffbcd469b26dcac9dc3"
+    paragraph_hash: "b01b4433eb83279ce324eaa5f5b9a2aa846591d753374ffbcd469b26dcac9dc3"
     change_type: "first_seen"
     source_revision_id: 1337377924
 ---

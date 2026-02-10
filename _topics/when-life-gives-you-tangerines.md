@@ -19,7 +19,9 @@ sentence_history:
     rank: 69
     pageviews: 39322
     lead_sentence: "When Life Gives You Tangerines is a 2025 South Korean romance slice-of-life television series written by Lim Sang-choon, directed by Kim Won-seok, and starring IU, Park Bo-gum, Moon So-ri, and Park Hae-joon."
+    lead_paragraph: "When Life Gives You Tangerines is a 2025 South Korean romance slice-of-life television series written by Lim Sang-choon, directed by Kim Won-seok, and starring IU, Park Bo-gum, Moon So-ri, and Park Hae-joon."
     sentence_hash: "a0de274ff91c65a7e4aaa29e3fda9fb867c25065808cc84c944395aed8e6705d"
+    paragraph_hash: "a0de274ff91c65a7e4aaa29e3fda9fb867c25065808cc84c944395aed8e6705d"
     change_type: "first_seen"
     source_revision_id: 1337297074
 ---

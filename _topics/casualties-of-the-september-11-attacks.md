@@ -19,7 +19,9 @@ sentence_history:
     rank: 34
     pageviews: 99832
     lead_sentence: "The September 11 attacks were the deadliest terrorist attacks in human history, causing the deaths of 2,996 people, including 19 hijackers who committed murder–suicide and 2,977 victims."
+    lead_paragraph: "The September 11 attacks were the deadliest terrorist attacks in human history, causing the deaths of 2,996 people, including 19 hijackers who committed murder–suicide and 2,977 victims."
     sentence_hash: "26b6350a55f2753b01824f72e11319e24400a78aace5b94872befd4f90f564ee"
+    paragraph_hash: "26b6350a55f2753b01824f72e11319e24400a78aace5b94872befd4f90f564ee"
     change_type: "first_seen"
     source_revision_id: 1335394824
 ---

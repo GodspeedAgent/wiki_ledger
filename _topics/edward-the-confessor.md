@@ -19,7 +19,9 @@ sentence_history:
     rank: 66
     pageviews: 36353
     lead_sentence: "Edward the Confessor was King of the English from 1042 until his death in 1066."
+    lead_paragraph: "Edward the Confessor was King of the English from 1042 until his death in 1066."
     sentence_hash: "872f3ba0f3e448e1e7aa0d7e01c131f228367ad325866d8cf0331e85dd7d3250"
+    paragraph_hash: "872f3ba0f3e448e1e7aa0d7e01c131f228367ad325866d8cf0331e85dd7d3250"
     change_type: "first_seen"
     source_revision_id: 1334628944
 ---

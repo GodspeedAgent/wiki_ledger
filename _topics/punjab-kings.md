@@ -19,7 +19,9 @@ sentence_history:
     rank: 27
     pageviews: 76866
     lead_sentence: "The Punjab Kings, also known as PBKS, formerly known as Kings XI Punjab, are a professional Twenty20 cricket team based in New Chandigarh, Punjab, that competes in the Indian Premier League (IPL)."
+    lead_paragraph: "The Punjab Kings, also known as PBKS, formerly known as Kings XI Punjab, are a professional Twenty20 cricket team based in New Chandigarh, Punjab, that competes in the Indian Premier League (IPL)."
     sentence_hash: "6920f769d5f5c0d3ce2ceb87109cb229b9c8bd0f41d7004e6e92d11e113ee5ba"
+    paragraph_hash: "6920f769d5f5c0d3ce2ceb87109cb229b9c8bd0f41d7004e6e92d11e113ee5ba"
     change_type: "first_seen"
     source_revision_id: 1335781940
 ---

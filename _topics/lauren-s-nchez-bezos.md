@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 730089
     lead_sentence: "Lauren Sánchez Bezos is an American philanthropist and former journalist."
+    lead_paragraph: "Lauren Sánchez Bezos is an American philanthropist and former journalist."
     sentence_hash: "1d3b2c9acf91ddeb43b95c0a6759609e6baf2bcdd2c0fdd6657cc1a42a251886"
+    paragraph_hash: "1d3b2c9acf91ddeb43b95c0a6759609e6baf2bcdd2c0fdd6657cc1a42a251886"
     change_type: "first_seen"
     source_revision_id: 1326464715
 ---

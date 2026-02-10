@@ -19,7 +19,9 @@ sentence_history:
     rank: 58
     pageviews: 48983
     lead_sentence: "Jonathan Stuart Bailey is an English actor known for his dramatic, comedic, and musical roles on stage and screen."
+    lead_paragraph: "Jonathan Stuart Bailey is an English actor known for his dramatic, comedic, and musical roles on stage and screen."
     sentence_hash: "6fbdcf43b3833ba914275cf28bb5ba2143b5a7a1abc772b511b74f06bf7fc510"
+    paragraph_hash: "6fbdcf43b3833ba914275cf28bb5ba2143b5a7a1abc772b511b74f06bf7fc510"
     change_type: "first_seen"
     source_revision_id: 1336947267
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 9
     pageviews: 186813
     lead_sentence: "A Minecraft Movie is a 2025 fantasy adventure film based on the 2011 video game Minecraft developed and published by Mojang Studios."
+    lead_paragraph: "A Minecraft Movie is a 2025 fantasy adventure film based on the 2011 video game Minecraft developed and published by Mojang Studios."
     sentence_hash: "12aa5778c8d0907c8f3aee87b38c57a1421ef553c4f67790f7781ccd77d4de06"
+    paragraph_hash: "12aa5778c8d0907c8f3aee87b38c57a1421ef553c4f67790f7781ccd77d4de06"
     change_type: "first_seen"
     source_revision_id: 1337223804
 ---

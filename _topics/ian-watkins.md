@@ -19,7 +19,9 @@ sentence_history:
     rank: 5
     pageviews: 502891
     lead_sentence: "Ian David Karslake Watkins was a Welsh singer, songwriter, and convicted child sex offender."
+    lead_paragraph: "Ian David Karslake Watkins was a Welsh singer, songwriter, and convicted child sex offender."
     sentence_hash: "2b8233befa24a296c274ae5c41498e0cc31bb1d0212decd86a817be1291ec6b6"
+    paragraph_hash: "2b8233befa24a296c274ae5c41498e0cc31bb1d0212decd86a817be1291ec6b6"
     change_type: "first_seen"
     source_revision_id: 1336352684
 ---

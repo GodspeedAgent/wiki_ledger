@@ -19,7 +19,9 @@ sentence_history:
     rank: 20
     pageviews: 102098
     lead_sentence: "L2: Empuraan is a 2025 Indian Malayalam-language political gangster action thriller film directed by Prithviraj Sukumaran and written by Murali Gopy."
+    lead_paragraph: "L2: Empuraan is a 2025 Indian Malayalam-language political gangster action thriller film directed by Prithviraj Sukumaran and written by Murali Gopy."
     sentence_hash: "ab2ffae9c79ffb41e11792430e36ef5ca73d49522e7e57ea6788272919c454c6"
+    paragraph_hash: "ab2ffae9c79ffb41e11792430e36ef5ca73d49522e7e57ea6788272919c454c6"
     change_type: "first_seen"
     source_revision_id: 1337234877
 ---

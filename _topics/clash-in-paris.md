@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 421294
     lead_sentence: "Clash in Paris was a 2025 professional wrestling pay-per-view (PPV) and livestreaming event produced by the American company WWE."
+    lead_paragraph: "Clash in Paris was a 2025 professional wrestling pay-per-view (PPV) and livestreaming event produced by the American company WWE."
     sentence_hash: "a30d87bccaf63eaa8b7e6cda4a84c49bfa551a1a89bec4937cb51c756f41e5b4"
+    paragraph_hash: "a30d87bccaf63eaa8b7e6cda4a84c49bfa551a1a89bec4937cb51c756f41e5b4"
     change_type: "first_seen"
     source_revision_id: 1336201052
 ---

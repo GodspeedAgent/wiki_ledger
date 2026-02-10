@@ -19,7 +19,9 @@ sentence_history:
     rank: 31
     pageviews: 109016
     lead_sentence: "Owen Patrick Cooper is an English actor."
+    lead_paragraph: "Owen Patrick Cooper is an English actor."
     sentence_hash: "bc285ba17708ffd0025292c7c15ae335e1ed00189b1632fcfa0662c5cf656b12"
+    paragraph_hash: "bc285ba17708ffd0025292c7c15ae335e1ed00189b1632fcfa0662c5cf656b12"
     change_type: "first_seen"
     source_revision_id: 1335794031
 ---

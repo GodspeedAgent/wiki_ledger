@@ -19,7 +19,9 @@ sentence_history:
     rank: 87
     pageviews: 40465
     lead_sentence: "Lily Jane Collins is an English and American actress."
+    lead_paragraph: "Lily Jane Collins is an English and American actress."
     sentence_hash: "00cf4cb04021eb8d610acd352a6dbfffee46e5a4a4fc32be6483358b4c0fa428"
+    paragraph_hash: "00cf4cb04021eb8d610acd352a6dbfffee46e5a4a4fc32be6483358b4c0fa428"
     change_type: "first_seen"
     source_revision_id: 1336638795
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 81
     pageviews: 39529
     lead_sentence: "William Tomomori Fukuda Sharpe is an English actor and filmmaker."
+    lead_paragraph: "William Tomomori Fukuda Sharpe is an English actor and filmmaker."
     sentence_hash: "96121494a56b12f9101b3d3f94e421ac7a313d2de0e3902b1a486347a02f422e"
+    paragraph_hash: "96121494a56b12f9101b3d3f94e421ac7a313d2de0e3902b1a486347a02f422e"
     change_type: "first_seen"
     source_revision_id: 1333169785
 ---

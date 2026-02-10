@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 196398
     lead_sentence: "Iron Lung is a 2026 American science fiction horror film written and directed by Mark Fischbach in his feature directorial debut."
+    lead_paragraph: "Iron Lung is a 2026 American science fiction horror film written and directed by Mark Fischbach in his feature directorial debut."
     sentence_hash: "31d07a141cafda10ac9e725d40d382598043f2d41ac06003baa20b78c455d541"
+    paragraph_hash: "31d07a141cafda10ac9e725d40d382598043f2d41ac06003baa20b78c455d541"
     change_type: "first_seen"
     source_revision_id: 1337364082
 ---

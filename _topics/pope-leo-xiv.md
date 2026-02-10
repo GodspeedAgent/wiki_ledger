@@ -19,21 +19,27 @@ sentence_history:
     rank: 2
     pageviews: 2965427
     lead_sentence: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
+    lead_paragraph: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
     sentence_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
+    paragraph_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
     change_type: "first_seen"
     source_revision_id: 1337360463
   - date: "2025-05-11"
     rank: 3
     pageviews: 932628
     lead_sentence: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
+    lead_paragraph: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
     sentence_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
+    paragraph_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
     change_type: "unchanged"
     source_revision_id: 1337360463
   - date: "2025-05-16"
     rank: 12
     pageviews: 128100
     lead_sentence: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
+    lead_paragraph: "Pope Leo XIV is the head of the Catholic Church and sovereign of Vatican City."
     sentence_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
+    paragraph_hash: "924eca7d08c27eb8daba4c9e745d203a8e30304caba0ea4fe83420307a6ffdb7"
     change_type: "unchanged"
     source_revision_id: 1337360463
 ---

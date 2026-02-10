@@ -19,7 +19,9 @@ sentence_history:
     rank: 9
     pageviews: 265044
     lead_sentence: "Trinidad Jay Chambliss is an American college football quarterback for the Ole Miss Rebels."
+    lead_paragraph: "Trinidad Jay Chambliss is an American college football quarterback for the Ole Miss Rebels."
     sentence_hash: "6cd4ef7d269f034ae9ca0e7a919e29ea55bcd10f21f4e2dd8f7eda91ea168db5"
+    paragraph_hash: "6cd4ef7d269f034ae9ca0e7a919e29ea55bcd10f21f4e2dd8f7eda91ea168db5"
     change_type: "first_seen"
     source_revision_id: 1336367666
 ---

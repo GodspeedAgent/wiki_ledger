@@ -19,7 +19,9 @@ sentence_history:
     rank: 14
     pageviews: 170193
     lead_sentence: "Stranger Things is an American television series created by the Duffer Brothers for Netflix."
+    lead_paragraph: "Stranger Things is an American television series created by the Duffer Brothers for Netflix."
     sentence_hash: "f862c5f5eaecbe2c2be10d02e5d443707a1e136871913ead2a68ec89643e72e9"
+    paragraph_hash: "f862c5f5eaecbe2c2be10d02e5d443707a1e136871913ead2a68ec89643e72e9"
     change_type: "first_seen"
     source_revision_id: 1337257780
 ---

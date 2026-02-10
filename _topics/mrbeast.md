@@ -19,7 +19,9 @@ sentence_history:
     rank: 44
     pageviews: 55521
     lead_sentence: "James Stephen \"Jimmy\" Donaldson, better known as MrBeast, is an American YouTuber, media personality and businessman."
+    lead_paragraph: "James Stephen \\\"Jimmy\\\" Donaldson, better known as MrBeast, is an American YouTuber, media personality and businessman."
     sentence_hash: "a444d7642a6708e60ab9464b024681b0b74355f4764f9749c76958c4ae999cb6"
+    paragraph_hash: "a444d7642a6708e60ab9464b024681b0b74355f4764f9749c76958c4ae999cb6"
     change_type: "first_seen"
     source_revision_id: 1337062348
 ---

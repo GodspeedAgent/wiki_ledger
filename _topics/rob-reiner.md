@@ -19,14 +19,18 @@ sentence_history:
     rank: 1
     pageviews: 7791897
     lead_sentence: "Robert Reiner was an American filmmaker and actor."
+    lead_paragraph: "Robert Reiner was an American filmmaker and actor."
     sentence_hash: "5e7ed793bb2896b1bba3c2c96f7e3199e6cdac6fb3701d0f981eb0841b76bec9"
+    paragraph_hash: "5e7ed793bb2896b1bba3c2c96f7e3199e6cdac6fb3701d0f981eb0841b76bec9"
     change_type: "first_seen"
     source_revision_id: 1335893353
   - date: "2025-12-17"
     rank: 2
     pageviews: 2212453
     lead_sentence: "Robert Reiner was an American filmmaker and actor."
+    lead_paragraph: "Robert Reiner was an American filmmaker and actor."
     sentence_hash: "5e7ed793bb2896b1bba3c2c96f7e3199e6cdac6fb3701d0f981eb0841b76bec9"
+    paragraph_hash: "5e7ed793bb2896b1bba3c2c96f7e3199e6cdac6fb3701d0f981eb0841b76bec9"
     change_type: "unchanged"
     source_revision_id: 1335893353
 ---

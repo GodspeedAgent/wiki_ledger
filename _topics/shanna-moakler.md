@@ -19,7 +19,9 @@ sentence_history:
     rank: 54
     pageviews: 53101
     lead_sentence: "Shanna Lynn Moakler is an American actress, model and beauty pageant titleholder."
+    lead_paragraph: "Shanna Lynn Moakler is an American actress, model and beauty pageant titleholder."
     sentence_hash: "24f05768890ec2fcbc14b293e40f6174644052f988a7113da81988de453f6ebf"
+    paragraph_hash: "24f05768890ec2fcbc14b293e40f6174644052f988a7113da81988de453f6ebf"
     change_type: "first_seen"
     source_revision_id: 1336895797
 ---

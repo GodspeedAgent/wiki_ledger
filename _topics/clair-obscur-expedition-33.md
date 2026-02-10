@@ -19,7 +19,9 @@ sentence_history:
     rank: 98
     pageviews: 34147
     lead_sentence: "Clair Obscur: Expedition 33 is a 2025 role-playing video game developed by French studio Sandfall Interactive and published by Kepler Interactive."
+    lead_paragraph: "Clair Obscur: Expedition 33 is a 2025 role-playing video game developed by French studio Sandfall Interactive and published by Kepler Interactive."
     sentence_hash: "3452b493bb85e6ccdccdf8a847eb027858a9a28d8351bfd728a4e87f3dc4bf21"
+    paragraph_hash: "3452b493bb85e6ccdccdf8a847eb027858a9a28d8351bfd728a4e87f3dc4bf21"
     change_type: "first_seen"
     source_revision_id: 1337378504
 ---

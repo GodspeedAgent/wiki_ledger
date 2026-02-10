@@ -19,7 +19,9 @@ sentence_history:
     rank: 31
     pageviews: 83282
     lead_sentence: "Baahubali: The Epic is a 2025 Indian Telugu-language epic action film directed by S."
+    lead_paragraph: "Baahubali: The Epic is a 2025 Indian Telugu-language epic action film directed by S."
     sentence_hash: "e20d16f35dac604b2e1bc2ca1b12d74296700081b5ed1ae3e8e09eac940d5d6a"
+    paragraph_hash: "e20d16f35dac604b2e1bc2ca1b12d74296700081b5ed1ae3e8e09eac940d5d6a"
     change_type: "first_seen"
     source_revision_id: 1336847806
 ---

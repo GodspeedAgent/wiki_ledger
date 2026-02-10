@@ -19,21 +19,27 @@ sentence_history:
     rank: 3
     pageviews: 329896
     lead_sentence: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
+    lead_paragraph: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
     sentence_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
+    paragraph_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
     change_type: "first_seen"
     source_revision_id: 1337363687
   - date: "2025-08-05"
     rank: 8
     pageviews: 163502
     lead_sentence: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
+    lead_paragraph: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
     sentence_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
+    paragraph_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
     change_type: "unchanged"
     source_revision_id: 1337363687
   - date: "2025-08-12"
     rank: 8
     pageviews: 106983
     lead_sentence: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
+    lead_paragraph: "Superman is a 2025 American superhero film based on the eponymous character from DC Comics."
     sentence_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
+    paragraph_hash: "76742563ddfac45352f42af8cb8466d740d0ab02fa9ae94cc169e9532a8c088c"
     change_type: "unchanged"
     source_revision_id: 1337363687
 ---

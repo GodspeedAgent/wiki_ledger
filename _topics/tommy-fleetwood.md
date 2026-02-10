@@ -19,7 +19,9 @@ sentence_history:
     rank: 5
     pageviews: 297159
     lead_sentence: "Thomas Paul Fleetwood is an English professional golfer who plays on the PGA Tour and European Tour."
+    lead_paragraph: "Thomas Paul Fleetwood is an English professional golfer who plays on the PGA Tour and European Tour."
     sentence_hash: "8a291224256ca94bb2e8ebc008da985b7860a5877c327e5f412460743dcbcd91"
+    paragraph_hash: "8a291224256ca94bb2e8ebc008da985b7860a5877c327e5f412460743dcbcd91"
     change_type: "first_seen"
     source_revision_id: 1336992982
 ---

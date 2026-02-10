@@ -19,7 +19,9 @@ sentence_history:
     rank: 30
     pageviews: 85913
     lead_sentence: "SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men."
+    lead_paragraph: "SS Edmund Fitzgerald was an American Great Lakes freighter that sank in Lake Superior during a storm on November 10, 1975, with the loss of the entire crew of 29 men."
     sentence_hash: "bf94447dfa9c624c1e97041359f545a08dd5db5875b91bb8f9503d2ede307f78"
+    paragraph_hash: "bf94447dfa9c624c1e97041359f545a08dd5db5875b91bb8f9503d2ede307f78"
     change_type: "first_seen"
     source_revision_id: 1336452661
 ---

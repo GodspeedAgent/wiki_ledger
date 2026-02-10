@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 481320
     lead_sentence: "Alexander J Honnold is an American rock climber best known for his free solo ascents of big wall climbing routes."
+    lead_paragraph: "Alexander J Honnold is an American rock climber best known for his free solo ascents of big wall climbing routes."
     sentence_hash: "0b401c8f353914c6eb0164c86e8982f4ab5ef0f0ab83872fd000798e769c4c2f"
+    paragraph_hash: "0b401c8f353914c6eb0164c86e8982f4ab5ef0f0ab83872fd000798e769c4c2f"
     change_type: "first_seen"
     source_revision_id: 1336757219
 ---

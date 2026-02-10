@@ -19,7 +19,9 @@ sentence_history:
     rank: 85
     pageviews: 42317
     lead_sentence: "Uriah Duddley Rennie was an English football referee."
+    lead_paragraph: "Uriah Duddley Rennie was an English football referee."
     sentence_hash: "3eed6ce755e26150796b69a479030b518f47aabade54ae27b49aacaa8f6d3c11"
+    paragraph_hash: "3eed6ce755e26150796b69a479030b518f47aabade54ae27b49aacaa8f6d3c11"
     change_type: "first_seen"
     source_revision_id: 1316106758
 ---

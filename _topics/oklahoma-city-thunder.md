@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 251753
     lead_sentence: "The Oklahoma City Thunder are an American professional basketball team based in Oklahoma City."
+    lead_paragraph: "The Oklahoma City Thunder are an American professional basketball team based in Oklahoma City."
     sentence_hash: "60d3937ec88f332963fc5a9623f31de326d934ee530aeeb72ea46c753c1417b9"
+    paragraph_hash: "60d3937ec88f332963fc5a9623f31de326d934ee530aeeb72ea46c753c1417b9"
     change_type: "first_seen"
     source_revision_id: 1336654689
 ---

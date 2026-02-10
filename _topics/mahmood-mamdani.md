@@ -19,7 +19,9 @@ sentence_history:
     rank: 16
     pageviews: 165350
     lead_sentence: "Mahmood Mamdani is an Indo-Ugandan anthropologist, academic, and political commentator."
+    lead_paragraph: "Mahmood Mamdani is an Indo-Ugandan anthropologist, academic, and political commentator."
     sentence_hash: "caddde34bf5df663983f48c004748502cd798965ea4bfb4ae25db965a1e021fe"
+    paragraph_hash: "caddde34bf5df663983f48c004748502cd798965ea4bfb4ae25db965a1e021fe"
     change_type: "first_seen"
     source_revision_id: 1337373818
 ---

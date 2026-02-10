@@ -19,7 +19,9 @@ sentence_history:
     rank: 44
     pageviews: 61244
     lead_sentence: "Hema Malini Dharmendra Deol is an Indian actress, director, producer, and politician who is currently serving as a member of the Lok Sabha from the Bharatiya Janata Party (BJP), representing Mathura constituency since 2014."
+    lead_paragraph: "Hema Malini Dharmendra Deol is an Indian actress, director, producer, and politician who is currently serving as a member of the Lok Sabha from the Bharatiya Janata Party (BJP), representing Mathura constituency since 2014."
     sentence_hash: "0e0ed0fc155930523ff3f779fa2eecde5ff5f9e140ad1c8738fb1a94662cdce6"
+    paragraph_hash: "0e0ed0fc155930523ff3f779fa2eecde5ff5f9e140ad1c8738fb1a94662cdce6"
     change_type: "first_seen"
     source_revision_id: 1335122846
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 247831
     lead_sentence: "Lilo & Stitch is a 2025 American science fiction comedy film produced by Walt Disney Pictures and Rideback."
+    lead_paragraph: "Lilo & Stitch is a 2025 American science fiction comedy film produced by Walt Disney Pictures and Rideback."
     sentence_hash: "3d575b002d570198863a5b65d726044f469e8c3839c55d5efed658c02bd24bbe"
+    paragraph_hash: "3d575b002d570198863a5b65d726044f469e8c3839c55d5efed658c02bd24bbe"
     change_type: "first_seen"
     source_revision_id: 1337041016
 ---

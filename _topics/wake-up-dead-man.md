@@ -19,21 +19,27 @@ sentence_history:
     rank: 6
     pageviews: 411761
     lead_sentence: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
+    lead_paragraph: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
     sentence_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
+    paragraph_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
     change_type: "first_seen"
     source_revision_id: 1336951172
   - date: "2025-12-22"
     rank: 17
     pageviews: 141864
     lead_sentence: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
+    lead_paragraph: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
     sentence_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
+    paragraph_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
     change_type: "unchanged"
     source_revision_id: 1336951172
   - date: "2026-01-02"
     rank: 58
     pageviews: 85194
     lead_sentence: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
+    lead_paragraph: "Wake Up Dead Man is a 2025 American mystery film written and directed by Rian Johnson."
     sentence_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
+    paragraph_hash: "5599457352c9db74f927d5be4655ffa7b282c2ccd236a0b0baf7c559aa80b1e5"
     change_type: "unchanged"
     source_revision_id: 1336951172
 ---

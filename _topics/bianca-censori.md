@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 141323
     lead_sentence: "Bianca Censori is an Australian architect and performance artist, known for her relationship with American rapper Kanye West, whom she married in a private ceremony in December 2022."
+    lead_paragraph: "Bianca Censori is an Australian architect and performance artist, known for her relationship with American rapper Kanye West, whom she married in a private ceremony in December 2022."
     sentence_hash: "ebc339b6581488a2b561071a3f440f1fd098f7d3784618433e5f3148b407d7ce"
+    paragraph_hash: "ebc339b6581488a2b561071a3f440f1fd098f7d3784618433e5f3148b407d7ce"
     change_type: "first_seen"
     source_revision_id: 1337148313
 ---

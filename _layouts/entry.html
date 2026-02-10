@@ -14,6 +14,13 @@ layout: default
     <p class="sentence__text">{{ page.lead_sentence }}</p>
   </section>
 
+  {% if page.lead_paragraph %}
+  <section class="card sentence">
+    <div class="sentence__label">Lead paragraph</div>
+    <p class="sentence__text">{{ page.lead_paragraph }}</p>
+  </section>
+  {% endif %}
+
   <section class="grid">
     <div class="card">
       <div class="card__title">Links</div>

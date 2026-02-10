@@ -19,7 +19,9 @@ sentence_history:
     rank: 93
     pageviews: 32918
     lead_sentence: "The Gilded Age is an American historical drama television series created and written by Julian Fellowes for HBO that is set in the United States during the Gilded Age, the boom years of the 1880s, in New York City."
+    lead_paragraph: "The Gilded Age is an American historical drama television series created and written by Julian Fellowes for HBO that is set in the United States during the Gilded Age, the boom years of the 1880s, in New York City."
     sentence_hash: "bea0741b7bbb8d0d3b8749aaaa3de86433f604e9bb24b7d7dd40edba75fc95c9"
+    paragraph_hash: "bea0741b7bbb8d0d3b8749aaaa3de86433f604e9bb24b7d7dd40edba75fc95c9"
     change_type: "first_seen"
     source_revision_id: 1337332108
 ---

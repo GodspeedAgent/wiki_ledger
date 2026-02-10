@@ -19,7 +19,9 @@ sentence_history:
     rank: 94
     pageviews: 36465
     lead_sentence: "Sophie Rain is an American Internet personality and online content creator."
+    lead_paragraph: "Sophie Rain is an American Internet personality and online content creator."
     sentence_hash: "b2e60d3d6dfa66033bd6d70ddf910e93c53162679dfd41e0ef3586cb2bb8763a"
+    paragraph_hash: "b2e60d3d6dfa66033bd6d70ddf910e93c53162679dfd41e0ef3586cb2bb8763a"
     change_type: "first_seen"
     source_revision_id: 1335189067
 ---

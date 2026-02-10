@@ -19,7 +19,9 @@ sentence_history:
     rank: 10
     pageviews: 190997
     lead_sentence: "6-7 is an Internet meme and slang term that emerged in 2025 on TikTok and Instagram Reels, and later spread to YouTube Shorts."
+    lead_paragraph: "6-7 is an Internet meme and slang term that emerged in 2025 on TikTok and Instagram Reels, and later spread to YouTube Shorts."
     sentence_hash: "707cac1e0bc1a980f49f2cd4bcfbfb17c96bec6b9e0d4bba36fc1d80db61fed8"
+    paragraph_hash: "707cac1e0bc1a980f49f2cd4bcfbfb17c96bec6b9e0d4bba36fc1d80db61fed8"
     change_type: "first_seen"
     source_revision_id: 1336459390
 ---

@@ -19,21 +19,27 @@ sentence_history:
     rank: 17
     pageviews: 102812
     lead_sentence: "XXX is an American action spy film series created by Rich Wilkes."
+    lead_paragraph: "XXX is an American action spy film series created by Rich Wilkes."
     sentence_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
+    paragraph_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
     change_type: "first_seen"
     source_revision_id: 1311069371
   - date: "2025-07-04"
     rank: 47
     pageviews: 63959
     lead_sentence: "XXX is an American action spy film series created by Rich Wilkes."
+    lead_paragraph: "XXX is an American action spy film series created by Rich Wilkes."
     sentence_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
+    paragraph_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
     change_type: "unchanged"
     source_revision_id: 1311069371
   - date: "2025-09-10"
     rank: 7
     pageviews: 187510
     lead_sentence: "XXX is an American action spy film series created by Rich Wilkes."
+    lead_paragraph: "XXX is an American action spy film series created by Rich Wilkes."
     sentence_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
+    paragraph_hash: "80e4b7bcb7b2d2397ce1ba4d97a8bda99eaefe96864cfc1e4b0f55a097c6fe91"
     change_type: "unchanged"
     source_revision_id: 1311069371
 ---

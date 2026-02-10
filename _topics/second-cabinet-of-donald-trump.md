@@ -19,7 +19,9 @@ sentence_history:
     rank: 62
     pageviews: 49464
     lead_sentence: "Donald Trump assumed office as the 47th president of the United States on January 20, 2025."
+    lead_paragraph: "Donald Trump assumed office as the 47th president of the United States on January 20, 2025."
     sentence_hash: "27c7e9863812af714eec08a3096875d42def3dd74b09d49ff0fd4a3b397533b3"
+    paragraph_hash: "27c7e9863812af714eec08a3096875d42def3dd74b09d49ff0fd4a3b397533b3"
     change_type: "first_seen"
     source_revision_id: 1336347272
 ---

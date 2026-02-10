@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 169939
     lead_sentence: "Ali Hosseini Khamenei is an Iranian cleric and politician who has served as the second supreme leader of Iran since 1989."
+    lead_paragraph: "Ali Hosseini Khamenei is an Iranian cleric and politician who has served as the second supreme leader of Iran since 1989."
     sentence_hash: "81beb439432caf27a38b303fa66179d6b4d6c31a815f1c9f073129acb421c163"
+    paragraph_hash: "81beb439432caf27a38b303fa66179d6b4d6c31a815f1c9f073129acb421c163"
     change_type: "first_seen"
     source_revision_id: 1336664238
 ---

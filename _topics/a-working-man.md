@@ -19,7 +19,9 @@ sentence_history:
     rank: 28
     pageviews: 90237
     lead_sentence: "A Working Man is a 2025 action thriller film produced and directed by David Ayer, who co-wrote the screenplay with Sylvester Stallone, based on the 2014 novel Levon's Trade by Chuck Dixon."
+    lead_paragraph: "A Working Man is a 2025 action thriller film produced and directed by David Ayer, who co-wrote the screenplay with Sylvester Stallone, based on the 2014 novel Levon's Trade by Chuck Dixon."
     sentence_hash: "aba5246a99aa1b66a28132f17a8619f4448eac4184125a9129223d2e13416139"
+    paragraph_hash: "aba5246a99aa1b66a28132f17a8619f4448eac4184125a9129223d2e13416139"
     change_type: "first_seen"
     source_revision_id: 1335382488
 ---

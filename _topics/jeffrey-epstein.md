@@ -19,21 +19,27 @@ sentence_history:
     rank: 7
     pageviews: 183957
     lead_sentence: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
+    lead_paragraph: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
     sentence_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
+    paragraph_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
     change_type: "first_seen"
     source_revision_id: 1337377920
   - date: "2025-11-20"
     rank: 9
     pageviews: 230440
     lead_sentence: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
+    lead_paragraph: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
     sentence_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
+    paragraph_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
     change_type: "unchanged"
     source_revision_id: 1337377920
   - date: "2026-02-09"
     rank: 3
     pageviews: 745233
     lead_sentence: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
+    lead_paragraph: "Jeffrey Edward Epstein was an American financier, child sex offender, serial rapist, and human trafficker."
     sentence_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
+    paragraph_hash: "4e44057cc2a8c64bd155b8055cee418dbd447d920b3c81c717c561663aa885e3"
     change_type: "unchanged"
     source_revision_id: 1337369979
 ---

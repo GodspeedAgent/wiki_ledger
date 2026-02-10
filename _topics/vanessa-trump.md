@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 153203
     lead_sentence: "Vanessa Kay Trump is an American model."
+    lead_paragraph: "Vanessa Kay Trump is an American model."
     sentence_hash: "074140a9fc7e92bd7f9c89ee90c8dd512d0e0988408982cea6245c711346cc58"
+    paragraph_hash: "074140a9fc7e92bd7f9c89ee90c8dd512d0e0988408982cea6245c711346cc58"
     change_type: "first_seen"
     source_revision_id: 1333074750
 ---

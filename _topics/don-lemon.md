@@ -19,7 +19,9 @@ sentence_history:
     rank: 25
     pageviews: 125332
     lead_sentence: "Don Renaldo Lemon-Clark is an American television journalist best known for being a host on CNN from 2014 until 2023."
+    lead_paragraph: "Don Renaldo Lemon-Clark is an American television journalist best known for being a host on CNN from 2014 until 2023."
     sentence_hash: "0b26c509381bd17d965927630b45cf620cbad1cf4ab61ce130c45af43cfd63ce"
+    paragraph_hash: "0b26c509381bd17d965927630b45cf620cbad1cf4ab61ce130c45af43cfd63ce"
     change_type: "first_seen"
     source_revision_id: 1336761719
 ---

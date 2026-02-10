@@ -19,7 +19,9 @@ sentence_history:
     rank: 59
     pageviews: 45544
     lead_sentence: "Jaat is a 2025 Indian Hindi-language action thriller film written and directed by Gopichand Malineni, and produced by Mythri Movie Makers, Zee Studios and People Media Factory."
+    lead_paragraph: "Jaat is a 2025 Indian Hindi-language action thriller film written and directed by Gopichand Malineni, and produced by Mythri Movie Makers, Zee Studios and People Media Factory."
     sentence_hash: "a813015b20eab0b801c1fa983dcada0dfbf0e38ca2c36edd01100a8003191f35"
+    paragraph_hash: "a813015b20eab0b801c1fa983dcada0dfbf0e38ca2c36edd01100a8003191f35"
     change_type: "first_seen"
     source_revision_id: 1336161408
 ---

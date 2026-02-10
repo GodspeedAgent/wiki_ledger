@@ -19,7 +19,9 @@ sentence_history:
     rank: 92
     pageviews: 34265
     lead_sentence: "Lewis James Pullman is an American actor."
+    lead_paragraph: "Lewis James Pullman is an American actor."
     sentence_hash: "24b881c3ee603b55ef8c061d47bf753cadc2a37cdf36bc8f569ec31eed77035c"
+    paragraph_hash: "24b881c3ee603b55ef8c061d47bf753cadc2a37cdf36bc8f569ec31eed77035c"
     change_type: "first_seen"
     source_revision_id: 1337016012
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 18
     pageviews: 105815
     lead_sentence: "María Corina Machado Parisca is a Venezuelan politician, activist, and prominent leader of the opposition to the administrations of Hugo Chávez and Nicolás Maduro."
+    lead_paragraph: "María Corina Machado Parisca is a Venezuelan politician, activist, and prominent leader of the opposition to the administrations of Hugo Chávez and Nicolás Maduro."
     sentence_hash: "4f2f9312651dd4029b60743d942851e8dcd327660bbe515e9ef96618d860ed47"
+    paragraph_hash: "4f2f9312651dd4029b60743d942851e8dcd327660bbe515e9ef96618d860ed47"
     change_type: "first_seen"
     source_revision_id: 1336895249
 ---

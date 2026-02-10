@@ -19,7 +19,9 @@ sentence_history:
     rank: 38
     pageviews: 63172
     lead_sentence: "The Rapid Support Forces are a Sudanese paramilitary force formerly operated by the Sudanese government."
+    lead_paragraph: "The Rapid Support Forces are a Sudanese paramilitary force formerly operated by the Sudanese government."
     sentence_hash: "b0e8ad503ca4f18c1220e2337f817b10d3df557ce9b50ec0f17e5e95c9941862"
+    paragraph_hash: "b0e8ad503ca4f18c1220e2337f817b10d3df557ce9b50ec0f17e5e95c9941862"
     change_type: "first_seen"
     source_revision_id: 1335551254
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 228622
     lead_sentence: "Samantha Ruth Prabhu is an Indian actress who works predominantly in Telugu and Tamil films."
+    lead_paragraph: "Samantha Ruth Prabhu is an Indian actress who works predominantly in Telugu and Tamil films."
     sentence_hash: "d8e75623be099685d17e0d9d3855fa854865fe4c4c845b27dbf824ce8f42d063"
+    paragraph_hash: "d8e75623be099685d17e0d9d3855fa854865fe4c4c845b27dbf824ce8f42d063"
     change_type: "first_seen"
     source_revision_id: 1334982547
 ---

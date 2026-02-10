@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 1906205
     lead_sentence: "Malcolm-Jamal Warner was an American actor, musician and poet."
+    lead_paragraph: "Malcolm-Jamal Warner was an American actor, musician and poet."
     sentence_hash: "b3ec4fb3627214f591a63e94b66335a591a5ce0d29fc3c0971d38dddc528682d"
+    paragraph_hash: "b3ec4fb3627214f591a63e94b66335a591a5ce0d29fc3c0971d38dddc528682d"
     change_type: "first_seen"
     source_revision_id: 1332121577
 ---

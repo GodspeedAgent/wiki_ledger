@@ -19,7 +19,9 @@ sentence_history:
     rank: 89
     pageviews: 35937
     lead_sentence: "Nelvana Enterprises, Inc."
+    lead_paragraph: "Nelvana Enterprises, Inc."
     sentence_hash: "9a8d5dc49a876a728f5386dfab0a640c29ca70a10d1a7d88caf6b9cb1831d02a"
+    paragraph_hash: "9a8d5dc49a876a728f5386dfab0a640c29ca70a10d1a7d88caf6b9cb1831d02a"
     change_type: "first_seen"
     source_revision_id: 1336461850
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 199955
     lead_sentence: "Iran, officially the Islamic Republic of Iran, and also known as Persia, is a country in West Asia."
+    lead_paragraph: "Iran, officially the Islamic Republic of Iran, and also known as Persia, is a country in West Asia."
     sentence_hash: "fb8e21814658bcd44fa9b1570724797bd3df8954a11529244e32c69819104eaf"
+    paragraph_hash: "fb8e21814658bcd44fa9b1570724797bd3df8954a11529244e32c69819104eaf"
     change_type: "first_seen"
     source_revision_id: 1337323615
 ---

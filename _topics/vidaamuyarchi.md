@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 166924
     lead_sentence: "Vidaamuyarchi (transl."
+    lead_paragraph: "Vidaamuyarchi (transl."
     sentence_hash: "055f6137e8942558dfbfbf7122988c92062310708f5b43076d62b485a6391280"
+    paragraph_hash: "055f6137e8942558dfbfbf7122988c92062310708f5b43076d62b485a6391280"
     change_type: "first_seen"
     source_revision_id: 1337104508
 ---

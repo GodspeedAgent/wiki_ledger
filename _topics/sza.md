@@ -19,7 +19,9 @@ sentence_history:
     rank: 19
     pageviews: 299674
     lead_sentence: "Solána Imani Rowe, known professionally as SZA, is an American singer-songwriter."
+    lead_paragraph: "Solána Imani Rowe, known professionally as SZA, is an American singer-songwriter."
     sentence_hash: "d8e048bc111328ac6368071d8224b7eead42a67de972f7024017b2e68409853e"
+    paragraph_hash: "d8e048bc111328ac6368071d8224b7eead42a67de972f7024017b2e68409853e"
     change_type: "first_seen"
     source_revision_id: 1337368396
 ---

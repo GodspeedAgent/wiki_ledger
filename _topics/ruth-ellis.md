@@ -19,7 +19,9 @@ sentence_history:
     rank: 41
     pageviews: 94227
     lead_sentence: "Ruth Ellis was a Welsh-born nightclub hostess and convicted murderer who became the last woman to be executed in the United Kingdom following the fatal shooting of her lover, David Blakely."
+    lead_paragraph: "Ruth Ellis was a Welsh-born nightclub hostess and convicted murderer who became the last woman to be executed in the United Kingdom following the fatal shooting of her lover, David Blakely."
     sentence_hash: "fd3411cc297eaec7d560bf14f5aaec3b7ada428acfe621faa79efb57deffac9d"
+    paragraph_hash: "fd3411cc297eaec7d560bf14f5aaec3b7ada428acfe621faa79efb57deffac9d"
     change_type: "first_seen"
     source_revision_id: 1334998303
 ---

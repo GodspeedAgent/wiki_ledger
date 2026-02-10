@@ -19,14 +19,18 @@ sentence_history:
     rank: 3
     pageviews: 395837
     lead_sentence: "Annabelle Natalie Gibson is an Australian health fraudster, former influencer and pseudoscience advocate."
+    lead_paragraph: "Annabelle Natalie Gibson is an Australian health fraudster, former influencer and pseudoscience advocate."
     sentence_hash: "0ee1a4779b1ce41087f8e01c9a29a06086faeecc6a51fd746f9cab32c1bf46ee"
+    paragraph_hash: "0ee1a4779b1ce41087f8e01c9a29a06086faeecc6a51fd746f9cab32c1bf46ee"
     change_type: "first_seen"
     source_revision_id: 1337334565
   - date: "2025-02-25"
     rank: 19
     pageviews: 138227
     lead_sentence: "Annabelle Natalie Gibson is an Australian health fraudster, former influencer and pseudoscience advocate."
+    lead_paragraph: "Annabelle Natalie Gibson is an Australian health fraudster, former influencer and pseudoscience advocate."
     sentence_hash: "0ee1a4779b1ce41087f8e01c9a29a06086faeecc6a51fd746f9cab32c1bf46ee"
+    paragraph_hash: "0ee1a4779b1ce41087f8e01c9a29a06086faeecc6a51fd746f9cab32c1bf46ee"
     change_type: "unchanged"
     source_revision_id: 1337334565
 ---

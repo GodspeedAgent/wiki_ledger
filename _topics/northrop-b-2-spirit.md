@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 165573
     lead_sentence: "The Northrop B-2 Spirit is an American heavy strategic bomber that uses low-observable stealth technology to penetrate sophisticated anti-aircraft defenses."
+    lead_paragraph: "The Northrop B-2 Spirit is an American heavy strategic bomber that uses low-observable stealth technology to penetrate sophisticated anti-aircraft defenses."
     sentence_hash: "6b6fbba9ac7cc550dd5fbd9a1682fefb6d734b76c3b3da8fd0fc4c8f833a8db6"
+    paragraph_hash: "6b6fbba9ac7cc550dd5fbd9a1682fefb6d734b76c3b3da8fd0fc4c8f833a8db6"
     change_type: "first_seen"
     source_revision_id: 1334847297
 ---

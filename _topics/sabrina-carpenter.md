@@ -19,7 +19,9 @@ sentence_history:
     rank: 31
     pageviews: 74955
     lead_sentence: "Sabrina Annlynn Carpenter is an American singer, songwriter, and actress."
+    lead_paragraph: "Sabrina Annlynn Carpenter is an American singer, songwriter, and actress."
     sentence_hash: "75de2364450f4f7d9872477d21c864e8fe407b027a6cd8a5e9565b96ac614687"
+    paragraph_hash: "75de2364450f4f7d9872477d21c864e8fe407b027a6cd8a5e9565b96ac614687"
     change_type: "first_seen"
     source_revision_id: 1337024893
 ---

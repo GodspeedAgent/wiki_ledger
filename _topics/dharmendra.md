@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 1222914
     lead_sentence: "Dharmendra was an Indian actor, producer and politician, primarily known for his work in Hindi films."
+    lead_paragraph: "Dharmendra was an Indian actor, producer and politician, primarily known for his work in Hindi films."
     sentence_hash: "7dcb57550357e2982e4ef2672d74bec5a0789eeaef9ad7b7986495553b1ee7ad"
+    paragraph_hash: "7dcb57550357e2982e4ef2672d74bec5a0789eeaef9ad7b7986495553b1ee7ad"
     change_type: "first_seen"
     source_revision_id: 1336201827
 ---

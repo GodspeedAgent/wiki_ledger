@@ -19,7 +19,9 @@ sentence_history:
     rank: 70
     pageviews: 45497
     lead_sentence: "Alexandra Grant is an American visual artist who examines language and written texts through painting, drawing, sculpture, video, and other media."
+    lead_paragraph: "Alexandra Grant is an American visual artist who examines language and written texts through painting, drawing, sculpture, video, and other media."
     sentence_hash: "40f86c82d154ff0db8432bf6cccdc0612223d276f84816e58afca48f3df8a2b2"
+    paragraph_hash: "40f86c82d154ff0db8432bf6cccdc0612223d276f84816e58afca48f3df8a2b2"
     change_type: "first_seen"
     source_revision_id: 1337192926
 ---

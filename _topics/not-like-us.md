@@ -19,7 +19,9 @@ sentence_history:
     rank: 14
     pageviews: 138921
     lead_sentence: "\"Not Like Us\" is a diss track by the American rapper Kendrick Lamar released amidst his highly publicized feud with the Canadian rapper Drake."
+    lead_paragraph: "\\\"Not Like Us\\\" is a diss track by the American rapper Kendrick Lamar released amidst his highly publicized feud with the Canadian rapper Drake."
     sentence_hash: "22ebb15ba8694e196f76d97a9c78d23787effbb374ceaeb9a534cdbfb949b09b"
+    paragraph_hash: "22ebb15ba8694e196f76d97a9c78d23787effbb374ceaeb9a534cdbfb949b09b"
     change_type: "first_seen"
     source_revision_id: 1336654384
 ---

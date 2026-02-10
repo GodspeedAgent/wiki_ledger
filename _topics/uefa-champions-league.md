@@ -19,7 +19,9 @@ sentence_history:
     rank: 45
     pageviews: 53451
     lead_sentence: "The UEFA Champions League (UCL), usually known simply as the Champions League, is an annual club association football competition organised by the Union of European Football Associations (UEFA) that is contested by top-division European clubs."
+    lead_paragraph: "The UEFA Champions League (UCL), usually known simply as the Champions League, is an annual club association football competition organised by the Union of European Football Associations (UEFA) that is contested by top-division European clubs."
     sentence_hash: "c295eb3a3e987fccdea4c81e8036d1d337bc67efa61e1491002c8a3bd3c1ed2e"
+    paragraph_hash: "c295eb3a3e987fccdea4c81e8036d1d337bc67efa61e1491002c8a3bd3c1ed2e"
     change_type: "first_seen"
     source_revision_id: 1335375600
 ---

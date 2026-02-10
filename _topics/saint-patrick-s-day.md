@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 556467
     lead_sentence: "Saint Patrick's Day, or the Feast of Saint Patrick, is a religious and cultural holiday held on 17 March, the traditional death date of Saint Patrick, the foremost patron saint of Ireland."
+    lead_paragraph: "Saint Patrick's Day, or the Feast of Saint Patrick, is a religious and cultural holiday held on 17 March, the traditional death date of Saint Patrick, the foremost patron saint of Ireland."
     sentence_hash: "e29d55968728f7cf55f38667e1340cf8fbe470cfca6c497189be4739638a4f85"
+    paragraph_hash: "e29d55968728f7cf55f38667e1340cf8fbe470cfca6c497189be4739638a4f85"
     change_type: "first_seen"
     source_revision_id: 1325511396
 ---

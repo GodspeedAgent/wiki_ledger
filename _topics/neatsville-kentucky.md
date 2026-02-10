@@ -19,14 +19,18 @@ sentence_history:
     rank: 54
     pageviews: 50825
     lead_sentence: "Neatsville is an unincorporated community in Adair County, in the U.S."
+    lead_paragraph: "Neatsville is an unincorporated community in Adair County, in the U.S."
     sentence_hash: "318f0f91b160d7a9caf294dd93daee2c216bebe1c905a9af7a97d856e29fb82d"
+    paragraph_hash: "318f0f91b160d7a9caf294dd93daee2c216bebe1c905a9af7a97d856e29fb82d"
     change_type: "first_seen"
     source_revision_id: 1336236557
   - date: "2026-01-14"
     rank: 18
     pageviews: 134936
     lead_sentence: "Neatsville is an unincorporated community in Adair County, in the U.S."
+    lead_paragraph: "Neatsville is an unincorporated community in Adair County, in the U.S."
     sentence_hash: "318f0f91b160d7a9caf294dd93daee2c216bebe1c905a9af7a97d856e29fb82d"
+    paragraph_hash: "318f0f91b160d7a9caf294dd93daee2c216bebe1c905a9af7a97d856e29fb82d"
     change_type: "unchanged"
     source_revision_id: 1336236557
 ---

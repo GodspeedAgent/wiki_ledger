@@ -19,7 +19,9 @@ sentence_history:
     rank: 21
     pageviews: 76648
     lead_sentence: "Easter, also called Pasch or Pascha or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the New Testament as having occurred on the third day of his burial following his crucifixion by the Romans at Calvary c."
+    lead_paragraph: "Easter, also called Pasch or Pascha or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the New Testament as having occurred on the third day of his burial following his crucifixion by the Romans at Calvary c."
     sentence_hash: "39be1d63d3e4bdd3ad8bec68bc91fd8d3fd482e4d20aab2d2fd1b4874a764499"
+    paragraph_hash: "39be1d63d3e4bdd3ad8bec68bc91fd8d3fd482e4d20aab2d2fd1b4874a764499"
     change_type: "first_seen"
     source_revision_id: 1335677782
 ---

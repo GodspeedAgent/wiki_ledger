@@ -19,7 +19,9 @@ sentence_history:
     rank: 71
     pageviews: 50676
     lead_sentence: "Charles Julius Guiteau was an American office seeker who assassinated 20th United States president James A."
+    lead_paragraph: "Charles Julius Guiteau was an American office seeker who assassinated 20th United States president James A."
     sentence_hash: "df06b634e86676a62a56498177a3b196fc075d3dde6d927eec70d4bc9b59a195"
+    paragraph_hash: "df06b634e86676a62a56498177a3b196fc075d3dde6d927eec70d4bc9b59a195"
     change_type: "first_seen"
     source_revision_id: 1336950218
 ---

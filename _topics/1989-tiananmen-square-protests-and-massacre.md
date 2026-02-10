@@ -19,21 +19,27 @@ sentence_history:
     rank: 5
     pageviews: 368486
     lead_sentence: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
+    lead_paragraph: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
     sentence_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
+    paragraph_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
     change_type: "first_seen"
     source_revision_id: 1337206027
   - date: "2025-10-19"
     rank: 3
     pageviews: 816889
     lead_sentence: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
+    lead_paragraph: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
     sentence_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
+    paragraph_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
     change_type: "unchanged"
     source_revision_id: 1337206027
   - date: "2026-01-01"
     rank: 2
     pageviews: 1511621
     lead_sentence: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
+    lead_paragraph: "Protests led by students, known in China as the June Fourth Incident, were held in Tiananmen Square in Beijing, China, from 15 April to 4 June 1989."
     sentence_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
+    paragraph_hash: "61013738d85dce2c58e9eddec9abe0da2307257f9e50ba2d478ff1a0d464519e"
     change_type: "unchanged"
     source_revision_id: 1337206027
 ---

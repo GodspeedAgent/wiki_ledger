@@ -19,7 +19,9 @@ sentence_history:
     rank: 42
     pageviews: 67503
     lead_sentence: "Jeremie Agyekum Frimpong is a Dutch professional footballer who plays as a right-back or right midfielder for Premier League club Liverpool and the Netherlands national team."
+    lead_paragraph: "Jeremie Agyekum Frimpong is a Dutch professional footballer who plays as a right-back or right midfielder for Premier League club Liverpool and the Netherlands national team."
     sentence_hash: "21ec5be0af8aad40f4fa0493237eae2f2514dc94f8a2fc61ad0c4c8146d23941"
+    paragraph_hash: "21ec5be0af8aad40f4fa0493237eae2f2514dc94f8a2fc61ad0c4c8146d23941"
     change_type: "first_seen"
     source_revision_id: 1335605030
 ---

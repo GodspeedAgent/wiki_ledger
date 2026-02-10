@@ -19,7 +19,9 @@ sentence_history:
     rank: 60
     pageviews: 58650
     lead_sentence: "This table provides a list of scientific, nationwide public opinion polls conducted from the 2021 Canadian federal election leading up to the 2025 Canadian federal election."
+    lead_paragraph: "This table provides a list of scientific, nationwide public opinion polls conducted from the 2021 Canadian federal election leading up to the 2025 Canadian federal election."
     sentence_hash: "7162fbd716fff5b9cf1ed9b7dc23287d10df094a160b7f4096a93f13b864a7a9"
+    paragraph_hash: "7162fbd716fff5b9cf1ed9b7dc23287d10df094a160b7f4096a93f13b864a7a9"
     change_type: "first_seen"
     source_revision_id: 1334130372
 ---

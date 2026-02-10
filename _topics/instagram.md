@@ -19,21 +19,27 @@ sentence_history:
     rank: 56
     pageviews: 43025
     lead_sentence: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
+    lead_paragraph: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
     sentence_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
+    paragraph_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
     change_type: "first_seen"
     source_revision_id: 1337228362
   - date: "2025-10-18"
     rank: 78
     pageviews: 41334
     lead_sentence: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
+    lead_paragraph: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
     sentence_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
+    paragraph_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
     change_type: "unchanged"
     source_revision_id: 1337228362
   - date: "2025-11-28"
     rank: 78
     pageviews: 43981
     lead_sentence: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
+    lead_paragraph: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
     sentence_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
+    paragraph_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
     change_type: "unchanged"
     source_revision_id: 1337228362
 ---

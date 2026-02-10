@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 132922
     lead_sentence: "Harvey Bernard Milk was an American politician and the first openly gay man to be elected to public office in California, as a member of the San Francisco Board of Supervisors."
+    lead_paragraph: "Harvey Bernard Milk was an American politician and the first openly gay man to be elected to public office in California, as a member of the San Francisco Board of Supervisors."
     sentence_hash: "0270c7121d014c088155cbed7b24be10e6428e179f8bd92187c3e8609a7e49bf"
+    paragraph_hash: "0270c7121d014c088155cbed7b24be10e6428e179f8bd92187c3e8609a7e49bf"
     change_type: "first_seen"
     source_revision_id: 1336334984
 ---

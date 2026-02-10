@@ -19,7 +19,9 @@ sentence_history:
     rank: 89
     pageviews: 44483
     lead_sentence: "Labubu is a line of collectible plush toys created by Hong Kong illustrator Kasing Lung."
+    lead_paragraph: "Labubu is a line of collectible plush toys created by Hong Kong illustrator Kasing Lung."
     sentence_hash: "3bdc6b3bc4da173504e08e6be6f1205d710a83ad741584bbe7839af08370412f"
+    paragraph_hash: "3bdc6b3bc4da173504e08e6be6f1205d710a83ad741584bbe7839af08370412f"
     change_type: "first_seen"
     source_revision_id: 1336137056
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 165167
     lead_sentence: "The Gulf of Mexico is an oceanic basin and a marginal sea of the Atlantic Ocean, mostly surrounded by the North American continent."
+    lead_paragraph: "The Gulf of Mexico is an oceanic basin and a marginal sea of the Atlantic Ocean, mostly surrounded by the North American continent."
     sentence_hash: "8fdf47222abf2dc2a6823e55c1c83db2e6dcd762f8cca4c7fd0b7214bcdb44f1"
+    paragraph_hash: "8fdf47222abf2dc2a6823e55c1c83db2e6dcd762f8cca4c7fd0b7214bcdb44f1"
     change_type: "first_seen"
     source_revision_id: 1335581419
 ---

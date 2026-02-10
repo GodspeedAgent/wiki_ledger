@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 880446
     lead_sentence: "Fernando Gabriel Mendoza V is an American college football quarterback for the Indiana Hoosiers."
+    lead_paragraph: "Fernando Gabriel Mendoza V is an American college football quarterback for the Indiana Hoosiers."
     sentence_hash: "1866f6eacbbb132a3325f03e2d316bf7821b6fdad921deacf219e9e946855ebb"
+    paragraph_hash: "1866f6eacbbb132a3325f03e2d316bf7821b6fdad921deacf219e9e946855ebb"
     change_type: "first_seen"
     source_revision_id: 1337363276
 ---

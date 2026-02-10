@@ -19,7 +19,9 @@ sentence_history:
     rank: 15
     pageviews: 133623
     lead_sentence: "UFC on ESPN: Usman vs."
+    lead_paragraph: "UFC on ESPN: Usman vs."
     sentence_hash: "b6b82cad220544e9e81c0882dc854e17d323e289664a587f8c6b3d421c46b333"
+    paragraph_hash: "b6b82cad220544e9e81c0882dc854e17d323e289664a587f8c6b3d421c46b333"
     change_type: "first_seen"
     source_revision_id: 1334996928
 ---

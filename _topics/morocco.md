@@ -19,7 +19,9 @@ sentence_history:
     rank: 20
     pageviews: 94224
     lead_sentence: "Morocco, officially the Kingdom of Morocco, is a country in the Maghreb region of North Africa."
+    lead_paragraph: "Morocco, officially the Kingdom of Morocco, is a country in the Maghreb region of North Africa."
     sentence_hash: "4edd7ee72b5779b2e21f1ee8cb9b7b3434d300d42e8b8d2bc6d35e9a6e8f13e9"
+    paragraph_hash: "4edd7ee72b5779b2e21f1ee8cb9b7b3434d300d42e8b8d2bc6d35e9a6e8f13e9"
     change_type: "first_seen"
     source_revision_id: 1337293339
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 140435
     lead_sentence: "Matthew Allen Campbell is an American college football coach who is the current head football coach at Pennsylvania State University."
+    lead_paragraph: "Matthew Allen Campbell is an American college football coach who is the current head football coach at Pennsylvania State University."
     sentence_hash: "7b3ff71da86fc98ca7c3961c3e9c8a6b116cbc32dcedfb35ebeb1c236ae92054"
+    paragraph_hash: "7b3ff71da86fc98ca7c3961c3e9c8a6b116cbc32dcedfb35ebeb1c236ae92054"
     change_type: "first_seen"
     source_revision_id: 1335296886
 ---

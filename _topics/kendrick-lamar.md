@@ -19,14 +19,18 @@ sentence_history:
     rank: 11
     pageviews: 189211
     lead_sentence: "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer."
+    lead_paragraph: "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer."
     sentence_hash: "de83bfbc1f847ab9f402ef74dd53297cdb9a3cef0da69470b845e0f29276c68a"
+    paragraph_hash: "de83bfbc1f847ab9f402ef74dd53297cdb9a3cef0da69470b845e0f29276c68a"
     change_type: "first_seen"
     source_revision_id: 1337305979
   - date: "2025-02-12"
     rank: 3
     pageviews: 508892
     lead_sentence: "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer."
+    lead_paragraph: "Kendrick Lamar Duckworth is an American rapper, songwriter, and record producer."
     sentence_hash: "de83bfbc1f847ab9f402ef74dd53297cdb9a3cef0da69470b845e0f29276c68a"
+    paragraph_hash: "de83bfbc1f847ab9f402ef74dd53297cdb9a3cef0da69470b845e0f29276c68a"
     change_type: "unchanged"
     source_revision_id: 1337305979
 ---

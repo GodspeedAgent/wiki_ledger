@@ -19,7 +19,9 @@ sentence_history:
     rank: 50
     pageviews: 63762
     lead_sentence: "Daylight saving time (DST), also referred to as daylight savings time, daylight time, or summer time, is the practice of advancing clocks to make better use of the longer daylight available during summer so that darkness falls at a later clock time."
+    lead_paragraph: "Daylight saving time (DST), also referred to as daylight savings time, daylight time, or summer time, is the practice of advancing clocks to make better use of the longer daylight available during summer so that darkness falls at a later clock time."
     sentence_hash: "14e4ff680b222d82a43b8f25d7e6ea3ae0db6751075bc66f88bf6165f4f03250"
+    paragraph_hash: "14e4ff680b222d82a43b8f25d7e6ea3ae0db6751075bc66f88bf6165f4f03250"
     change_type: "first_seen"
     source_revision_id: 1337205439
 ---

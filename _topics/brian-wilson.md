@@ -19,7 +19,9 @@ sentence_history:
     rank: 14
     pageviews: 141494
     lead_sentence: "Brian Douglas Wilson was an American musician, singer, songwriter and record producer who co-founded the Beach Boys and received widespread recognition as one of the most innovative and significant musical figures of his era."
+    lead_paragraph: "Brian Douglas Wilson was an American musician, singer, songwriter and record producer who co-founded the Beach Boys and received widespread recognition as one of the most innovative and significant musical figures of his era."
     sentence_hash: "b81fe46d43ad18206d833991a648ae8585efe0fd3b76485a5cae110ee02c1906"
+    paragraph_hash: "b81fe46d43ad18206d833991a648ae8585efe0fd3b76485a5cae110ee02c1906"
     change_type: "first_seen"
     source_revision_id: 1337047273
 ---

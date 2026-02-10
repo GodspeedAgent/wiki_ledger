@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 282949
     lead_sentence: "Tatiana Celia Kennedy Schlossberg was an American environmental journalist and author."
+    lead_paragraph: "Tatiana Celia Kennedy Schlossberg was an American environmental journalist and author."
     sentence_hash: "dfa961da693eb1c86b662d33bf5c04f1f93a548a4580f3c80b074802e805c5bb"
+    paragraph_hash: "dfa961da693eb1c86b662d33bf5c04f1f93a548a4580f3c80b074802e805c5bb"
     change_type: "first_seen"
     source_revision_id: 1336065829
 ---

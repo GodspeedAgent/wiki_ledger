@@ -19,7 +19,9 @@ sentence_history:
     rank: 10
     pageviews: 279531
     lead_sentence: "Sikandar is a 2025 Indian Hindi-language action drama film written and directed by A."
+    lead_paragraph: "Sikandar is a 2025 Indian Hindi-language action drama film written and directed by A."
     sentence_hash: "d90af2c23f1df43876f1dc87234dd93642c238b034f559a360b302700d897b0d"
+    paragraph_hash: "d90af2c23f1df43876f1dc87234dd93642c238b034f559a360b302700d897b0d"
     change_type: "first_seen"
     source_revision_id: 1337282934
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 87
     pageviews: 45214
     lead_sentence: "Jérémy Baffour Doku is a Belgian professional footballer who plays as a winger for Premier League club Manchester City and the Belgium national team."
+    lead_paragraph: "Jérémy Baffour Doku is a Belgian professional footballer who plays as a winger for Premier League club Manchester City and the Belgium national team."
     sentence_hash: "6153cefb617c99b0f046ce5ed936abe37687affcf7c35856a76e021fcd64dc1b"
+    paragraph_hash: "6153cefb617c99b0f046ce5ed936abe37687affcf7c35856a76e021fcd64dc1b"
     change_type: "first_seen"
     source_revision_id: 1337095614
 ---

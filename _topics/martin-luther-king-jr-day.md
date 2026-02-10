@@ -19,7 +19,9 @@ sentence_history:
     rank: 10
     pageviews: 175098
     lead_sentence: "Martin Luther King Jr."
+    lead_paragraph: "Martin Luther King Jr."
     sentence_hash: "af5a63f292545968a93180b6bda9d771dc5c31d900fe34053a243099b2f34ed6"
+    paragraph_hash: "af5a63f292545968a93180b6bda9d771dc5c31d900fe34053a243099b2f34ed6"
     change_type: "first_seen"
     source_revision_id: 1335020467
 ---

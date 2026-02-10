@@ -19,7 +19,9 @@ sentence_history:
     rank: 80
     pageviews: 41511
     lead_sentence: "Devil May Cry is an adult animated urban fantasy action television series created by Adi Shankar and produced by Studio Mir."
+    lead_paragraph: "Devil May Cry is an adult animated urban fantasy action television series created by Adi Shankar and produced by Studio Mir."
     sentence_hash: "b7222281b926c737cafc86b7e69c0f9dc7b458a968341b64397c62cd45a96bdf"
+    paragraph_hash: "b7222281b926c737cafc86b7e69c0f9dc7b458a968341b64397c62cd45a96bdf"
     change_type: "first_seen"
     source_revision_id: 1337341388
 ---

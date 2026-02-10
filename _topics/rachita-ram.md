@@ -19,7 +19,9 @@ sentence_history:
     rank: 49
     pageviews: 47588
     lead_sentence: "Rachita Ram, is an Indian actress who predominantly works in Kannada films."
+    lead_paragraph: "Rachita Ram, is an Indian actress who predominantly works in Kannada films."
     sentence_hash: "fbb78dba6a33ef5c87c03ef9daedd27bdb9a84514e1cb86c40dbac2dd110c71b"
+    paragraph_hash: "fbb78dba6a33ef5c87c03ef9daedd27bdb9a84514e1cb86c40dbac2dd110c71b"
     change_type: "first_seen"
     source_revision_id: 1334273548
 ---

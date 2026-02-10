@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 241630
     lead_sentence: "Ghislaine Noelle Marion Maxwell is a British former socialite."
+    lead_paragraph: "Ghislaine Noelle Marion Maxwell is a British former socialite."
     sentence_hash: "c0b6c8096eaa1db97bf68e05dc5484d2642ea00c4eb030858cbe35eb6c9e0fed"
+    paragraph_hash: "c0b6c8096eaa1db97bf68e05dc5484d2642ea00c4eb030858cbe35eb6c9e0fed"
     change_type: "first_seen"
     source_revision_id: 1337365946
 ---

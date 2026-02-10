@@ -19,7 +19,9 @@ sentence_history:
     rank: 27
     pageviews: 99175
     lead_sentence: "Airious \"Ace\" Bailey is an American professional basketball player for the Utah Jazz of the National Basketball Association (NBA)."
+    lead_paragraph: "Airious \\\"Ace\\\" Bailey is an American professional basketball player for the Utah Jazz of the National Basketball Association (NBA)."
     sentence_hash: "d5507a57ecfc3088948005171e3c7b4d27ddfac5c5cf6c3784b31684cac8cf28"
+    paragraph_hash: "d5507a57ecfc3088948005171e3c7b4d27ddfac5c5cf6c3784b31684cac8cf28"
     change_type: "first_seen"
     source_revision_id: 1334854812
 ---

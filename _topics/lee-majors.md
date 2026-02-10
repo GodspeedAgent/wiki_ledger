@@ -19,7 +19,9 @@ sentence_history:
     rank: 5
     pageviews: 180791
     lead_sentence: "Harvey Lee Yeary, known professionally as Lee Majors, is an American actor."
+    lead_paragraph: "Harvey Lee Yeary, known professionally as Lee Majors, is an American actor."
     sentence_hash: "cdbc7cbc663f835db0a068f0e909179104c534467fe3509ae3261dd9d6a7e821"
+    paragraph_hash: "cdbc7cbc663f835db0a068f0e909179104c534467fe3509ae3261dd9d6a7e821"
     change_type: "first_seen"
     source_revision_id: 1325916149
 ---

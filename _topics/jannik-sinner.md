@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 1940261
     lead_sentence: "Jannik Sinner is an Italian professional tennis player."
+    lead_paragraph: "Jannik Sinner is an Italian professional tennis player."
     sentence_hash: "bcf9de4841e51357653f5695e7880b0afbfb020fd9d922db6def58fbb03c4df6"
+    paragraph_hash: "bcf9de4841e51357653f5695e7880b0afbfb020fd9d922db6def58fbb03c4df6"
     change_type: "first_seen"
     source_revision_id: 1337086963
 ---

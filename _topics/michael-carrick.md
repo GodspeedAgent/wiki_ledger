@@ -19,7 +19,9 @@ sentence_history:
     rank: 45
     pageviews: 74564
     lead_sentence: "Michael Carrick is an English professional football coach and former player who is currently the head coach of Premier League club Manchester United."
+    lead_paragraph: "Michael Carrick is an English professional football coach and former player who is currently the head coach of Premier League club Manchester United."
     sentence_hash: "ebda50a302b6dd2f5503a32c83da8159a94977351c414cb906dda9b552b7906d"
+    paragraph_hash: "ebda50a302b6dd2f5503a32c83da8159a94977351c414cb906dda9b552b7906d"
     change_type: "first_seen"
     source_revision_id: 1337346704
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 29
     pageviews: 89872
     lead_sentence: "Avatar: The Way of Water is a 2022 American epic science fiction film directed by James Cameron and written by Cameron, Rick Jaffa and Amanda Silver."
+    lead_paragraph: "Avatar: The Way of Water is a 2022 American epic science fiction film directed by James Cameron and written by Cameron, Rick Jaffa and Amanda Silver."
     sentence_hash: "593ba7491f577182e29fa1af0b0349ff2f4f735bbf249327fc4ed25d524ffab0"
+    paragraph_hash: "593ba7491f577182e29fa1af0b0349ff2f4f735bbf249327fc4ed25d524ffab0"
     change_type: "first_seen"
     source_revision_id: 1337113609
 ---

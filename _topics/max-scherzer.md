@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 327525
     lead_sentence: "Maxwell Martin Scherzer, nicknamed \"Mad Max\", is an American professional baseball pitcher who is a free agent."
+    lead_paragraph: "Maxwell Martin Scherzer, nicknamed \\\"Mad Max\\\", is an American professional baseball pitcher who is a free agent."
     sentence_hash: "51c8120c1fcd7bf08d32fb1e7fba1c3cd5255af74f13c6f0cdacfd2344f4ceed"
+    paragraph_hash: "51c8120c1fcd7bf08d32fb1e7fba1c3cd5255af74f13c6f0cdacfd2344f4ceed"
     change_type: "first_seen"
     source_revision_id: 1334942580
 ---

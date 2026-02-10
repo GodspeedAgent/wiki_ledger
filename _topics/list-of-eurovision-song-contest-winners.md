@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 143255
     lead_sentence: "72 songs written by 150 songwriters have won the Eurovision Song Contest, an international song competition organised annually by the European Broadcasting Union (EBU)."
+    lead_paragraph: "72 songs written by 150 songwriters have won the Eurovision Song Contest, an international song competition organised annually by the European Broadcasting Union (EBU)."
     sentence_hash: "2da7229961ad554a2b8fbb02ab36d217fa2c3c9a2b9455196db250d32eb75226"
+    paragraph_hash: "2da7229961ad554a2b8fbb02ab36d217fa2c3c9a2b9455196db250d32eb75226"
     change_type: "first_seen"
     source_revision_id: 1326987671
 ---

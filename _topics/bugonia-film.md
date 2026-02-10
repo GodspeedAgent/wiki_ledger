@@ -19,7 +19,9 @@ sentence_history:
     rank: 99
     pageviews: 37631
     lead_sentence: "Bugonia is a 2025 black comedy thriller film directed by Yorgos Lanthimos and written by Will Tracy."
+    lead_paragraph: "Bugonia is a 2025 black comedy thriller film directed by Yorgos Lanthimos and written by Will Tracy."
     sentence_hash: "70d7c00ed8bf87137f2534696eb7b4545d06b739cd5c34248bd9526fbc1e03a2"
+    paragraph_hash: "70d7c00ed8bf87137f2534696eb7b4545d06b739cd5c34248bd9526fbc1e03a2"
     change_type: "first_seen"
     source_revision_id: 1337356910
 ---

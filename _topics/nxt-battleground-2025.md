@@ -19,7 +19,9 @@ sentence_history:
     rank: 20
     pageviews: 106611
     lead_sentence: "The 2025 Battleground, also promoted as Battleground: Tampa, was a professional wrestling livestreaming event produced by WWE."
+    lead_paragraph: "The 2025 Battleground, also promoted as Battleground: Tampa, was a professional wrestling livestreaming event produced by WWE."
     sentence_hash: "67067de6d0447fafb29667024447ea933938ad7377ee95268ebe25a0df63b35a"
+    paragraph_hash: "67067de6d0447fafb29667024447ea933938ad7377ee95268ebe25a0df63b35a"
     change_type: "first_seen"
     source_revision_id: 1326566430
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 281206
     lead_sentence: "Zero Day is an American political thriller television miniseries created by Eric Newman, Noah Oppenheim, and Michael Schmidt for Netflix, directed by Lesli Linka Glatter, and featuring an ensemble cast led by Robert De Niro."
+    lead_paragraph: "Zero Day is an American political thriller television miniseries created by Eric Newman, Noah Oppenheim, and Michael Schmidt for Netflix, directed by Lesli Linka Glatter, and featuring an ensemble cast led by Robert De Niro."
     sentence_hash: "536ee7ecd72796414bd136952d2596d274f904b20427c80591e14e10f5a8b1aa"
+    paragraph_hash: "536ee7ecd72796414bd136952d2596d274f904b20427c80591e14e10f5a8b1aa"
     change_type: "first_seen"
     source_revision_id: 1330274934
 ---

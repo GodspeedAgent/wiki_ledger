@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 299812
     lead_sentence: "Álvaro Arbeloa Coca is a Spanish former professional footballer, currently the head coach of La Liga club Real Madrid."
+    lead_paragraph: "Álvaro Arbeloa Coca is a Spanish former professional footballer, currently the head coach of La Liga club Real Madrid."
     sentence_hash: "3185cc4399bb1a405558d263fb34e933b313d1f659d1fb25a7e8a79d064a15e4"
+    paragraph_hash: "3185cc4399bb1a405558d263fb34e933b313d1f659d1fb25a7e8a79d064a15e4"
     change_type: "first_seen"
     source_revision_id: 1337367195
 ---

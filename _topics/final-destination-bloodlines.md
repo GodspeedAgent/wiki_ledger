@@ -19,7 +19,9 @@ sentence_history:
     rank: 23
     pageviews: 82634
     lead_sentence: "Final Destination Bloodlines is a 2025 American supernatural horror film directed by Zach Lipovsky and Adam Stein, and written by Guy Busick and Lori Evans Taylor."
+    lead_paragraph: "Final Destination Bloodlines is a 2025 American supernatural horror film directed by Zach Lipovsky and Adam Stein, and written by Guy Busick and Lori Evans Taylor."
     sentence_hash: "496fc44aa9149c52c395ac81e7700fb49f643631d14a63795a9450d371efbddd"
+    paragraph_hash: "496fc44aa9149c52c395ac81e7700fb49f643631d14a63795a9450d371efbddd"
     change_type: "first_seen"
     source_revision_id: 1336413110
 ---

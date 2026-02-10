@@ -19,7 +19,9 @@ sentence_history:
     rank: 58
     pageviews: 48465
     lead_sentence: "Frank Larry Matthews, also known as Black Caesar, Mark IV and Pee Wee, was an American drug trafficker and crime boss who sold heroin and cocaine throughout the eastern United States from 1965 to 1972."
+    lead_paragraph: "Frank Larry Matthews, also known as Black Caesar, Mark IV and Pee Wee, was an American drug trafficker and crime boss who sold heroin and cocaine throughout the eastern United States from 1965 to 1972."
     sentence_hash: "7c3d4b15515fb0bdb9ae0ca0c2b75d8a352b3dd893e9f2924adeb37cd995663f"
+    paragraph_hash: "7c3d4b15515fb0bdb9ae0ca0c2b75d8a352b3dd893e9f2924adeb37cd995663f"
     change_type: "first_seen"
     source_revision_id: 1326914528
 ---

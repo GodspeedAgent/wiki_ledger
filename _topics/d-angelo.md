@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 939624
     lead_sentence: "Michael Eugene Archer, better known by his stage name D'Angelo, was an American singer, songwriter, multi-instrumentalist, and record producer."
+    lead_paragraph: "Michael Eugene Archer, better known by his stage name D'Angelo, was an American singer, songwriter, multi-instrumentalist, and record producer."
     sentence_hash: "f4540f398d26e56543099c32cb2a69723d7bb956b62be6154d9f553e5f338089"
+    paragraph_hash: "f4540f398d26e56543099c32cb2a69723d7bb956b62be6154d9f553e5f338089"
     change_type: "first_seen"
     source_revision_id: 1337168365
 ---

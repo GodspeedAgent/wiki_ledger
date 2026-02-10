@@ -19,14 +19,18 @@ sentence_history:
     rank: 11
     pageviews: 154892
     lead_sentence: "Sunita Lyn Williams is a retired United States Navy captain and former NASA astronaut."
+    lead_paragraph: "Sunita Lyn Williams is a retired United States Navy captain and former NASA astronaut."
     sentence_hash: "2df96a91fef7a3520983156858bb561d3374ebf44bd55f4a50b95465955ca188"
+    paragraph_hash: "2df96a91fef7a3520983156858bb561d3374ebf44bd55f4a50b95465955ca188"
     change_type: "first_seen"
     source_revision_id: 1335882393
   - date: "2025-03-23"
     rank: 28
     pageviews: 86818
     lead_sentence: "Sunita Lyn Williams is a retired United States Navy captain and former NASA astronaut."
+    lead_paragraph: "Sunita Lyn Williams is a retired United States Navy captain and former NASA astronaut."
     sentence_hash: "2df96a91fef7a3520983156858bb561d3374ebf44bd55f4a50b95465955ca188"
+    paragraph_hash: "2df96a91fef7a3520983156858bb561d3374ebf44bd55f4a50b95465955ca188"
     change_type: "unchanged"
     source_revision_id: 1335882393
 ---

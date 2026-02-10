@@ -19,7 +19,9 @@ sentence_history:
     rank: 43
     pageviews: 50283
     lead_sentence: "The Hunting Wives is an American drama television series based on the novel of the same name by May Cobb."
+    lead_paragraph: "The Hunting Wives is an American drama television series based on the novel of the same name by May Cobb."
     sentence_hash: "3f20eb0d3f742b0286ac1297bb18c44d9f3b52f7196c9a815bacefd403008f6f"
+    paragraph_hash: "3f20eb0d3f742b0286ac1297bb18c44d9f3b52f7196c9a815bacefd403008f6f"
     change_type: "first_seen"
     source_revision_id: 1334177095
 ---

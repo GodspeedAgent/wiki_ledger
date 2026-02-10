@@ -19,7 +19,9 @@ sentence_history:
     rank: 22
     pageviews: 81730
     lead_sentence: "Zhao Xintong is a Chinese professional snooker player and the reigning World Snooker Champion."
+    lead_paragraph: "Zhao Xintong is a Chinese professional snooker player and the reigning World Snooker Champion."
     sentence_hash: "6a562893a08bde951a0ff5adcb82a34baa390f6e7b06a80cc4ef8e12b2061492"
+    paragraph_hash: "6a562893a08bde951a0ff5adcb82a34baa390f6e7b06a80cc4ef8e12b2061492"
     change_type: "first_seen"
     source_revision_id: 1337283843
 ---

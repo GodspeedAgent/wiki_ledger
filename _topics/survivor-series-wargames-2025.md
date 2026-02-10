@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 420997
     lead_sentence: "The 2025 Survivor Series: WarGames, also promoted as Survivor Series: WarGames San Diego, was a professional wrestling pay-per-view (PPV) and livestreaming event produced by WWE."
+    lead_paragraph: "The 2025 Survivor Series: WarGames, also promoted as Survivor Series: WarGames San Diego, was a professional wrestling pay-per-view (PPV) and livestreaming event produced by WWE."
     sentence_hash: "4e4e22816565e72d081e3b9f0fe8f0d4bbb00c49553d29b5fe0a8e188f6e7b94"
+    paragraph_hash: "4e4e22816565e72d081e3b9f0fe8f0d4bbb00c49553d29b5fe0a8e188f6e7b94"
     change_type: "first_seen"
     source_revision_id: 1336568983
 ---

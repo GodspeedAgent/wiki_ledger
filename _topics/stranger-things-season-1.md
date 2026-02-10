@@ -19,7 +19,9 @@ sentence_history:
     rank: 94
     pageviews: 36086
     lead_sentence: "The first season of the American television series Stranger Things premiered worldwide on the streaming service Netflix on July 15, 2016."
+    lead_paragraph: "The first season of the American television series Stranger Things premiered worldwide on the streaming service Netflix on July 15, 2016."
     sentence_hash: "5120b44f05b482593567f2a911d9bfa361f8c2a525e3e2df66d9a4eb794dc80f"
+    paragraph_hash: "5120b44f05b482593567f2a911d9bfa361f8c2a525e3e2df66d9a4eb794dc80f"
     change_type: "first_seen"
     source_revision_id: 1337301357
 ---

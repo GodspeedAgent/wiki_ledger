@@ -19,7 +19,9 @@ sentence_history:
     rank: 9
     pageviews: 258747
     lead_sentence: "Cori Dionne \"Coco\" Gauff is an American professional tennis player."
+    lead_paragraph: "Cori Dionne \\\"Coco\\\" Gauff is an American professional tennis player."
     sentence_hash: "7fab5af85694d101319c0afc49258078d11120af270b62311bb43f59f3d19e69"
+    paragraph_hash: "7fab5af85694d101319c0afc49258078d11120af270b62311bb43f59f3d19e69"
     change_type: "first_seen"
     source_revision_id: 1337062621
 ---

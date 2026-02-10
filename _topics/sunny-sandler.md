@@ -19,7 +19,9 @@ sentence_history:
     rank: 44
     pageviews: 61450
     lead_sentence: "Sunny Madeline Sandler is an American actress."
+    lead_paragraph: "Sunny Madeline Sandler is an American actress."
     sentence_hash: "72189f95748d3d2ba0a773ed9fe4eaa2893d147e11ac438e7867cb5327e70db3"
+    paragraph_hash: "72189f95748d3d2ba0a773ed9fe4eaa2893d147e11ac438e7867cb5327e70db3"
     change_type: "first_seen"
     source_revision_id: 1330466983
 ---

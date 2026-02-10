@@ -19,7 +19,9 @@ sentence_history:
     rank: 69
     pageviews: 97014
     lead_sentence: "Ariana Grande-Butera is an American singer, songwriter, and actress."
+    lead_paragraph: "Ariana Grande-Butera is an American singer, songwriter, and actress."
     sentence_hash: "1f354acd4b9ad2743119e7d196b0fdba756dbafd7d45e80fc9c7d56e639183d1"
+    paragraph_hash: "1f354acd4b9ad2743119e7d196b0fdba756dbafd7d45e80fc9c7d56e639183d1"
     change_type: "first_seen"
     source_revision_id: 1336950263
 ---

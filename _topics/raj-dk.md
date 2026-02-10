@@ -19,7 +19,9 @@ sentence_history:
     rank: 10
     pageviews: 159790
     lead_sentence: "Raj Nidimoru and Krishna Dasarakothapalli, collectively credited as Raj & DK, are an Indian filmmaker duo known for their work as writers, directors, and producers in Hindi cinema."
+    lead_paragraph: "Raj Nidimoru and Krishna Dasarakothapalli, collectively credited as Raj & DK, are an Indian filmmaker duo known for their work as writers, directors, and producers in Hindi cinema."
     sentence_hash: "63fe849b8e2a149cc1cede2ef534fcc58165f6a46db8d0088b6b9dc54ee0a1e6"
+    paragraph_hash: "63fe849b8e2a149cc1cede2ef534fcc58165f6a46db8d0088b6b9dc54ee0a1e6"
     change_type: "first_seen"
     source_revision_id: 1336658729
 ---

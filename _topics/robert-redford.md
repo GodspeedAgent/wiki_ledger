@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 1228931
     lead_sentence: "Charles Robert Redford Jr."
+    lead_paragraph: "Charles Robert Redford Jr."
     sentence_hash: "d6b0063a3f099f6359b5725def7bb65c659363e56131406c6c4f07b9f79fb9c1"
+    paragraph_hash: "d6b0063a3f099f6359b5725def7bb65c659363e56131406c6c4f07b9f79fb9c1"
     change_type: "first_seen"
     source_revision_id: 1334801413
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 1114830
     lead_sentence: "Richard John Hatton, also known by nicknames such as \"The Hitman\", \"The Pride of Hyde\" and the \"People's Champion\", was a British professional boxer who competed between 1997 and 2012, and later worked as a boxing promoter and trainer."
+    lead_paragraph: "Richard John Hatton, also known by nicknames such as \\\"The Hitman\\\", \\\"The Pride of Hyde\\\" and the \\\"People's Champion\\\", was a British professional boxer who competed between 1997 and 2012, and later worked as a boxing promoter and trainer."
     sentence_hash: "2fc54175d32f17517423c50e677335c6a8de78ce800637898d152cfa7007acc8"
+    paragraph_hash: "2fc54175d32f17517423c50e677335c6a8de78ce800637898d152cfa7007acc8"
     change_type: "first_seen"
     source_revision_id: 1336675460
 ---

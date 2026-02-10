@@ -19,14 +19,18 @@ sentence_history:
     rank: 11
     pageviews: 132517
     lead_sentence: "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan, who developed the story with Michael McGrale."
+    lead_paragraph: "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan, who developed the story with Michael McGrale."
     sentence_hash: "b030fa22324ec86b793ecea4e08ccc1ae8cbc81acbff5fb1d7a3cfd4a5f99f6c"
+    paragraph_hash: "b030fa22324ec86b793ecea4e08ccc1ae8cbc81acbff5fb1d7a3cfd4a5f99f6c"
     change_type: "first_seen"
     source_revision_id: 1337198234
   - date: "2026-01-28"
     rank: 41
     pageviews: 66333
     lead_sentence: "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan, who developed the story with Michael McGrale."
+    lead_paragraph: "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan, who developed the story with Michael McGrale."
     sentence_hash: "b030fa22324ec86b793ecea4e08ccc1ae8cbc81acbff5fb1d7a3cfd4a5f99f6c"
+    paragraph_hash: "b030fa22324ec86b793ecea4e08ccc1ae8cbc81acbff5fb1d7a3cfd4a5f99f6c"
     change_type: "unchanged"
     source_revision_id: 1337198234
 ---

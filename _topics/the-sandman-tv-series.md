@@ -19,7 +19,9 @@ sentence_history:
     rank: 49
     pageviews: 70674
     lead_sentence: "The Sandman is an American fantasy drama television series based on the 1989–1996 comic book written by Neil Gaiman and published by DC Comics."
+    lead_paragraph: "The Sandman is an American fantasy drama television series based on the 1989–1996 comic book written by Neil Gaiman and published by DC Comics."
     sentence_hash: "91b896ccaa11e4f67f5af28e0cc18359459ded97a6d54d2c3838284b2cac06b5"
+    paragraph_hash: "91b896ccaa11e4f67f5af28e0cc18359459ded97a6d54d2c3838284b2cac06b5"
     change_type: "first_seen"
     source_revision_id: 1337049969
 ---

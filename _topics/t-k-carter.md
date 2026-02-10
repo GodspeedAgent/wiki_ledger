@@ -19,7 +19,9 @@ sentence_history:
     rank: 14
     pageviews: 148042
     lead_sentence: "Thomas Kent Carter was an American actor best known for his roles in the films Corvette Summer (1978), Southern Comfort (1981), The Thing (1982), Doctor Detroit (1983), Runaway Train (1985), Space Jam (1996) and The Corner (2000), as well as for the TV series Just Our Luck, Punky Brewster, The Sinbad Show, Dave, and Good Morning, Miss Bliss, also known as Saved by the Bell: The Junior High Years."
+    lead_paragraph: "Thomas Kent Carter was an American actor best known for his roles in the films Corvette Summer (1978), Southern Comfort (1981), The Thing (1982), Doctor Detroit (1983), Runaway Train (1985), Space Jam (1996) and The Corner (2000), as well as for the TV series Just Our Luck, Punky Brewster, The Sinbad Show, Dave, and Good Morning, Miss Bliss, also known as Saved by the Bell: The Junior High Years."
     sentence_hash: "968b2dddcfffc74a01811b20bcfb5b638c64cacc78a695019ab04988d474a738"
+    paragraph_hash: "968b2dddcfffc74a01811b20bcfb5b638c64cacc78a695019ab04988d474a738"
     change_type: "first_seen"
     source_revision_id: 1337365455
 ---

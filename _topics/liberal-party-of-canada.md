@@ -19,7 +19,9 @@ sentence_history:
     rank: 92
     pageviews: 34653
     lead_sentence: "The Liberal Party of Canada is a federal political party in Canada."
+    lead_paragraph: "The Liberal Party of Canada is a federal political party in Canada."
     sentence_hash: "2e0cfb5da2ca111499420ec3f029b10a5923bc1b813d6b9f1297b025ad150b55"
+    paragraph_hash: "2e0cfb5da2ca111499420ec3f029b10a5923bc1b813d6b9f1297b025ad150b55"
     change_type: "first_seen"
     source_revision_id: 1337350139
 ---

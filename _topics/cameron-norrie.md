@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 138834
     lead_sentence: "Cameron Norrie is a British professional tennis player."
+    lead_paragraph: "Cameron Norrie is a British professional tennis player."
     sentence_hash: "da9e7219f65bb58c83115f11093ce6288224bc8f12a49c278effaf3a6f280829"
+    paragraph_hash: "da9e7219f65bb58c83115f11093ce6288224bc8f12a49c278effaf3a6f280829"
     change_type: "first_seen"
     source_revision_id: 1337215738
 ---

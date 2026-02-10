@@ -19,7 +19,9 @@ sentence_history:
     rank: 85
     pageviews: 46895
     lead_sentence: "Prakash Varma is an Indian filmmaker who is known for directing and producing advertisement campaigns."
+    lead_paragraph: "Prakash Varma is an Indian filmmaker who is known for directing and producing advertisement campaigns."
     sentence_hash: "0b48e680350678ed84b11947b23f54cd61234e33fd2e466e2798a5d5e0472f48"
+    paragraph_hash: "0b48e680350678ed84b11947b23f54cd61234e33fd2e466e2798a5d5e0472f48"
     change_type: "first_seen"
     source_revision_id: 1312218950
 ---

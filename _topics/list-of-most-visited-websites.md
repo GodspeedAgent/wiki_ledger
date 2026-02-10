@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 1624950
     lead_sentence: "This is a list of most-visited websites worldwide as of December 2025, along with their change in ranking compared to the previous month."
+    lead_paragraph: "This is a list of most-visited websites worldwide as of December 2025, along with their change in ranking compared to the previous month."
     sentence_hash: "fd8a81943250cfcd10d01a046707a6a6f1188b506af2a4dd0daf3548ac277502"
+    paragraph_hash: "fd8a81943250cfcd10d01a046707a6a6f1188b506af2a4dd0daf3548ac277502"
     change_type: "first_seen"
     source_revision_id: 1337242938
 ---

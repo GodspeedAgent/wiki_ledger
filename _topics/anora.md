@@ -19,7 +19,9 @@ sentence_history:
     rank: 36
     pageviews: 58224
     lead_sentence: "Anora is a 2024 American romantic comedy-drama film written, directed, produced, and edited by Sean Baker."
+    lead_paragraph: "Anora is a 2024 American romantic comedy-drama film written, directed, produced, and edited by Sean Baker."
     sentence_hash: "bd31bcb4959081a8531a1a84a9f3e4477a97bcaa862dd7859a02ad4d96f85943"
+    paragraph_hash: "bd31bcb4959081a8531a1a84a9f3e4477a97bcaa862dd7859a02ad4d96f85943"
     change_type: "first_seen"
     source_revision_id: 1335586691
 ---

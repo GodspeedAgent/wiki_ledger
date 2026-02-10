@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 150832
     lead_sentence: "Ivan Eric Raiklin is an American far-right political operative, constitutional lawyer, and former Army reservist."
+    lead_paragraph: "Ivan Eric Raiklin is an American far-right political operative, constitutional lawyer, and former Army reservist."
     sentence_hash: "7d2ec7f4dabd8c212464009a923ccdda68af2a90314f38c4cc50c1ea23d16bbc"
+    paragraph_hash: "7d2ec7f4dabd8c212464009a923ccdda68af2a90314f38c4cc50c1ea23d16bbc"
     change_type: "first_seen"
     source_revision_id: 1335579872
 ---

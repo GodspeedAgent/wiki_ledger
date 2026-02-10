@@ -19,7 +19,9 @@ sentence_history:
     rank: 40
     pageviews: 51420
     lead_sentence: "Lindsay Dee Lohan is an American actress, singer, and songwriter."
+    lead_paragraph: "Lindsay Dee Lohan is an American actress, singer, and songwriter."
     sentence_hash: "6bc84ddb3d080c162bbcfca44477a38585c763b58b3f8426ea026dae2be3ea1d"
+    paragraph_hash: "6bc84ddb3d080c162bbcfca44477a38585c763b58b3f8426ea026dae2be3ea1d"
     change_type: "first_seen"
     source_revision_id: 1332104942
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 97
     pageviews: 34232
     lead_sentence: "The Eurovision Song Contest 2025 was the 69th edition of the Eurovision Song Contest."
+    lead_paragraph: "The Eurovision Song Contest 2025 was the 69th edition of the Eurovision Song Contest."
     sentence_hash: "a1919a5c0cf4563a2f93d8d4aaef307222b0c7623bdbbb96e76075455fbf3398"
+    paragraph_hash: "a1919a5c0cf4563a2f93d8d4aaef307222b0c7623bdbbb96e76075455fbf3398"
     change_type: "first_seen"
     source_revision_id: 1337038059
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 226680
     lead_sentence: "The One Big Beautiful Bill Act (OBBBA) or the Big Beautiful Bill, is a U.S."
+    lead_paragraph: "The One Big Beautiful Bill Act (OBBBA) or the Big Beautiful Bill, is a U.S."
     sentence_hash: "046a0539aa63d554a446b52ad3e700dc3cecdf9e159eefd28f6ab7cb7bfc0842"
+    paragraph_hash: "046a0539aa63d554a446b52ad3e700dc3cecdf9e159eefd28f6ab7cb7bfc0842"
     change_type: "first_seen"
     source_revision_id: 1335869618
 ---

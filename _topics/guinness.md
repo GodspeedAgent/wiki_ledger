@@ -19,7 +19,9 @@ sentence_history:
     rank: 83
     pageviews: 37475
     lead_sentence: "Guinness is a stout that originated in the brewery of Arthur Guinness at St."
+    lead_paragraph: "Guinness is a stout that originated in the brewery of Arthur Guinness at St."
     sentence_hash: "000c1921459e577e5d36a65280800e7898d06fe9d5178605aab72e814e68fc7a"
+    paragraph_hash: "000c1921459e577e5d36a65280800e7898d06fe9d5178605aab72e814e68fc7a"
     change_type: "first_seen"
     source_revision_id: 1336053253
 ---

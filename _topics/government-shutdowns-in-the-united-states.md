@@ -19,7 +19,9 @@ sentence_history:
     rank: 20
     pageviews: 104499
     lead_sentence: "In the United States, a government shutdown, officially known as a lapse in appropriations, occurs when funding legislation required to finance the federal government is not enacted before the next fiscal year begins."
+    lead_paragraph: "In the United States, a government shutdown, officially known as a lapse in appropriations, occurs when funding legislation required to finance the federal government is not enacted before the next fiscal year begins."
     sentence_hash: "c039bfd3823752e8b678b441631b507c640e16edd03215ba69215faaa4e9bdfb"
+    paragraph_hash: "c039bfd3823752e8b678b441631b507c640e16edd03215ba69215faaa4e9bdfb"
     change_type: "first_seen"
     source_revision_id: 1336583490
 ---

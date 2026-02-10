@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 313188
     lead_sentence: "\"The Fourteen Words\" is a reference to two slogans originated by the American neo-Nazi David Eden Lane, one of nine founding members of the defunct white supremacist terrorist organization The Order, and are accompanied by Lane's \"88 Precepts\"."
+    lead_paragraph: "\\\"The Fourteen Words\\\" is a reference to two slogans originated by the American neo-Nazi David Eden Lane, one of nine founding members of the defunct white supremacist terrorist organization The Order, and are accompanied by Lane's \\\"88 Precepts\\\"."
     sentence_hash: "91d276f95843a0612e7c52d0d9be8e3ec977b127e4bad5e69f8c449a836c20df"
+    paragraph_hash: "91d276f95843a0612e7c52d0d9be8e3ec977b127e4bad5e69f8c449a836c20df"
     change_type: "first_seen"
     source_revision_id: 1332063079
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 13
     pageviews: 155310
     lead_sentence: "A Christmas Story is a 1983 Christmas comedy film directed by Bob Clark and based on the 1966 book In God We Trust: All Others Pay Cash by Jean Shepherd, with some elements from his 1971 book Wanda Hickey's Night of Golden Memories and Other Disasters."
+    lead_paragraph: "A Christmas Story is a 1983 Christmas comedy film directed by Bob Clark and based on the 1966 book In God We Trust: All Others Pay Cash by Jean Shepherd, with some elements from his 1971 book Wanda Hickey's Night of Golden Memories and Other Disasters."
     sentence_hash: "c53d43f74b83c0b7958c04401ea722905767aabf34ac344b00dcae473c3ad990"
+    paragraph_hash: "c53d43f74b83c0b7958c04401ea722905767aabf34ac344b00dcae473c3ad990"
     change_type: "first_seen"
     source_revision_id: 1334483365
 ---

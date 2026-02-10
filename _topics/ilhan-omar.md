@@ -19,7 +19,9 @@ sentence_history:
     rank: 88
     pageviews: 39468
     lead_sentence: "Ilhan Abdullahi Omar is an American politician serving as the U.S."
+    lead_paragraph: "Ilhan Abdullahi Omar is an American politician serving as the U.S."
     sentence_hash: "d2f4b6346c649ac4b10229c1b88c12d1da5b4cc515ed05b495245899372b62b8"
+    paragraph_hash: "d2f4b6346c649ac4b10229c1b88c12d1da5b4cc515ed05b495245899372b62b8"
     change_type: "first_seen"
     source_revision_id: 1336228196
 ---

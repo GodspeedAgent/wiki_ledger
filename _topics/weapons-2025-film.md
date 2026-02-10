@@ -19,7 +19,9 @@ sentence_history:
     rank: 35
     pageviews: 69000
     lead_sentence: "Weapons is a 2025 American mystery horror film directed, written, produced, and co-scored by Zach Cregger."
+    lead_paragraph: "Weapons is a 2025 American mystery horror film directed, written, produced, and co-scored by Zach Cregger."
     sentence_hash: "b78131ef5229e8c53617e491abe348abec887327e498ad38ca1438a7f2808f96"
+    paragraph_hash: "b78131ef5229e8c53617e491abe348abec887327e498ad38ca1438a7f2808f96"
     change_type: "first_seen"
     source_revision_id: 1337163827
 ---

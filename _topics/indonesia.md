@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 302934
     lead_sentence: "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania, between the Indian and Pacific oceans."
+    lead_paragraph: "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania, between the Indian and Pacific oceans."
     sentence_hash: "4c761b023cbabff087fb69d5cd535d91dc81c23f3f0f88bb2b4aef917035b230"
+    paragraph_hash: "4c761b023cbabff087fb69d5cd535d91dc81c23f3f0f88bb2b4aef917035b230"
     change_type: "first_seen"
     source_revision_id: 1337267223
 ---

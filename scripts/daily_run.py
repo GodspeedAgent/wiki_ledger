@@ -65,8 +65,18 @@ def is_normal(title: str) -> bool:
     return True
 
 
-def first_declarative(extract: str) -> str | None:
-    text = re.sub(r"\s+", " ", (extract or "").strip())
+def first_paragraph(extract: str) -> str:
+    raw = (extract or "").strip()
+    if not raw:
+        return ""
+    parts = re.split(r"\n\s*\n", raw)
+    para = parts[0] if parts else raw
+    para = para.split("\n", 1)[0]
+    return re.sub(r"\s+", " ", para).strip()
+
+
+def first_declarative(paragraph: str) -> str | None:
+    text = re.sub(r"\s+", " ", (paragraph or "").strip())
     for m in re.finditer(r"\.(?:\s|$)", text):
         sent = text[: m.end()].strip()
         if len(sent) < 20:
@@ -199,22 +209,23 @@ def main():
         url_sum = f"https://{LANG}.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(article, safe='')}"
         sumj, trace_sum, code = get_json(session, url_sum)
         if code == 200:
-            sent = first_declarative(sumj.get("extract"))
-            if sent:
+            lead_paragraph = first_paragraph(sumj.get("extract"))
+            sent = first_declarative(lead_paragraph)
+            if sent and lead_paragraph:
                 lead_sentence = sent
                 break
 
         rng2 = random.Random(int(today.strftime("%Y%m%d")) + attempts)
         pick = rng2.choices(cand, weights=weights, k=1)[0]
 
-    picks = [(pick, sumj, trace_sum, lead_sentence)]
+    picks = [(pick, sumj, trace_sum, lead_sentence, lead_paragraph)]
 
     # Create entries and update topics incrementally
     # NOTE: topic pages are append-only; sentence_changed compares to last occurrence in that topic.
 
     # index.md is liquid-driven; no need to append.
 
-    for pick, sumj, trace_sum, lead_sentence in picks:
+    for pick, sumj, trace_sum, lead_sentence, lead_paragraph in picks:
         rank = int(pick["rank"])
         pageviews = int(pick["views"])
 
@@ -238,6 +249,8 @@ def main():
 
         sentence_hash = hashlib.sha256(lead_sentence.encode("utf-8")).hexdigest()
         sentence_length = len(lead_sentence)
+        paragraph_hash = hashlib.sha256((lead_paragraph or "").encode("utf-8")).hexdigest()
+        paragraph_length = len(lead_paragraph or "")
 
         # Tagging (heuristic; must not mention AI/LLMs on-site)
         tag_text = " ".join([canonical_title or "", desc or "", lead_sentence or ""]).lower()
@@ -378,8 +391,11 @@ def main():
             yaml_kv("first_seen", first_seen.isoformat()),
             yaml_kv("days_since_last_seen", days_since_last_seen),
             yaml_kv("lead_sentence", lead_sentence),
+            yaml_kv("lead_paragraph", lead_paragraph),
             yaml_kv("sentence_hash", sentence_hash),
+            yaml_kv("paragraph_hash", paragraph_hash),
             yaml_kv("sentence_length", sentence_length),
+            yaml_kv("paragraph_length", paragraph_length),
             yaml_kv("sentence_changed", bool(sentence_changed)),
             yaml_kv("change_type", change_type),
             yaml_kv("source_revision_id", rev_id),

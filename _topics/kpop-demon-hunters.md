@@ -19,7 +19,9 @@ sentence_history:
     rank: 18
     pageviews: 79983
     lead_sentence: "KPop Demon Hunters is a 2025 American animated musical urban fantasy film co-written and directed by Maggie Kang and Chris Appelhans."
+    lead_paragraph: "KPop Demon Hunters is a 2025 American animated musical urban fantasy film co-written and directed by Maggie Kang and Chris Appelhans."
     sentence_hash: "4e92c8754039462b1b3a5a83695c85d4a1a7d22b88ceaef122dd92692cd52e07"
+    paragraph_hash: "4e92c8754039462b1b3a5a83695c85d4a1a7d22b88ceaef122dd92692cd52e07"
     change_type: "first_seen"
     source_revision_id: 1337104663
 ---

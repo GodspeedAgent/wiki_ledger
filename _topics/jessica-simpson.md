@@ -19,7 +19,9 @@ sentence_history:
     rank: 44
     pageviews: 62441
     lead_sentence: "Jessica Ann Johnson is an American singer, actress, and fashion designer."
+    lead_paragraph: "Jessica Ann Johnson is an American singer, actress, and fashion designer."
     sentence_hash: "3bc69b20c8e3be719f25e0ca01ebaa7fb148cd3add771210dbeeaa5f682a5e1d"
+    paragraph_hash: "3bc69b20c8e3be719f25e0ca01ebaa7fb148cd3add771210dbeeaa5f682a5e1d"
     change_type: "first_seen"
     source_revision_id: 1336465442
 ---

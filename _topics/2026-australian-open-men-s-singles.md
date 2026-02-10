@@ -19,7 +19,9 @@ sentence_history:
     rank: 65
     pageviews: 51437
     lead_sentence: "Carlos Alcaraz defeated Novak Djokovic in the final, 2–6, 6–2, 6–3, 7–5 to win the men's singles tennis title at the 2026 Australian Open."
+    lead_paragraph: "Carlos Alcaraz defeated Novak Djokovic in the final, 2–6, 6–2, 6–3, 7–5 to win the men's singles tennis title at the 2026 Australian Open."
     sentence_hash: "469adf14d7031a2e7f3827ed7b55f02d51e0dca6c24d0467d94d9d5686809a68"
+    paragraph_hash: "469adf14d7031a2e7f3827ed7b55f02d51e0dca6c24d0467d94d9d5686809a68"
     change_type: "first_seen"
     source_revision_id: 1337236984
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 17
     pageviews: 161345
     lead_sentence: "Bob Dylan is an American singer-songwriter."
+    lead_paragraph: "Bob Dylan is an American singer-songwriter."
     sentence_hash: "bd7ce089e27f2fb8fb97a76e076ba627363acc54136b255b4484b4d630e9b93c"
+    paragraph_hash: "bd7ce089e27f2fb8fb97a76e076ba627363acc54136b255b4484b4d630e9b93c"
     change_type: "first_seen"
     source_revision_id: 1337287028
 ---

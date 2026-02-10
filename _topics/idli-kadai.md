@@ -19,7 +19,9 @@ sentence_history:
     rank: 97
     pageviews: 41661
     lead_sentence: "Idli Kadai is a 2025 Indian Tamil-language drama film written, directed and co-produced by Dhanush under Wunderbar Films, in association with Dawn Pictures."
+    lead_paragraph: "Idli Kadai is a 2025 Indian Tamil-language drama film written, directed and co-produced by Dhanush under Wunderbar Films, in association with Dawn Pictures."
     sentence_hash: "d250a08d6058df7875724d9a848060bbe95154874e2e0aeb4b9cfcefd8f3de4b"
+    paragraph_hash: "d250a08d6058df7875724d9a848060bbe95154874e2e0aeb4b9cfcefd8f3de4b"
     change_type: "first_seen"
     source_revision_id: 1336192535
 ---

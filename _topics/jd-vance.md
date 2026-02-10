@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 300576
     lead_sentence: "James David Vance is an American politician and author serving as the 50th vice president of the United States."
+    lead_paragraph: "James David Vance is an American politician and author serving as the 50th vice president of the United States."
     sentence_hash: "496f6eeacdd6c2323fae93e5aad57cd46792f9251ec7c68e401299d8822fbb6a"
+    paragraph_hash: "496f6eeacdd6c2323fae93e5aad57cd46792f9251ec7c68e401299d8822fbb6a"
     change_type: "first_seen"
     source_revision_id: 1337105310
 ---

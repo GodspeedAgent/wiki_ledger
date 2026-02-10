@@ -19,7 +19,9 @@ sentence_history:
     rank: 3
     pageviews: 354525
     lead_sentence: "Carson Raine Beck is an American college football quarterback for the Miami Hurricanes."
+    lead_paragraph: "Carson Raine Beck is an American college football quarterback for the Miami Hurricanes."
     sentence_hash: "5cbd1c0ed175b2847de5b7c3379cf1d7433d6d8022b38de793a3da7ad0a2ee33"
+    paragraph_hash: "5cbd1c0ed175b2847de5b7c3379cf1d7433d6d8022b38de793a3da7ad0a2ee33"
     change_type: "first_seen"
     source_revision_id: 1336846404
 ---

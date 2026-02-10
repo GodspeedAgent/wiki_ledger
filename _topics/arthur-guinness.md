@@ -19,7 +19,9 @@ sentence_history:
     rank: 58
     pageviews: 55820
     lead_sentence: "Arthur Guinness was an Irish brewer, entrepreneur, and philanthropist."
+    lead_paragraph: "Arthur Guinness was an Irish brewer, entrepreneur, and philanthropist."
     sentence_hash: "fcbf1f96d98f15381a7c99fc610dcaa032f9901bda34c4896840efa8ada2b25d"
+    paragraph_hash: "fcbf1f96d98f15381a7c99fc610dcaa032f9901bda34c4896840efa8ada2b25d"
     change_type: "first_seen"
     source_revision_id: 1329560408
 ---

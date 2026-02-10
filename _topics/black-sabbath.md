@@ -19,7 +19,9 @@ sentence_history:
     rank: 68
     pageviews: 43392
     lead_sentence: "Black Sabbath were an English heavy metal band formed in Birmingham in 1968 by guitarist Tony Iommi, drummer Bill Ward, bassist Geezer Butler and vocalist Ozzy Osbourne."
+    lead_paragraph: "Black Sabbath were an English heavy metal band formed in Birmingham in 1968 by guitarist Tony Iommi, drummer Bill Ward, bassist Geezer Butler and vocalist Ozzy Osbourne."
     sentence_hash: "b5b9e3eb5cc949d9b982c24dfbcd62fdbcf7ebeec27d1bf9619dbe23230e0545"
+    paragraph_hash: "b5b9e3eb5cc949d9b982c24dfbcd62fdbcf7ebeec27d1bf9619dbe23230e0545"
     change_type: "first_seen"
     source_revision_id: 1333499907
 ---

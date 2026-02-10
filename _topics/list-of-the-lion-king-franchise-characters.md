@@ -19,7 +19,9 @@ sentence_history:
     rank: 26
     pageviews: 77280
     lead_sentence: "The following is a list of characters appearing in Disney's The Lion King franchise."
+    lead_paragraph: "The following is a list of characters appearing in Disney's The Lion King franchise."
     sentence_hash: "b194606a03c4605d085a6c315ef8021d45573173f3681d748013fe13b5397c31"
+    paragraph_hash: "b194606a03c4605d085a6c315ef8021d45573173f3681d748013fe13b5397c31"
     change_type: "first_seen"
     source_revision_id: 1335693512
 ---

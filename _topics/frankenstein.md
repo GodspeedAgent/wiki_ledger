@@ -19,7 +19,9 @@ sentence_history:
     rank: 32
     pageviews: 87064
     lead_sentence: "Frankenstein; or, The Modern Prometheus is an 1818 Gothic novel written by English author Mary Shelley."
+    lead_paragraph: "Frankenstein; or, The Modern Prometheus is an 1818 Gothic novel written by English author Mary Shelley."
     sentence_hash: "3283b6939a1cba3b1395463cff7c88a7e74ac27ba1bce40adb8bee671662ee34"
+    paragraph_hash: "3283b6939a1cba3b1395463cff7c88a7e74ac27ba1bce40adb8bee671662ee34"
     change_type: "first_seen"
     source_revision_id: 1336673293
 ---

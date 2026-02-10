@@ -19,35 +19,45 @@ sentence_history:
     rank: 7
     pageviews: 183869
     lead_sentence: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
+    lead_paragraph: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
     sentence_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
+    paragraph_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
     change_type: "first_seen"
     source_revision_id: 1336650734
   - date: "2025-10-06"
     rank: 2
     pageviews: 2711994
     lead_sentence: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
+    lead_paragraph: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
     sentence_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
+    paragraph_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
     change_type: "unchanged"
     source_revision_id: 1336650734
   - date: "2025-10-08"
     rank: 2
     pageviews: 1950675
     lead_sentence: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
+    lead_paragraph: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
     sentence_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
+    paragraph_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
     change_type: "unchanged"
     source_revision_id: 1336650734
   - date: "2025-10-20"
     rank: 3
     pageviews: 578340
     lead_sentence: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
+    lead_paragraph: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
     sentence_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
+    paragraph_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
     change_type: "unchanged"
     source_revision_id: 1336650734
   - date: "2025-10-23"
     rank: 4
     pageviews: 326205
     lead_sentence: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
+    lead_paragraph: "Edward Theodore Gein, also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher."
     sentence_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
+    paragraph_hash: "00cdd6e785b98df15ab0395c526c8f6d69ae2eef8605c3028d7cfe8f7ed20d82"
     change_type: "unchanged"
     source_revision_id: 1336650734
 ---

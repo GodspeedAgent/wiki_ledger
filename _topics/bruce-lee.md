@@ -19,7 +19,9 @@ sentence_history:
     rank: 12
     pageviews: 126697
     lead_sentence: "Bruce Lee was a Hong Kong and American martial artist, actor, and filmmaker."
+    lead_paragraph: "Bruce Lee was a Hong Kong and American martial artist, actor, and filmmaker."
     sentence_hash: "9cb79bd3f165a02317a03c799363fe7e80722b8c32829ad625dc80fa31c87a4b"
+    paragraph_hash: "9cb79bd3f165a02317a03c799363fe7e80722b8c32829ad625dc80fa31c87a4b"
     change_type: "first_seen"
     source_revision_id: 1336822472
 ---

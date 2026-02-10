@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 291168
     lead_sentence: "The Indus Waters Treaty (IWT) is a water-distribution treaty between India and Pakistan to use the water available in the Indus River system in the territories of the two countries."
+    lead_paragraph: "The Indus Waters Treaty (IWT) is a water-distribution treaty between India and Pakistan to use the water available in the Indus River system in the territories of the two countries."
     sentence_hash: "8a5f8f28409123d0295555fb991410852a2181068de20a7106939f3b249157de"
+    paragraph_hash: "8a5f8f28409123d0295555fb991410852a2181068de20a7106939f3b249157de"
     change_type: "first_seen"
     source_revision_id: 1324043166
 ---

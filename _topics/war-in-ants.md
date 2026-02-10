@@ -19,7 +19,9 @@ sentence_history:
     rank: 82
     pageviews: 32607
     lead_sentence: "Wars or conflicts can break out between different groups in some ant species for a variety of reasons."
+    lead_paragraph: "Wars or conflicts can break out between different groups in some ant species for a variety of reasons."
     sentence_hash: "87c59b3ef071746907aa6d5ed934bc1efb33f54ad7df92458aa27feeb1164e34"
+    paragraph_hash: "87c59b3ef071746907aa6d5ed934bc1efb33f54ad7df92458aa27feeb1164e34"
     change_type: "first_seen"
     source_revision_id: 1314855142
 ---

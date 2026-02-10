@@ -19,7 +19,9 @@ sentence_history:
     rank: 90
     pageviews: 40452
     lead_sentence: "Leslie William Nielsen was a Canadian-American actor and comedian."
+    lead_paragraph: "Leslie William Nielsen was a Canadian-American actor and comedian."
     sentence_hash: "4806e26a4fe404fefcc2b1b389e8e6441f32c088e677e71dc9f211b2dc2cb544"
+    paragraph_hash: "4806e26a4fe404fefcc2b1b389e8e6441f32c088e677e71dc9f211b2dc2cb544"
     change_type: "first_seen"
     source_revision_id: 1334451181
 ---

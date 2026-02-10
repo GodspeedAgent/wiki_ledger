@@ -19,7 +19,9 @@ sentence_history:
     rank: 39
     pageviews: 96059
     lead_sentence: "Jack William Nicklaus, nicknamed \"the Golden Bear\", is an American retired professional golfer and golf course designer."
+    lead_paragraph: "Jack William Nicklaus, nicknamed \\\"the Golden Bear\\\", is an American retired professional golfer and golf course designer."
     sentence_hash: "197541f965d941e5364aa50440e8ee09e0e79e63448678a14d3bac3db84ff90c"
+    paragraph_hash: "197541f965d941e5364aa50440e8ee09e0e79e63448678a14d3bac3db84ff90c"
     change_type: "first_seen"
     source_revision_id: 1334227590
 ---

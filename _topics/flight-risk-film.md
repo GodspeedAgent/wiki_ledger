@@ -19,7 +19,9 @@ sentence_history:
     rank: 80
     pageviews: 53316
     lead_sentence: "Flight Risk is a 2025 American action thriller film directed by Mel Gibson, and starring Mark Wahlberg, Michelle Dockery, and Topher Grace."
+    lead_paragraph: "Flight Risk is a 2025 American action thriller film directed by Mel Gibson, and starring Mark Wahlberg, Michelle Dockery, and Topher Grace."
     sentence_hash: "06912ae39500ad17537b26f0ea72f2716f306b59359a257b36dbac96375ea08e"
+    paragraph_hash: "06912ae39500ad17537b26f0ea72f2716f306b59359a257b36dbac96375ea08e"
     change_type: "first_seen"
     source_revision_id: 1337170363
 ---

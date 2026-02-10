@@ -19,7 +19,9 @@ sentence_history:
     rank: 50
     pageviews: 48741
     lead_sentence: "Eugenie \"Genie\" Bouchard is a Canadian former professional tennis player and current pickleball player."
+    lead_paragraph: "Eugenie \\\"Genie\\\" Bouchard is a Canadian former professional tennis player and current pickleball player."
     sentence_hash: "4fe0eeb5fe6992408d5430f6c75186e2b675509efb3f85bfd6ee82db76d7e4af"
+    paragraph_hash: "4fe0eeb5fe6992408d5430f6c75186e2b675509efb3f85bfd6ee82db76d7e4af"
     change_type: "first_seen"
     source_revision_id: 1333738692
 ---

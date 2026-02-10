@@ -19,7 +19,9 @@ sentence_history:
     rank: 30
     pageviews: 102336
     lead_sentence: "Pluribus is an American post-apocalyptic science fiction television series created by Vince Gilligan for Apple TV."
+    lead_paragraph: "Pluribus is an American post-apocalyptic science fiction television series created by Vince Gilligan for Apple TV."
     sentence_hash: "7b82fc925bd0b0def067ad10d9bbe1cd9d65fe72ca08e351d376b188247d46ef"
+    paragraph_hash: "7b82fc925bd0b0def067ad10d9bbe1cd9d65fe72ca08e351d376b188247d46ef"
     change_type: "first_seen"
     source_revision_id: 1337066613
 ---

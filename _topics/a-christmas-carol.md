@@ -19,7 +19,9 @@ sentence_history:
     rank: 69
     pageviews: 46975
     lead_sentence: "A Christmas Carol. In Prose."
+    lead_paragraph: "A Christmas Carol. In Prose."
     sentence_hash: "ee6821b85bb4bbddc7a92271c17aa9b0418171bbd0790c655eee0b0e5ad1fad3"
+    paragraph_hash: "ee6821b85bb4bbddc7a92271c17aa9b0418171bbd0790c655eee0b0e5ad1fad3"
     change_type: "first_seen"
     source_revision_id: 1336572387
 ---

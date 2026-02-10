@@ -19,7 +19,9 @@ sentence_history:
     rank: 42
     pageviews: 58464
     lead_sentence: "Luka Dončić is a Slovenian professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA)."
+    lead_paragraph: "Luka Dončić is a Slovenian professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA)."
     sentence_hash: "a051f8e0ba20a4419abf5206665765a9eed048b109d72a2b1c825dbb5972fc89"
+    paragraph_hash: "a051f8e0ba20a4419abf5206665765a9eed048b109d72a2b1c825dbb5972fc89"
     change_type: "first_seen"
     source_revision_id: 1336644694
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 228747
     lead_sentence: "Housefull 5 is a 2025 Indian Hindi-language comedy thriller film co-written and directed by Tarun Mansukhani and produced by Sajid Nadiadwala, Warda Nadiadwala and Firuzi Khan under production banner Nadiadwala Grandson Entertainment."
+    lead_paragraph: "Housefull 5 is a 2025 Indian Hindi-language comedy thriller film co-written and directed by Tarun Mansukhani and produced by Sajid Nadiadwala, Warda Nadiadwala and Firuzi Khan under production banner Nadiadwala Grandson Entertainment."
     sentence_hash: "9833620527a4a01cfb1928154d07545eb545b078fce3d8a2363e6b1c61e18577"
+    paragraph_hash: "9833620527a4a01cfb1928154d07545eb545b078fce3d8a2363e6b1c61e18577"
     change_type: "first_seen"
     source_revision_id: 1337021452
 ---

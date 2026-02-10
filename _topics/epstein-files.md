@@ -19,14 +19,18 @@ sentence_history:
     rank: 7
     pageviews: 386025
     lead_sentence: "The Epstein files are a collection of millions of documents, images and videos detailing the criminal activities of American financier and convicted child sex offender Jeffrey Epstein, including his social circle of public figures, politicians and celebrities."
+    lead_paragraph: "The Epstein files are a collection of millions of documents, images and videos detailing the criminal activities of American financier and convicted child sex offender Jeffrey Epstein, including his social circle of public figures, politicians and celebrities."
     sentence_hash: "5797108a0bbaf20a2480e4ac677ce78c90cd847bac7b1dee2c4bb7e6632c12f8"
+    paragraph_hash: "5797108a0bbaf20a2480e4ac677ce78c90cd847bac7b1dee2c4bb7e6632c12f8"
     change_type: "first_seen"
     source_revision_id: 1337368274
   - date: "2026-02-07"
     rank: 4
     pageviews: 804242
     lead_sentence: "The Epstein files are a collection of millions of documents, images and videos detailing the criminal activities of American financier and convicted child sex offender Jeffrey Epstein, including his social circle of public figures, politicians and celebrities."
+    lead_paragraph: "The Epstein files are a collection of millions of documents, images and videos detailing the criminal activities of American financier and convicted child sex offender Jeffrey Epstein, including his social circle of public figures, politicians and celebrities."
     sentence_hash: "5797108a0bbaf20a2480e4ac677ce78c90cd847bac7b1dee2c4bb7e6632c12f8"
+    paragraph_hash: "5797108a0bbaf20a2480e4ac677ce78c90cd847bac7b1dee2c4bb7e6632c12f8"
     change_type: "unchanged"
     source_revision_id: 1337368274
 ---

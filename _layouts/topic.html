@@ -20,7 +20,9 @@ layout: default
       {% for item in page.sentence_history %}
         <div class="card">
           <div class="kicker">{{ item.date }} · Rank {{ item.rank }} · {{ item.pageviews }} views</div>
-          <p class="sentence__text" data-diff-target>{{ item.lead_sentence }}</p>
+          <p class="sentence__text" data-diff-target>
+            {% if item.lead_paragraph %}{{ item.lead_paragraph }}{% else %}{{ item.lead_sentence }}{% endif %}
+          </p>
           <div class="muted small">{{ item.change_type }}{% if item.source_revision_id %} · rev {{ item.source_revision_id }}{% endif %}</div>
         </div>
       {% endfor %}

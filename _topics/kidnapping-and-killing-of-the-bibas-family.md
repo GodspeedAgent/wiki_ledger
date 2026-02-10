@@ -19,7 +19,9 @@ sentence_history:
     rank: 69
     pageviews: 52596
     lead_sentence: "During the Nir Oz attack, part of the 7 October 2023 attacks that began the Gaza war, Palestinian militants kidnapped the Bibas family from their home at the Nir Oz kibbutz in southern Israel."
+    lead_paragraph: "During the Nir Oz attack, part of the 7 October 2023 attacks that began the Gaza war, Palestinian militants kidnapped the Bibas family from their home at the Nir Oz kibbutz in southern Israel."
     sentence_hash: "23878ce6b6fbc0bd139be8f416b542a9964acba3c3d5cff8c3faecfbce440fab"
+    paragraph_hash: "23878ce6b6fbc0bd139be8f416b542a9964acba3c3d5cff8c3faecfbce440fab"
     change_type: "first_seen"
     source_revision_id: 1335197171
 ---

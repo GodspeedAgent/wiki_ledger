@@ -19,7 +19,9 @@ sentence_history:
     rank: 58
     pageviews: 63679
     lead_sentence: "Terence Allan \"Bud\" Crawford is an American former professional boxer who competed from 2008 to 2025."
+    lead_paragraph: "Terence Allan \\\"Bud\\\" Crawford is an American former professional boxer who competed from 2008 to 2025."
     sentence_hash: "3a1f626a34f07f3da1145f189b2175648324e781bbcaed3eb7c3f9d70afa4ecd"
+    paragraph_hash: "3a1f626a34f07f3da1145f189b2175648324e781bbcaed3eb7c3f9d70afa4ecd"
     change_type: "first_seen"
     source_revision_id: 1337213769
 ---

@@ -19,14 +19,18 @@ sentence_history:
     rank: 6
     pageviews: 163868
     lead_sentence: "Pamela Bach, also known as Pamela Bach-Hasselhoff, was an American actress."
+    lead_paragraph: "Pamela Bach, also known as Pamela Bach-Hasselhoff, was an American actress."
     sentence_hash: "ddecb4f061081601c48c46d0a01d0f4ec4c1ef5476074419b3e23c8aea80d9b8"
+    paragraph_hash: "ddecb4f061081601c48c46d0a01d0f4ec4c1ef5476074419b3e23c8aea80d9b8"
     change_type: "first_seen"
     source_revision_id: 1332196014
   - date: "2025-03-08"
     rank: 6
     pageviews: 193924
     lead_sentence: "Pamela Bach, also known as Pamela Bach-Hasselhoff, was an American actress."
+    lead_paragraph: "Pamela Bach, also known as Pamela Bach-Hasselhoff, was an American actress."
     sentence_hash: "ddecb4f061081601c48c46d0a01d0f4ec4c1ef5476074419b3e23c8aea80d9b8"
+    paragraph_hash: "ddecb4f061081601c48c46d0a01d0f4ec4c1ef5476074419b3e23c8aea80d9b8"
     change_type: "unchanged"
     source_revision_id: 1332196014
 ---

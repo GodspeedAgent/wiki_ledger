@@ -19,7 +19,9 @@ sentence_history:
     rank: 2
     pageviews: 2882444
     lead_sentence: "Diane Keaton Hall was an American actress."
+    lead_paragraph: "Diane Keaton Hall was an American actress."
     sentence_hash: "f6b38ca7f863962a68e0f61af72552ee1b0a5e07af6aa906c0e4a529e4e4dfe3"
+    paragraph_hash: "f6b38ca7f863962a68e0f61af72552ee1b0a5e07af6aa906c0e4a529e4e4dfe3"
     change_type: "first_seen"
     source_revision_id: 1337206865
 ---

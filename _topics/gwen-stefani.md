@@ -19,7 +19,9 @@ sentence_history:
     rank: 52
     pageviews: 47103
     lead_sentence: "Gwen Renée Stefani Shelton is an American singer-songwriter and fashion designer."
+    lead_paragraph: "Gwen Renée Stefani Shelton is an American singer-songwriter and fashion designer."
     sentence_hash: "615cbec4e9f276ad08f04703b39062376e9fe8d1d825a952287163056034e036"
+    paragraph_hash: "615cbec4e9f276ad08f04703b39062376e9fe8d1d825a952287163056034e036"
     change_type: "first_seen"
     source_revision_id: 1337282091
 ---

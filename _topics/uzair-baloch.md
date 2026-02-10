@@ -19,7 +19,9 @@ sentence_history:
     rank: 49
     pageviews: 59273
     lead_sentence: "Uzair Jan Baloch is a Pakistani gangster, former crime lord and head of the outlawed Peoples' Aman Committee based in Lyari, Karachi."
+    lead_paragraph: "Uzair Jan Baloch is a Pakistani gangster, former crime lord and head of the outlawed Peoples' Aman Committee based in Lyari, Karachi."
     sentence_hash: "108c9a225cf12992cc1c3d10b2101902cc3f0c7859da86dce2234f03fce0d4a1"
+    paragraph_hash: "108c9a225cf12992cc1c3d10b2101902cc3f0c7859da86dce2234f03fce0d4a1"
     change_type: "first_seen"
     source_revision_id: 1336517674
 ---

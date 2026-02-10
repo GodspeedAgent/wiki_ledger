@@ -19,7 +19,9 @@ sentence_history:
     rank: 33
     pageviews: 84783
     lead_sentence: "The 2025 Africa Cup of Nations, known in short as the 2025 AFCON or CAN 2025 and for sponsorship purposes as the TotalEnergies 2025 Africa Cup of Nations, was the 35th edition of the biennial Africa Cup of Nations tournament organised by the Confederation of African Football (CAF)."
+    lead_paragraph: "The 2025 Africa Cup of Nations, known in short as the 2025 AFCON or CAN 2025 and for sponsorship purposes as the TotalEnergies 2025 Africa Cup of Nations, was the 35th edition of the biennial Africa Cup of Nations tournament organised by the Confederation of African Football (CAF)."
     sentence_hash: "2e524c034e6bc6d4de60127cab1115b7262a04d454c380bc9b8971a2d4ce0401"
+    paragraph_hash: "2e524c034e6bc6d4de60127cab1115b7262a04d454c380bc9b8971a2d4ce0401"
     change_type: "first_seen"
     source_revision_id: 1336101853
 ---

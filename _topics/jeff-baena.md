@@ -19,7 +19,9 @@ sentence_history:
     rank: 5
     pageviews: 239553
     lead_sentence: "Jeffrey Lance Baena was an American screenwriter and film director."
+    lead_paragraph: "Jeffrey Lance Baena was an American screenwriter and film director."
     sentence_hash: "8a30599c5b720c112f59637e79f6a9727539e50c2ff2463e518bb3106c6f3bc9"
+    paragraph_hash: "8a30599c5b720c112f59637e79f6a9727539e50c2ff2463e518bb3106c6f3bc9"
     change_type: "first_seen"
     source_revision_id: 1334656149
 ---

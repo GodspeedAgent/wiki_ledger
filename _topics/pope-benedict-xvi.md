@@ -19,14 +19,18 @@ sentence_history:
     rank: 7
     pageviews: 347574
     lead_sentence: "Pope Benedict XVI was head of the Catholic Church and sovereign of Vatican City from 2005 until his resignation in 2013."
+    lead_paragraph: "Pope Benedict XVI was head of the Catholic Church and sovereign of Vatican City from 2005 until his resignation in 2013."
     sentence_hash: "acaff78d13245f5735deab1616f17151f6f35db8fccd1dfaab0bcfcd8703abb8"
+    paragraph_hash: "acaff78d13245f5735deab1616f17151f6f35db8fccd1dfaab0bcfcd8703abb8"
     change_type: "first_seen"
     source_revision_id: 1336920488
   - date: "2025-04-26"
     rank: 18
     pageviews: 117326
     lead_sentence: "Pope Benedict XVI was head of the Catholic Church and sovereign of Vatican City from 2005 until his resignation in 2013."
+    lead_paragraph: "Pope Benedict XVI was head of the Catholic Church and sovereign of Vatican City from 2005 until his resignation in 2013."
     sentence_hash: "acaff78d13245f5735deab1616f17151f6f35db8fccd1dfaab0bcfcd8703abb8"
+    paragraph_hash: "acaff78d13245f5735deab1616f17151f6f35db8fccd1dfaab0bcfcd8703abb8"
     change_type: "unchanged"
     source_revision_id: 1336920488
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 66
     pageviews: 49732
     lead_sentence: "Cea Weaver is an American tenant organizer who serves as the director of the New York City Mayor's Office to Protect Tenants since 2026."
+    lead_paragraph: "Cea Weaver is an American tenant organizer who serves as the director of the New York City Mayor's Office to Protect Tenants since 2026."
     sentence_hash: "11bf371ec13717efa1e17ba93862aedb9142e60eb13caadc77a32c1cfd6f63a9"
+    paragraph_hash: "11bf371ec13717efa1e17ba93862aedb9142e60eb13caadc77a32c1cfd6f63a9"
     change_type: "first_seen"
     source_revision_id: 1336830536
 ---

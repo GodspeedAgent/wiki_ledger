@@ -19,7 +19,9 @@ sentence_history:
     rank: 33
     pageviews: 66075
     lead_sentence: "4chan is an anonymous English-language imageboard website."
+    lead_paragraph: "4chan is an anonymous English-language imageboard website."
     sentence_hash: "b9ab6c9bd2967eced8c08625a2fe7771e81b2d2eb3a9fc829cc52bfbdc9dbd92"
+    paragraph_hash: "b9ab6c9bd2967eced8c08625a2fe7771e81b2d2eb3a9fc829cc52bfbdc9dbd92"
     change_type: "first_seen"
     source_revision_id: 1336130575
 ---

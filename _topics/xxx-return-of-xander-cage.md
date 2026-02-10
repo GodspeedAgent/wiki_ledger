@@ -19,7 +19,9 @@ sentence_history:
     rank: 62
     pageviews: 68301
     lead_sentence: "XXX: Return of Xander Cage is a 2017 American action spy film directed by D.J."
+    lead_paragraph: "XXX: Return of Xander Cage is a 2017 American action spy film directed by D.J."
     sentence_hash: "2e9c643f99825b158d1548b45fa1b77ccbd1f00468e99835e4ccef298d3f3bb5"
+    paragraph_hash: "2e9c643f99825b158d1548b45fa1b77ccbd1f00468e99835e4ccef298d3f3bb5"
     change_type: "first_seen"
     source_revision_id: 1329883767
 ---

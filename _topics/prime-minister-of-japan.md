@@ -19,7 +19,9 @@ sentence_history:
     rank: 75
     pageviews: 43223
     lead_sentence: "The prime minister of Japan is the head of government of Japan."
+    lead_paragraph: "The prime minister of Japan is the head of government of Japan."
     sentence_hash: "c66f8336963cf079edeeb0e178691c1d56cdf0a720b80fd2a1ca6318343f0c76"
+    paragraph_hash: "c66f8336963cf079edeeb0e178691c1d56cdf0a720b80fd2a1ca6318343f0c76"
     change_type: "first_seen"
     source_revision_id: 1337192734
 ---

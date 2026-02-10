@@ -111,8 +111,8 @@ def main():
 
     for d, ep, fm in entries:
         key = (fm.get("normalized_title") or fm.get("topic_title") or "").lower()
-        sh = fm.get("sentence_hash") or ""
-
+        # Prefer paragraph_hash for change detection when available
+        sh = fm.get("paragraph_hash") or fm.get("sentence_hash") or ""
         st = state.get(key)
         if st is None:
             first_seen = d
@@ -167,7 +167,9 @@ def main():
                 "rank": int(fm.get("rank", "0") or 0),
                 "pageviews": int(fm.get("pageviews", "0") or 0),
                 "lead_sentence": fm.get("lead_sentence") or "",
-                "sentence_hash": sh,
+                "lead_paragraph": fm.get("lead_paragraph") or fm.get("lead_sentence") or "",
+                "sentence_hash": fm.get("sentence_hash") or "",
+                "paragraph_hash": sh,
                 "change_type": change_type,
                 "source_revision_id": int(fm.get("source_revision_id", "0") or 0),
                 # carry a few useful bits
@@ -219,7 +221,9 @@ def main():
             out.append(f"    rank: {int(item['rank'])}")
             out.append(f"    pageviews: {int(item['pageviews'])}")
             out.append(f"    lead_sentence: {yq(item['lead_sentence'])}")
+            out.append(f"    lead_paragraph: {yq(item.get('lead_paragraph') or item['lead_sentence'])}")
             out.append(f"    sentence_hash: {yq(item['sentence_hash'])}")
+            out.append(f"    paragraph_hash: {yq(item['sentence_hash'])}")
             out.append(f"    change_type: {yq(item['change_type'])}")
             out.append(f"    source_revision_id: {int(item['source_revision_id'])}")
         out += ["---", ""]

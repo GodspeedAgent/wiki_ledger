@@ -19,7 +19,9 @@ sentence_history:
     rank: 4
     pageviews: 300530
     lead_sentence: "Satish Ravilal Shah was an Indian actor and comedian, best known for his iconic comic roles in films such as Jaane Bhi Do Yaaro (1983), Main Hoon Na (2004), Kal Ho Naa Ho (2003), Fanaa (2006), and Om Shanti Om (2007) and television series such as Yeh Jo Hai Zindagi (1984), and Sarabhai vs Sarabhai (2004) for which he won the ITA Award for Best Actor in a Comic Role and the Indian Telly Award for Best Actor in a Comic Role."
+    lead_paragraph: "Satish Ravilal Shah was an Indian actor and comedian, best known for his iconic comic roles in films such as Jaane Bhi Do Yaaro (1983), Main Hoon Na (2004), Kal Ho Naa Ho (2003), Fanaa (2006), and Om Shanti Om (2007) and television series such as Yeh Jo Hai Zindagi (1984), and Sarabhai vs Sarabhai (2004) for which he won the ITA Award for Best Actor in a Comic Role and the Indian Telly Award for Best Actor in a Comic Role."
     sentence_hash: "afd355fe01e87dbb33995b9b244c55a1f66776f6b2e2615d30b73f7d649eb40d"
+    paragraph_hash: "afd355fe01e87dbb33995b9b244c55a1f66776f6b2e2615d30b73f7d649eb40d"
     change_type: "first_seen"
     source_revision_id: 1335326053
 ---

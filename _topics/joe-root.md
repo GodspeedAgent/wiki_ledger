@@ -19,7 +19,9 @@ sentence_history:
     rank: 71
     pageviews: 36852
     lead_sentence: "Joseph Edward Root is an English international cricketer who plays for England in Tests and ODIs."
+    lead_paragraph: "Joseph Edward Root is an English international cricketer who plays for England in Tests and ODIs."
     sentence_hash: "0350117e4ef0afbe9820217a1c06b190be88fcb3b407facf9a831f142b1730fb"
+    paragraph_hash: "0350117e4ef0afbe9820217a1c06b190be88fcb3b407facf9a831f142b1730fb"
     change_type: "first_seen"
     source_revision_id: 1337090574
 ---

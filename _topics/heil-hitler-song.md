@@ -19,7 +19,9 @@ sentence_history:
     rank: 23
     pageviews: 87386
     lead_sentence: "\"Heil Hitler\", also known as \"Nigga Heil Hitler\", is a song by the American rapper Kanye West."
+    lead_paragraph: "\\\"Heil Hitler\\\", also known as \\\"Nigga Heil Hitler\\\", is a song by the American rapper Kanye West."
     sentence_hash: "010f277e454f7106171c70c39db0085c4cb60d38362adc9cd2b66fea9306fe16"
+    paragraph_hash: "010f277e454f7106171c70c39db0085c4cb60d38362adc9cd2b66fea9306fe16"
     change_type: "first_seen"
     source_revision_id: 1336162357
 ---

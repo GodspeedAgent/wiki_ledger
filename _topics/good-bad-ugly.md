@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 186659
     lead_sentence: "Good Bad Ugly is a 2025 Indian Tamil-language action comedy film directed by Adhik Ravichandran and produced by Mythri Movie Makers, marking their first production in Tamil cinema."
+    lead_paragraph: "Good Bad Ugly is a 2025 Indian Tamil-language action comedy film directed by Adhik Ravichandran and produced by Mythri Movie Makers, marking their first production in Tamil cinema."
     sentence_hash: "4c70235d46046935b7fb53d139cfa761454d6bf06c85f5b55548a628f1358bcb"
+    paragraph_hash: "4c70235d46046935b7fb53d139cfa761454d6bf06c85f5b55548a628f1358bcb"
     change_type: "first_seen"
     source_revision_id: 1335244631
 ---

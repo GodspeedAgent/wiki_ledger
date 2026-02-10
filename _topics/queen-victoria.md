@@ -19,7 +19,9 @@ sentence_history:
     rank: 30
     pageviews: 79158
     lead_sentence: "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901."
+    lead_paragraph: "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901."
     sentence_hash: "49cb38af321e433629a3667d0676674ef1fc3e2eba129904d94c63a843eb17bd"
+    paragraph_hash: "49cb38af321e433629a3667d0676674ef1fc3e2eba129904d94c63a843eb17bd"
     change_type: "first_seen"
     source_revision_id: 1337215791
 ---

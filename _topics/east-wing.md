@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 145926
     lead_sentence: "The East Wing was a portion of the White House complex in Washington, D.C."
+    lead_paragraph: "The East Wing was a portion of the White House complex in Washington, D.C."
     sentence_hash: "5f4d8ca3adee364a25d99a6763bd088d5bc09499caab8861066fc362f16e9a0f"
+    paragraph_hash: "5f4d8ca3adee364a25d99a6763bd088d5bc09499caab8861066fc362f16e9a0f"
     change_type: "first_seen"
     source_revision_id: 1337139407
 ---

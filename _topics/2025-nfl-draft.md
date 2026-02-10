@@ -19,14 +19,18 @@ sentence_history:
     rank: 15
     pageviews: 129534
     lead_sentence: "The 2025 NFL draft was the 90th annual meeting of National Football League (NFL) franchises to select newly eligible players."
+    lead_paragraph: "The 2025 NFL draft was the 90th annual meeting of National Football League (NFL) franchises to select newly eligible players."
     sentence_hash: "5e8874c875b96840c58d557d6d2ce1b6fe0940756759254b3c7a5f1d53c03523"
+    paragraph_hash: "5e8874c875b96840c58d557d6d2ce1b6fe0940756759254b3c7a5f1d53c03523"
     change_type: "first_seen"
     source_revision_id: 1336058701
   - date: "2025-04-28"
     rank: 14
     pageviews: 138386
     lead_sentence: "The 2025 NFL draft was the 90th annual meeting of National Football League (NFL) franchises to select newly eligible players."
+    lead_paragraph: "The 2025 NFL draft was the 90th annual meeting of National Football League (NFL) franchises to select newly eligible players."
     sentence_hash: "5e8874c875b96840c58d557d6d2ce1b6fe0940756759254b3c7a5f1d53c03523"
+    paragraph_hash: "5e8874c875b96840c58d557d6d2ce1b6fe0940756759254b3c7a5f1d53c03523"
     change_type: "unchanged"
     source_revision_id: 1336058701
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 21
     pageviews: 103759
     lead_sentence: "Billie Eilish Pirate Baird O'Connell is an American singer-songwriter."
+    lead_paragraph: "Billie Eilish Pirate Baird O'Connell is an American singer-songwriter."
     sentence_hash: "73f28667522ec03705cb59ba868d2e34a55a5f08969221e93db0e82c843fe116"
+    paragraph_hash: "73f28667522ec03705cb59ba868d2e34a55a5f08969221e93db0e82c843fe116"
     change_type: "first_seen"
     source_revision_id: 1337360175
 ---

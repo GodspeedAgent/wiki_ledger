@@ -19,7 +19,9 @@ sentence_history:
     rank: 96
     pageviews: 52127
     lead_sentence: "Millie Bonnie Bongiovi, known professionally as Millie Bobby Brown, is a British actress and film producer."
+    lead_paragraph: "Millie Bonnie Bongiovi, known professionally as Millie Bobby Brown, is a British actress and film producer."
     sentence_hash: "7803ff92f963c5dfea6dfe1dd36272d172c9be85587f973d2f44e509ae53a0a9"
+    paragraph_hash: "7803ff92f963c5dfea6dfe1dd36272d172c9be85587f973d2f44e509ae53a0a9"
     change_type: "first_seen"
     source_revision_id: 1336799304
 ---

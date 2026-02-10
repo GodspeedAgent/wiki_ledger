@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 276198
     lead_sentence: "James Abram Garfield was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot in July."
+    lead_paragraph: "James Abram Garfield was the 20th president of the United States, serving from March 1881 until his death in September that year after being shot in July."
     sentence_hash: "08c8e076c46b879806534ff3b8b6e42999cb5555542e25342083d8e8ae3145fa"
+    paragraph_hash: "08c8e076c46b879806534ff3b8b6e42999cb5555542e25342083d8e8ae3145fa"
     change_type: "first_seen"
     source_revision_id: 1337043802
 ---

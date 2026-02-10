@@ -19,7 +19,9 @@ sentence_history:
     rank: 58
     pageviews: 52203
     lead_sentence: "An anti-lock braking system (ABS) is a safety anti-skid braking system used on aircraft and on land vehicles, such as cars, motorcycles, trucks, and buses."
+    lead_paragraph: "An anti-lock braking system (ABS) is a safety anti-skid braking system used on aircraft and on land vehicles, such as cars, motorcycles, trucks, and buses."
     sentence_hash: "46adff0b4c402aee7db2a8b3107aca67e75f2e3a0672a38f0770fd86652db149"
+    paragraph_hash: "46adff0b4c402aee7db2a8b3107aca67e75f2e3a0672a38f0770fd86652db149"
     change_type: "first_seen"
     source_revision_id: 1297110234
 ---

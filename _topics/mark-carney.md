@@ -19,7 +19,9 @@ sentence_history:
     rank: 26
     pageviews: 75875
     lead_sentence: "Mark Joseph Carney is a Canadian politician and economist who has served as the 24th prime minister of Canada since 2025."
+    lead_paragraph: "Mark Joseph Carney is a Canadian politician and economist who has served as the 24th prime minister of Canada since 2025."
     sentence_hash: "33d6e4782bcd1e77929877109e405986a85445ebfe9948093f13b840b605bebf"
+    paragraph_hash: "33d6e4782bcd1e77929877109e405986a85445ebfe9948093f13b840b605bebf"
     change_type: "first_seen"
     source_revision_id: 1335696896
 ---

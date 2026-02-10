@@ -19,14 +19,18 @@ sentence_history:
     rank: 41
     pageviews: 63920
     lead_sentence: "Andor, also known as Star Wars: Andor or Andor: A Star Wars Story for its second season, is an American television series created by Tony Gilroy for the streaming service Disney+."
+    lead_paragraph: "Andor, also known as Star Wars: Andor or Andor: A Star Wars Story for its second season, is an American television series created by Tony Gilroy for the streaming service Disney+."
     sentence_hash: "25665bfce346c1ea369ecca7237c5a59fd5e3968803b072d345a708cc9cbbba8"
+    paragraph_hash: "25665bfce346c1ea369ecca7237c5a59fd5e3968803b072d345a708cc9cbbba8"
     change_type: "first_seen"
     source_revision_id: 1335770402
   - date: "2025-05-28"
     rank: 44
     pageviews: 55347
     lead_sentence: "Andor, also known as Star Wars: Andor or Andor: A Star Wars Story for its second season, is an American television series created by Tony Gilroy for the streaming service Disney+."
+    lead_paragraph: "Andor, also known as Star Wars: Andor or Andor: A Star Wars Story for its second season, is an American television series created by Tony Gilroy for the streaming service Disney+."
     sentence_hash: "25665bfce346c1ea369ecca7237c5a59fd5e3968803b072d345a708cc9cbbba8"
+    paragraph_hash: "25665bfce346c1ea369ecca7237c5a59fd5e3968803b072d345a708cc9cbbba8"
     change_type: "unchanged"
     source_revision_id: 1335770402
 ---

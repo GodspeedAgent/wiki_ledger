@@ -19,7 +19,9 @@ sentence_history:
     rank: 6
     pageviews: 358344
     lead_sentence: "28 Years Later is a 2025 post-apocalyptic coming-of-age horror film produced and directed by Danny Boyle and written by Alex Garland."
+    lead_paragraph: "28 Years Later is a 2025 post-apocalyptic coming-of-age horror film produced and directed by Danny Boyle and written by Alex Garland."
     sentence_hash: "d6b9c051f56a8ef425f2615d053e92a9a485472169ea18ebbc900f31c33ffcf1"
+    paragraph_hash: "d6b9c051f56a8ef425f2615d053e92a9a485472169ea18ebbc900f31c33ffcf1"
     change_type: "first_seen"
     source_revision_id: 1337007618
 ---

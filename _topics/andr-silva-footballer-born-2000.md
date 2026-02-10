@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 169020
     lead_sentence: "André Filipe Teixeira da Silva was a Portuguese professional footballer who played as an attacking midfielder or a left winger."
+    lead_paragraph: "André Filipe Teixeira da Silva was a Portuguese professional footballer who played as an attacking midfielder or a left winger."
     sentence_hash: "e4e508191042f0332330d15ac4263ad44a98b8c481f77bf8b62abf3598b3a5c5"
+    paragraph_hash: "e4e508191042f0332330d15ac4263ad44a98b8c481f77bf8b62abf3598b3a5c5"
     change_type: "first_seen"
     source_revision_id: 1336766623
 ---

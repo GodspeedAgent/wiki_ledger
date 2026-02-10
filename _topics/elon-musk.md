@@ -19,7 +19,9 @@ sentence_history:
     rank: 16
     pageviews: 125691
     lead_sentence: "Elon Reeve Musk is a businessman and entrepreneur known for his leadership of Tesla, SpaceX, Twitter, and xAI."
+    lead_paragraph: "Elon Reeve Musk is a businessman and entrepreneur known for his leadership of Tesla, SpaceX, Twitter, and xAI."
     sentence_hash: "e0f56a4ecd7ccd4d74723725270951ab6ac602ca402431411114d1f3b91fb585"
+    paragraph_hash: "e0f56a4ecd7ccd4d74723725270951ab6ac602ca402431411114d1f3b91fb585"
     change_type: "first_seen"
     source_revision_id: 1337186326
 ---

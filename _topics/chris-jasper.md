@@ -19,7 +19,9 @@ sentence_history:
     rank: 103
     pageviews: 33978
     lead_sentence: "Christopher Howard Jasper was an American singer, composer and producer."
+    lead_paragraph: "Christopher Howard Jasper was an American singer, composer and producer."
     sentence_hash: "51f57fb720415d0ea8790ac901c6862c6c0efe7c3a8adfc4b96976d158675429"
+    paragraph_hash: "51f57fb720415d0ea8790ac901c6862c6c0efe7c3a8adfc4b96976d158675429"
     change_type: "first_seen"
     source_revision_id: 1330264352
 ---

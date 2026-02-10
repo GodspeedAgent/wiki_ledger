@@ -19,7 +19,9 @@ sentence_history:
     rank: 8
     pageviews: 221902
     lead_sentence: "The Electric State is a 2018 dystopian science fiction illustrated novel by Swedish artist Simon Stålenhag."
+    lead_paragraph: "The Electric State is a 2018 dystopian science fiction illustrated novel by Swedish artist Simon Stålenhag."
     sentence_hash: "f94ef4c9ca0dc84531ff613b3f345d878a7e1244e13c082d4b47e9b779dc5b96"
+    paragraph_hash: "f94ef4c9ca0dc84531ff613b3f345d878a7e1244e13c082d4b47e9b779dc5b96"
     change_type: "first_seen"
     source_revision_id: 1332644681
 ---

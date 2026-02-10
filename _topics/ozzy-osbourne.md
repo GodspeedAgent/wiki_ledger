@@ -19,14 +19,18 @@ sentence_history:
     rank: 2
     pageviews: 4190815
     lead_sentence: "John Michael \"Ozzy\" Osbourne was an English singer, songwriter, and media personality."
+    lead_paragraph: "John Michael \\\"Ozzy\\\" Osbourne was an English singer, songwriter, and media personality."
     sentence_hash: "a13361d76e4cbdd57b65c86e09623aa52153cf2bc58f4cf9eac635802281c612"
+    paragraph_hash: "a13361d76e4cbdd57b65c86e09623aa52153cf2bc58f4cf9eac635802281c612"
     change_type: "first_seen"
     source_revision_id: 1336889464
   - date: "2025-07-31"
     rank: 3
     pageviews: 600541
     lead_sentence: "John Michael \"Ozzy\" Osbourne was an English singer, songwriter, and media personality."
+    lead_paragraph: "John Michael \\\"Ozzy\\\" Osbourne was an English singer, songwriter, and media personality."
     sentence_hash: "a13361d76e4cbdd57b65c86e09623aa52153cf2bc58f4cf9eac635802281c612"
+    paragraph_hash: "a13361d76e4cbdd57b65c86e09623aa52153cf2bc58f4cf9eac635802281c612"
     change_type: "unchanged"
     source_revision_id: 1336889464
 ---

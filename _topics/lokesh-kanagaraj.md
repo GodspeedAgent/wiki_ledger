@@ -19,7 +19,9 @@ sentence_history:
     rank: 22
     pageviews: 58000
     lead_sentence: "Lokesh Kanagaraj is an Indian film director, screenwriter and producer who works in Tamil cinema."
+    lead_paragraph: "Lokesh Kanagaraj is an Indian film director, screenwriter and producer who works in Tamil cinema."
     sentence_hash: "9146f679f5b8aaa1af22c7120b0ce2cd9dbccdc8c8f08ef7acfd84f717632bee"
+    paragraph_hash: "9146f679f5b8aaa1af22c7120b0ce2cd9dbccdc8c8f08ef7acfd84f717632bee"
     change_type: "first_seen"
     source_revision_id: 1336749231
 ---

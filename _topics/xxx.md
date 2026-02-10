@@ -19,49 +19,63 @@ sentence_history:
     rank: 3
     pageviews: 430528
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "first_seen"
     source_revision_id: 1332526077
   - date: "2025-05-17"
     rank: 34
     pageviews: 58461
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
   - date: "2025-06-12"
     rank: 7
     pageviews: 238699
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
   - date: "2025-12-19"
     rank: 5
     pageviews: 761908
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
   - date: "2025-12-24"
     rank: 3
     pageviews: 1202415
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
   - date: "2026-01-09"
     rank: 5
     pageviews: 213548
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
   - date: "2026-02-06"
     rank: 35
     pageviews: 79133
     lead_sentence: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
+    lead_paragraph: ".xxx is a sponsored top-level domain (sTLD) intended as a voluntary option for pornographic sites on the Internet."
     sentence_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
+    paragraph_hash: "8f3d0e243db03384e2d5ef108c11e37417bbceda333eadfaaa7cbd894280190d"
     change_type: "unchanged"
     source_revision_id: 1332526077
 ---

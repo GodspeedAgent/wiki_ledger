@@ -19,7 +19,9 @@ sentence_history:
     rank: 59
     pageviews: 47590
     lead_sentence: "The White Lotus is an American black comedy drama anthology television series created, written, and directed by Mike White that premiered on HBO on July 11, 2021."
+    lead_paragraph: "The White Lotus is an American black comedy drama anthology television series created, written, and directed by Mike White that premiered on HBO on July 11, 2021."
     sentence_hash: "5cc0b0ad42a2ad15b6a5d52aff41c0fe710d08344752afc9d9d5a07c76cace9d"
+    paragraph_hash: "5cc0b0ad42a2ad15b6a5d52aff41c0fe710d08344752afc9d9d5a07c76cace9d"
     change_type: "first_seen"
     source_revision_id: 1336232328
 ---

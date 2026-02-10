@@ -19,7 +19,9 @@ sentence_history:
     rank: 20
     pageviews: 85020
     lead_sentence: "Tere Ishk Mein is a 2025 Indian Hindi-language romantic drama film directed by Aanand L."
+    lead_paragraph: "Tere Ishk Mein is a 2025 Indian Hindi-language romantic drama film directed by Aanand L."
     sentence_hash: "be65b8a4286d0a00946ab6c8a1f6acddcfa14dacf2d83747e2d56ed765d91173"
+    paragraph_hash: "be65b8a4286d0a00946ab6c8a1f6acddcfa14dacf2d83747e2d56ed765d91173"
     change_type: "first_seen"
     source_revision_id: 1336298868
 ---

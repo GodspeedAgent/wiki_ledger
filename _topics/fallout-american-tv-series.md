@@ -19,7 +19,9 @@ sentence_history:
     rank: 77
     pageviews: 48471
     lead_sentence: "Fallout is an American post-apocalyptic drama television series created by Graham Wagner and Geneva Robertson-Dworet for Amazon Prime Video."
+    lead_paragraph: "Fallout is an American post-apocalyptic drama television series created by Graham Wagner and Geneva Robertson-Dworet for Amazon Prime Video."
     sentence_hash: "f6337b5b8c268171144145126e4df507ee6b3d8c03ea7a0b921acae5da8fdfb9"
+    paragraph_hash: "f6337b5b8c268171144145126e4df507ee6b3d8c03ea7a0b921acae5da8fdfb9"
     change_type: "first_seen"
     source_revision_id: 1337341017
 ---

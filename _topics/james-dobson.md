@@ -19,7 +19,9 @@ sentence_history:
     rank: 9
     pageviews: 161030
     lead_sentence: "James Clayton Dobson Jr."
+    lead_paragraph: "James Clayton Dobson Jr."
     sentence_hash: "1840ca62959617236fe77d97161c798c8d7e62049a869eccdbd33f1f56bdd4b2"
+    paragraph_hash: "1840ca62959617236fe77d97161c798c8d7e62049a869eccdbd33f1f56bdd4b2"
     change_type: "first_seen"
     source_revision_id: 1329000818
 ---

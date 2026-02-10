@@ -19,7 +19,9 @@ sentence_history:
     rank: 27
     pageviews: 133303
     lead_sentence: "Emilia Pérez is a 2024 Spanish-language French musical crime film written and directed by Jacques Audiard."
+    lead_paragraph: "Emilia Pérez is a 2024 Spanish-language French musical crime film written and directed by Jacques Audiard."
     sentence_hash: "a21a731f2e4b49707fd3e8b0fd35c3754e7b90435501f7c35d80bd26f0137108"
+    paragraph_hash: "a21a731f2e4b49707fd3e8b0fd35c3754e7b90435501f7c35d80bd26f0137108"
     change_type: "first_seen"
     source_revision_id: 1337272850
 ---

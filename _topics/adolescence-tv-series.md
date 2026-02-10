@@ -19,28 +19,36 @@ sentence_history:
     rank: 3
     pageviews: 478894
     lead_sentence: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
+    lead_paragraph: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
     sentence_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
+    paragraph_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
     change_type: "first_seen"
     source_revision_id: 1337187758
   - date: "2025-03-26"
     rank: 4
     pageviews: 338629
     lead_sentence: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
+    lead_paragraph: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
     sentence_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
+    paragraph_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
     change_type: "unchanged"
     source_revision_id: 1337187758
   - date: "2025-03-27"
     rank: 3
     pageviews: 295548
     lead_sentence: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
+    lead_paragraph: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
     sentence_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
+    paragraph_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
     change_type: "unchanged"
     source_revision_id: 1337187758
   - date: "2025-04-08"
     rank: 17
     pageviews: 123988
     lead_sentence: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
+    lead_paragraph: "Adolescence is a British psychological crime drama television series created by Jack Thorne and Stephen Graham and directed by Philip Barantini."
     sentence_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
+    paragraph_hash: "c30d997f94d911636ccfbe99fda0b2f414c71ff5cc7f00033ce3374fb2be6160"
     change_type: "unchanged"
     source_revision_id: 1337187758
 ---

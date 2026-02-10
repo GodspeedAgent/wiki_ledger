@@ -19,14 +19,18 @@ sentence_history:
     rank: 9
     pageviews: 150673
     lead_sentence: "Another Simple Favor is a 2025 American black comedy mystery film directed by Paul Feig from a screenplay by Jessica Sharzer and Laeta Kalogridis."
+    lead_paragraph: "Another Simple Favor is a 2025 American black comedy mystery film directed by Paul Feig from a screenplay by Jessica Sharzer and Laeta Kalogridis."
     sentence_hash: "53920964f29017c0c67dd4e31bcb1041ad4bd46daaed3b62912f01ef99f83452"
+    paragraph_hash: "53920964f29017c0c67dd4e31bcb1041ad4bd46daaed3b62912f01ef99f83452"
     change_type: "first_seen"
     source_revision_id: 1329820788
   - date: "2025-05-06"
     rank: 18
     pageviews: 95000
     lead_sentence: "Another Simple Favor is a 2025 American black comedy mystery film directed by Paul Feig from a screenplay by Jessica Sharzer and Laeta Kalogridis."
+    lead_paragraph: "Another Simple Favor is a 2025 American black comedy mystery film directed by Paul Feig from a screenplay by Jessica Sharzer and Laeta Kalogridis."
     sentence_hash: "53920964f29017c0c67dd4e31bcb1041ad4bd46daaed3b62912f01ef99f83452"
+    paragraph_hash: "53920964f29017c0c67dd4e31bcb1041ad4bd46daaed3b62912f01ef99f83452"
     change_type: "unchanged"
     source_revision_id: 1329820788
 ---

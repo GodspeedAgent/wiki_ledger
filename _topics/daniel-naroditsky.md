@@ -19,7 +19,9 @@ sentence_history:
     rank: 7
     pageviews: 278283
     lead_sentence: "Daniel Aaron \"Danya\" Naroditsky was an American chess grandmaster, commentator, and content creator."
+    lead_paragraph: "Daniel Aaron \\\"Danya\\\" Naroditsky was an American chess grandmaster, commentator, and content creator."
     sentence_hash: "687c1c3b48ab8c8ca54936be0459dbecdee5cfd1c81fbce9804241a102a73cf9"
+    paragraph_hash: "687c1c3b48ab8c8ca54936be0459dbecdee5cfd1c81fbce9804241a102a73cf9"
     change_type: "first_seen"
     source_revision_id: 1336813305
 ---

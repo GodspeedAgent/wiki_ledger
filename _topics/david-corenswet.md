@@ -19,7 +19,9 @@ sentence_history:
     rank: 11
     pageviews: 108488
     lead_sentence: "David Packard Corenswet is an American actor."
+    lead_paragraph: "David Packard Corenswet is an American actor."
     sentence_hash: "8d2bad4ffcdfb8294e87081bc86404b30828def901fbf682958d21501e5b3758"
+    paragraph_hash: "8d2bad4ffcdfb8294e87081bc86404b30828def901fbf682958d21501e5b3758"
     change_type: "first_seen"
     source_revision_id: 1337346727
 ---

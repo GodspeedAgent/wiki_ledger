@@ -19,7 +19,9 @@ sentence_history:
     rank: 69
     pageviews: 47156
     lead_sentence: "James Christian Kimmel is an American television host and comedian."
+    lead_paragraph: "James Christian Kimmel is an American television host and comedian."
     sentence_hash: "628de781b9db270e4fc3448ac6318b5ac716671795edf6cdfaf76096e00c60d7"
+    paragraph_hash: "628de781b9db270e4fc3448ac6318b5ac716671795edf6cdfaf76096e00c60d7"
     change_type: "first_seen"
     source_revision_id: 1332980498
 ---

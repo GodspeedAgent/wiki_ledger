@@ -19,7 +19,9 @@ sentence_history:
     rank: 21
     pageviews: 85575
     lead_sentence: "Saint Patrick was a fifth-century Romano-British Christian missionary and bishop in Ireland."
+    lead_paragraph: "Saint Patrick was a fifth-century Romano-British Christian missionary and bishop in Ireland."
     sentence_hash: "8d8ce4e1efdfa5140865e556b57efa1b4085b7e718a2877b68dc147c0621b661"
+    paragraph_hash: "8d8ce4e1efdfa5140865e556b57efa1b4085b7e718a2877b68dc147c0621b661"
     change_type: "first_seen"
     source_revision_id: 1318352919
 ---

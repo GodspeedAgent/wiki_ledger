@@ -19,14 +19,18 @@ sentence_history:
     rank: 1
     pageviews: 14954133
     lead_sentence: "Charles James Kirk was an American right-wing political activist, entrepreneur, and media personality."
+    lead_paragraph: "Charles James Kirk was an American right-wing political activist, entrepreneur, and media personality."
     sentence_hash: "db03fc631aecb3011408d2b7c8794003a4dca3d70c399cebbcc3e7715e37b73f"
+    paragraph_hash: "db03fc631aecb3011408d2b7c8794003a4dca3d70c399cebbcc3e7715e37b73f"
     change_type: "first_seen"
     source_revision_id: 1337349208
   - date: "2025-09-25"
     rank: 5
     pageviews: 231877
     lead_sentence: "Charles James Kirk was an American right-wing political activist, entrepreneur, and media personality."
+    lead_paragraph: "Charles James Kirk was an American right-wing political activist, entrepreneur, and media personality."
     sentence_hash: "db03fc631aecb3011408d2b7c8794003a4dca3d70c399cebbcc3e7715e37b73f"
+    paragraph_hash: "db03fc631aecb3011408d2b7c8794003a4dca3d70c399cebbcc3e7715e37b73f"
     change_type: "unchanged"
     source_revision_id: 1337349208
 ---

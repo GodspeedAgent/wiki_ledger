@@ -19,14 +19,18 @@ sentence_history:
     rank: 27
     pageviews: 93182
     lead_sentence: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H."
+    lead_paragraph: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H."
     sentence_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
+    paragraph_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
     change_type: "first_seen"
     source_revision_id: 1335471148
   - date: "2025-08-20"
     rank: 20
     pageviews: 62233
     lead_sentence: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H."
+    lead_paragraph: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H."
     sentence_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
+    paragraph_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
     change_type: "unchanged"
     source_revision_id: 1335471148
 ---

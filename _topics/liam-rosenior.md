@@ -19,7 +19,9 @@ sentence_history:
     rank: 72
     pageviews: 49957
     lead_sentence: "Liam James Rosenior is an English professional football manager and former player who is the head coach of Premier League club Chelsea."
+    lead_paragraph: "Liam James Rosenior is an English professional football manager and former player who is the head coach of Premier League club Chelsea."
     sentence_hash: "872ef557c0d88f68a5bb8e4c59686e7bdade614fa00ab2f732619ce114e933b3"
+    paragraph_hash: "872ef557c0d88f68a5bb8e4c59686e7bdade614fa00ab2f732619ce114e933b3"
     change_type: "first_seen"
     source_revision_id: 1337124436
 ---

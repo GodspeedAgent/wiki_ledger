@@ -19,7 +19,9 @@ sentence_history:
     rank: 28
     pageviews: 74494
     lead_sentence: "North Sentinel Island is one of the Andaman Islands, an Indian archipelago in the Bay of Bengal that also includes South Sentinel Island."
+    lead_paragraph: "North Sentinel Island is one of the Andaman Islands, an Indian archipelago in the Bay of Bengal that also includes South Sentinel Island."
     sentence_hash: "32f3e7e154363ac4d1f2849d0ccb9d417e496853b1207ecabd270802a5b2b5ab"
+    paragraph_hash: "32f3e7e154363ac4d1f2849d0ccb9d417e496853b1207ecabd270802a5b2b5ab"
     change_type: "first_seen"
     source_revision_id: 1336477577
 ---

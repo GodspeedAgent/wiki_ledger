@@ -19,14 +19,18 @@ sentence_history:
     rank: 4
     pageviews: 475832
     lead_sentence: "Terry Gene Bollea, better known by his ring name Hulk Hogan, was an American professional wrestler and media personality."
+    lead_paragraph: "Terry Gene Bollea, better known by his ring name Hulk Hogan, was an American professional wrestler and media personality."
     sentence_hash: "4a10cba42b881447150fe4c4c67ccd8926444fcdea740bdf8479767259dc8d21"
+    paragraph_hash: "4a10cba42b881447150fe4c4c67ccd8926444fcdea740bdf8479767259dc8d21"
     change_type: "first_seen"
     source_revision_id: 1337197266
   - date: "2025-07-28"
     rank: 9
     pageviews: 259679
     lead_sentence: "Terry Gene Bollea, better known by his ring name Hulk Hogan, was an American professional wrestler and media personality."
+    lead_paragraph: "Terry Gene Bollea, better known by his ring name Hulk Hogan, was an American professional wrestler and media personality."
     sentence_hash: "4a10cba42b881447150fe4c4c67ccd8926444fcdea740bdf8479767259dc8d21"
+    paragraph_hash: "4a10cba42b881447150fe4c4c67ccd8926444fcdea740bdf8479767259dc8d21"
     change_type: "unchanged"
     source_revision_id: 1337197266
 ---

@@ -19,7 +19,9 @@ sentence_history:
     rank: 10
     pageviews: 133997
     lead_sentence: "Aryna Siarhiejeŭna Sabalenka is a Belarusian professional tennis player."
+    lead_paragraph: "Aryna Siarhiejeŭna Sabalenka is a Belarusian professional tennis player."
     sentence_hash: "6296d9c29ecacf21a9f6801805a0cc65663c72fb279b1739d9ea12aaca4a4709"
+    paragraph_hash: "6296d9c29ecacf21a9f6801805a0cc65663c72fb279b1739d9ea12aaca4a4709"
     change_type: "first_seen"
     source_revision_id: 1337112041
 ---

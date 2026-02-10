@@ -19,7 +19,9 @@ sentence_history:
     rank: 9
     pageviews: 505540
     lead_sentence: "Rebecca Michelle Sherrill is an American politician, former naval officer, and former federal prosecutor serving since 2026 as the 57th governor of New Jersey."
+    lead_paragraph: "Rebecca Michelle Sherrill is an American politician, former naval officer, and former federal prosecutor serving since 2026 as the 57th governor of New Jersey."
     sentence_hash: "0e83c09d779719620d4b4c327fb7be6dea1584ad9f52c30cd1d410373b04267a"
+    paragraph_hash: "0e83c09d779719620d4b4c327fb7be6dea1584ad9f52c30cd1d410373b04267a"
     change_type: "first_seen"
     source_revision_id: 1336431228
 ---

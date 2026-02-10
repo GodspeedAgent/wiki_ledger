@@ -19,7 +19,9 @@ sentence_history:
     rank: 67
     pageviews: 42996
     lead_sentence: "Yashasvi Bhupendra Kumar Jaiswal is an Indian international cricketer who plays for the India national team in all three formats."
+    lead_paragraph: "Yashasvi Bhupendra Kumar Jaiswal is an Indian international cricketer who plays for the India national team in all three formats."
     sentence_hash: "9286cb1a3dd007fec92f760068f6257655922ae9b4f6a45cfcfe73b074dc5643"
+    paragraph_hash: "9286cb1a3dd007fec92f760068f6257655922ae9b4f6a45cfcfe73b074dc5643"
     change_type: "first_seen"
     source_revision_id: 1336691898
 ---
