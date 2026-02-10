@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="report">
+  <header class="topic__header">
+    <div class="kicker">Today’s trend brief · {{ page.brief_date }}</div>
+    <h1 class="topic__title">{{ page.title }}</h1>
+    {% if page.summary %}<p class="topic__desc">{{ page.summary }}</p>{% endif %}
+  </header>
+
+  <section class="stack">
+    <div class="card">
+      {{ content }}
+    </div>
+  </section>
+</article>
