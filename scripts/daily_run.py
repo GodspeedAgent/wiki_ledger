@@ -173,19 +173,21 @@ def main():
     ENTRIES_DIR.mkdir(exist_ok=True)
     TOPICS_DIR.mkdir(exist_ok=True)
 
-    today = _dt.date.today()  # host local date; OK for daily schedule
+    run_date = _dt.date.today()  # host local date
+    entry_date = run_date - _dt.timedelta(days=1)
 
-    # Abort if we already have an entry for today
+    # Abort if we already have an entry for the target date
     for ep in ENTRIES_DIR.glob("*.md"):
         fm = read_front(ep)
-        if fm.get("date") == today.isoformat():
-            print("ABORT: today already has an entry")
+        if fm.get("date") == entry_date.isoformat():
+            print("ABORT: entry date already exists")
             return 0
 
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
 
-    arts, trace_top, top_day_used = fetch_top_for(today, session)
+    # Top articles list corresponds to the entry_date
+    arts, trace_top, top_day_used = fetch_top_for(entry_date + _dt.timedelta(days=1), session)
 
     cand = [a for a in arts if is_normal(a.get("article", ""))][:100]
     if len(cand) < 3:
@@ -193,7 +195,7 @@ def main():
 
     weights = [1.0 / max(1, int(a["rank"])) for a in cand]
 
-    rng = random.Random(int(today.strftime("%Y%m%d")))
+    rng = random.Random(int(entry_date.strftime("%Y%m%d")))
 
     # Weighted random pick from top 100 (single entry)
     pick = rng.choices(cand, weights=weights, k=1)[0]
@@ -215,7 +217,7 @@ def main():
                 lead_sentence = sent
                 break
 
-        rng2 = random.Random(int(today.strftime("%Y%m%d")) + attempts)
+        rng2 = random.Random(int(entry_date.strftime("%Y%m%d")) + attempts)
         pick = rng2.choices(cand, weights=weights, k=1)[0]
 
     picks = [(pick, sumj, trace_sum, lead_sentence, lead_paragraph)]
@@ -307,7 +309,7 @@ def main():
 
         # Read topic history (minimal)
         times_seen_total = 1
-        first_seen = today
+        first_seen = entry_date
         days_since_last_seen = None
         sentence_changed = True
         change_type = "first_seen"
@@ -351,7 +353,7 @@ def main():
             if hist:
                 first_seen = _dt.date.fromisoformat(hist[0]["date"])
                 last_date = _dt.date.fromisoformat(hist[-1]["date"])
-                days_since_last_seen = (today - last_date).days
+                days_since_last_seen = (entry_date - last_date).days
                 if hist[-1].get("sentence_hash") == sentence_hash:
                     sentence_changed = False
                     change_type = "unchanged"
@@ -365,15 +367,14 @@ def main():
         fetch_timestamp = _dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
         request_trace_id = trace_sum or trace_top
 
-        # filename must be unique (3 per day)
-        entry_name = f"{today.isoformat()}--{topic_slug}.md"
+        entry_name = f"{entry_date.isoformat()}.md"
         entry_path = ENTRIES_DIR / entry_name
 
         fm = [
             "---",
             yaml_kv("layout", "entry"),
             yaml_kv("title", canonical_title),
-            yaml_kv("date", today.isoformat()),
+            yaml_kv("date", entry_date.isoformat()),
             yaml_kv("topic_title", canonical_title),
             yaml_kv("topic_page_id", page_id),
             yaml_kv("wikibase_item", wikibase),
@@ -422,7 +423,7 @@ def main():
         # Rewrite topic page with appended history
         hist.append(
             {
-                "date": today.isoformat(),
+                "date": entry_date.isoformat(),
                 "rank": rank,
                 "pageviews": pageviews,
                 "lead_sentence": lead_sentence,
