@@ -34,7 +34,7 @@
       const matchE = !entity || e === entity;
 
       // chip is a shortcut
-      const matchChip = !activeChip || (activeChip === 'changed' ? card.dataset.changed === 'true' : true);
+      const matchChip = !activeChip || (activeChip === 'changed' ? (card.dataset.changeType === 'modified') : true);
 
       const ok = matchQ && matchD && matchE && matchChip;
       card.style.display = ok ? '' : 'none';

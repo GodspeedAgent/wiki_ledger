@@ -69,7 +69,8 @@ page_kind: daily
       data-sentence="{{ e.lead_sentence | escape }}"
       data-domain="{{ e.domain | default: 'other' | downcase }}"
       data-entity="{{ e.entity_type | default: 'other' | downcase }}"
-      data-changed="{% if e.sentence_changed %}true{% else %}false{% endif %}"
+      data-change-type="{{ e.change_type | default: '' }}"
+      data-changed="{% if e.change_type == 'modified' %}true{% else %}false{% endif %}"
     >
       <div class="card__row">
         <div>
