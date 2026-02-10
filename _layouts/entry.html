@@ -19,7 +19,7 @@ layout: default
       <div class="card__title">Links</div>
       <div class="stack">
         <a class="link" href="{{ page.topic_url }}" target="_blank" rel="noopener">Wikipedia article</a>
-        <a class="link" href="{{ '/topics/' | append: page.normalized_title | downcase | replace: ' ', '-' | replace: "'", '' | replace: '"', '' | replace: '.', '' | replace: ':', '' | replace: '/', '' | relative_url }}">Topic history (diffs)</a>
+        <a class="link" href="{{ page.normalized_title | downcase | replace: ' ', '-' | replace: "'", '' | replace: '"', '' | replace: '.', '' | replace: ':', '' | replace: '/', '' | prepend: '/topics/' | relative_url }}">Topic history (diffs)</a>
         {% if page.wikibase_item %}<div class="muted">Wikidata: {{ page.wikibase_item }}</div>{% endif %}
       </div>
     </div>
