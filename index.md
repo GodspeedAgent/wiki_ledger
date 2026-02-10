@@ -77,9 +77,13 @@ page_kind: daily
           <div class="card__title">{{ e.topic_title }}</div>
           <div class="kicker">{% if e.domain %}{{ e.domain }}{% endif %}{% if e.domain and e.entity_type %} · {% endif %}{% if e.entity_type %}{{ e.entity_type }}{% endif %}</div>
         </div>
-        <div class="pill {% if e.sentence_changed %}pill--hot{% else %}pill--cool{% endif %}">
-          {% if e.sentence_changed %}Changed{% else %}Same{% endif %}
-        </div>
+        {% if e.change_type == 'first_seen' %}
+          <div class="pill pill--new">New</div>
+        {% elsif e.change_type == 'modified' %}
+          <div class="pill pill--hot">Changed</div>
+        {% else %}
+          <div class="pill pill--cool">Same</div>
+        {% endif %}
       </div>
       <div class="quote">{{ e.lead_sentence }}</div>
     </a>

@@ -74,6 +74,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;fon
 
 .pill{font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted)}
 .pill--hot{color:var(--text);border-color: rgba(124,92,255,.38);background: rgba(124,92,255,.12)}
+.pill--new{color:var(--text);border-color: rgba(45,212,191,.42);background: rgba(45,212,191,.12)}
 .pill--cool{background: rgba(255,255,255,.03)}
 
 .entry__header,.topic__header{padding:26px 0 14px}
