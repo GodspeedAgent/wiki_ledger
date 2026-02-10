@@ -82,6 +82,7 @@ page_kind: daily
         </div>
       </div>
       <div class="quote">{{ e.lead_sentence }}</div>
+      <div class="kicker" style="margin-top:10px;">Topic history: <span class="muted">/topics/{{ e.normalized_title | downcase | replace: ' ', '-' }}</span></div>
     </a>
   {% endfor %}
 </section>
