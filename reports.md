@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reports
+title: Reports (deprecated)
 ---
 
 <section class="hero">

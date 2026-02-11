@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""Generate weekly + monthly report markdown pages under _reports/.
+"""(DEPRECATED) Legacy weekly/monthly report generator.
 
-Reports are allowed to contain narrative analysis, but the site should not
-mention LLMs explicitly. This script assembles stats + a media-rich structure
-that an agent can fill with an objective narrative and supporting sources.
-
-No dependencies.
+WikiLedger now uses daily briefs under _briefs/ as the primary insight layer.
+This script remains only for reference and should not be used in the daily job.
 """
 
 from __future__ import annotations
