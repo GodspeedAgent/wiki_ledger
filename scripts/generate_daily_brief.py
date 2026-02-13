@@ -107,7 +107,10 @@ def main():
     BRIEFS_DIR.mkdir(exist_ok=True)
 
     run_date = _dt.date.today()
-    brief_date = run_date - _dt.timedelta(days=1)
+    # Allow backfills: set BRIEF_DATE=YYYY-MM-DD to force the brief date
+    import os
+    brief_date_env = os.environ.get('BRIEF_DATE')
+    brief_date = _dt.date.fromisoformat(brief_date_env) if brief_date_env else (run_date - _dt.timedelta(days=1))
 
     out_path = BRIEFS_DIR / f'{brief_date.isoformat()}.md'
     if out_path.exists():

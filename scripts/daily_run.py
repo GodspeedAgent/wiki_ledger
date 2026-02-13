@@ -174,7 +174,10 @@ def main():
     TOPICS_DIR.mkdir(exist_ok=True)
 
     run_date = _dt.date.today()  # host local date
-    entry_date = run_date - _dt.timedelta(days=1)
+    # Allow backfills: set ENTRY_DATE=YYYY-MM-DD to force the entry date
+    import os
+    entry_date_env = os.environ.get('ENTRY_DATE')
+    entry_date = _dt.date.fromisoformat(entry_date_env) if entry_date_env else (run_date - _dt.timedelta(days=1))
 
     # Abort if we already have an entry for the target date
     for ep in ENTRIES_DIR.glob("*.md"):
