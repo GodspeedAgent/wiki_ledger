@@ -12,8 +12,8 @@ description: "American action film directed by Rob Cohen"
 description_source: "wikipedia_rest_summary"
 canonical_title: "XXX (2002 film)"
 normalized_title: "XXX (2002 film)"
-times_seen_total: 2
-sentence_changed_count: 1
+times_seen_total: 3
+sentence_changed_count: 2
 sentence_history:
   - date: "2025-06-26"
     rank: 27
@@ -32,5 +32,14 @@ sentence_history:
     sentence_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
     paragraph_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
     change_type: "unchanged"
+    source_revision_id: 1335471148
+  - date: "2026-02-14"
+    rank: 70
+    pageviews: 54536
+    lead_sentence: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H."
+    lead_paragraph: "XXX is a 2002 American action thriller film directed by Rob Cohen, produced by Neal H. Moritz and written by Rich Wilkes. The first installment in the xXx film series, the film stars Vin Diesel as Xander Cage, a thrill-seeking extreme sports enthusiast, stuntman, and rebellious athlete-turned-reluctant spy for the National Security Agency. Cage is sent on a dangerous mission to infiltrate a group of potential Russian terrorists in Central Europe. The film also stars Asia Argento, Marton Csokas, and Samuel L. Jackson. Cohen, Moritz, and Diesel had previously worked on The Fast and the Furious (2001) as director, producer and cast member respectively. The film grossed $277.4 million worldwide and was followed by two sequels, xXx: State of the Union (2005) and xXx: Return of Xander Cage (2017)."
+    sentence_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
+    paragraph_hash: "9d24c3048881c0f6eda453c00c9ec1cb3fccf17c52255f54b8911d5c715a59e2"
+    change_type: "modified"
     source_revision_id: 1335471148
 ---
