@@ -12,8 +12,8 @@ description: "Social media platform owned by Meta"
 description_source: "wikipedia_rest_summary"
 canonical_title: "Instagram"
 normalized_title: "Instagram"
-times_seen_total: 3
-sentence_changed_count: 1
+times_seen_total: 4
+sentence_changed_count: 2
 sentence_history:
   - date: "2025-08-27"
     rank: 56
@@ -42,4 +42,13 @@ sentence_history:
     paragraph_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
     change_type: "unchanged"
     source_revision_id: 1337228362
+  - date: "2026-02-20"
+    rank: 70
+    pageviews: 54794
+    lead_sentence: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms."
+    lead_paragraph: "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms. It allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location via geographical tagging. Posts can be shared publicly or with preapproved followers. Users can browse other users' content by tags and locations, view trending content, like photos, and follow other users to add their content to a personal feed. A Meta-operated image-centric social media platform, it is available on iOS, Android, Windows 10, and the web. Users can take photos and edit them using built-in filters and other tools, then share them on other social media platforms like Facebook. It supports 33 languages including English, Hindi, Spanish, French, Japanese, and Korean."
+    sentence_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
+    paragraph_hash: "dff5a6dc3fa2633ad5b0fcc45be8be48cd80b1c068b74194723089b9b1acefd4"
+    change_type: "modified"
+    source_revision_id: 1338491506
 ---
