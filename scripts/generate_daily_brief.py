@@ -27,6 +27,7 @@ LANG = 'en'
 PROJECT = 'wikipedia'
 ACCESS = 'all-access'
 USER_AGENT = 'WikiLedgerBot/1.0'
+REDDIT_USER_AGENT = 'WikiLedgerBot/1.0 (daily brief; contact: none)'
 BRIEFS_DIR = Path('_briefs')
 
 
@@ -101,6 +102,57 @@ def weighted_sample_without_replacement(pop, weights, k, rng: random.Random):
         chosen.append(pool.pop(idx))
         w.pop(idx)
     return chosen
+
+
+def search_reddit(session: requests.Session, query: str, limit: int = 3):
+    """Search public Reddit JSON for corroborating chatter.
+
+    Uses unauthenticated endpoints; keep it small + throttled.
+    """
+    q = (query or '').strip()
+    if not q:
+        return []
+
+    # Reddit is picky about UA; set a reddit-specific UA per request.
+    url = (
+        'https://www.reddit.com/r/all/search.json?'
+        + urllib.parse.urlencode({
+            'q': q,
+            'restrict_sr': 'false',
+            'sort': 'top',
+            't': 'day',
+            'limit': str(max(1, min(10, limit))),
+        })
+    )
+
+    # Use a short timeout; if Reddit blocks/429s, just return no results.
+    try:
+        old_ua = session.headers.get('User-Agent')
+        session.headers['User-Agent'] = REDDIT_USER_AGENT
+        js, code = get_json(session, url, tries=3, timeout=15)
+        if code != 200 or not js:
+            return []
+        posts = []
+        for ch in (js.get('data', {}) or {}).get('children', [])[:limit]:
+            d = (ch or {}).get('data') or {}
+            permalink = d.get('permalink')
+            if not permalink:
+                continue
+            posts.append({
+                'title': d.get('title') or 'Reddit post',
+                'subreddit': d.get('subreddit') or 'unknown',
+                'score': d.get('score'),
+                'url': 'https://www.reddit.com' + permalink,
+            })
+        return posts
+    except Exception:
+        return []
+    finally:
+        try:
+            if old_ua:
+                session.headers['User-Agent'] = old_ua
+        except Exception:
+            pass
 
 
 def main():
@@ -209,36 +261,70 @@ def main():
     elif 'nfl' in buckets and 'superbowl' in buckets:
         body.append("- **Connection:** multiple Seahawks-linked lookups inside a Super Bowl-shaped day suggests fans are triangulating rosters, key plays, and names in real time.\n")
 
-    body.append('\n## Hidden Connections\n')
+    body.append('\n## Analysis\n')
 
-    # Build up to 3 threads from top clusters, each listing 2–5 topics
-    for idx, (b, its) in enumerate(cluster_order[:3], 1):
-        topics = ', '.join([f"[{x['topic_title']}]({x['topic_url']})" for x in its[:5] if x.get('topic_url')])
-        tot = sum(x['pageviews'] for x in its)
-        if b == 'superbowl':
-            label = 'Spectacle stack (game + performers + counter-programming)'
-            expl = ("This cluster is consistent with a live-event attention loop: "
-                    "people bounce between the event page, performer pages, and adjacent ‘meta’ pages. "
-                    "The presence of an alternative/online halftime entry alongside the main Super Bowl node may suggest a parallel narrative ecosystem forming around the same time anchor.")
-        elif b == 'epstein':
-            label = 'Accountability / document-thread'
-            expl = ("Epstein-related pages often re-cluster when there’s a new filing, document drop, or recap wave. "
-                    "A multi-page cluster (files + associate) is consistent with readers mapping networks rather than reading a single headline summary.")
-        elif b == 'nfl':
-            label = 'Team-specific triangulation'
-            expl = ("Multiple Seattle Seahawks-linked pages in the same snapshot is consistent with fans chasing specific roster/role context (QB, kicker) rather than general league news.")
-        elif b == 'olympics':
-            label = 'Scheduled-event gravity'
-            expl = ("A live, calendar-fixed event can pull attention even without a single viral trigger; Wikipedia becomes a standings/venues reference layer.")
-        else:
-            label = 'Background curiosity'
-            expl = ("These look like one-off curiosity spikes that hitch a ride on the day’s larger attention currents.")
+    # One unified analysis section, grounded in the actual 10-pick snapshot.
+    def fmt_topic_list(its, limit=6):
+        links = [f"[{x['topic_title']}]({x['topic_url']})" for x in its if x.get('topic_url')]
+        return ', '.join(links[:limit])
 
-        body.append(f"**Thread {idx}: {label}**\n\n")
-        body.append(f"Topics: {topics}\n\n")
-        body.append(f"Why they may connect: {expl}\n\n")
+    # Lead cluster detail
+    lead_views = sum(x['pageviews'] for x in lead_items)
+    body.append(
+        f"- **Center of gravity:** **{lead_cluster}** accounts for {lead_views:,} of ~{total_views:,} views in this 10-pick snapshot "
+        f"({len(lead_items)} of 10 picks). Topics: {fmt_topic_list(lead_items)}.\n"
+    )
 
-    body.append('## Competing Explanations\n')
+    # Second cluster + outliers
+    if len(cluster_order) > 1:
+        b2, its2 = cluster_order[1]
+        v2 = sum(x['pageviews'] for x in its2)
+        body.append(
+            f"- **Second thread:** **{b2}** contributes {v2:,} views ({len(its2)} picks). Topics: {fmt_topic_list(its2)}.\n"
+        )
+
+    outliers = [it for it in items if bucket(it) == 'other']
+    if outliers:
+        body.append(
+            "- **Outliers / side-quests:** "
+            + fmt_topic_list(sorted(outliers, key=lambda x: x['pageviews'], reverse=True), limit=6)
+            + ". These usually indicate either a single viral moment (clip/headline) or readers using Wikipedia as quick context while a story travels elsewhere.\n"
+        )
+
+    # Interpretation cueing based on cluster type
+    if lead_cluster == 'superbowl':
+        body.append(
+            "- **What this pattern often means:** live-event ‘second screen’ behavior — people look up rules, performers, and adjacent names in near-real-time. "
+            "If an alternative/online halftime node appears alongside the main event node, it’s often a sign of a parallel conversation track rather than a separate event.\n"
+        )
+    elif lead_cluster == 'epstein':
+        body.append(
+            "- **What this pattern often means:** network-mapping behavior — readers aren’t just reading one recap; they’re hopping across people, filings, and timeline nodes to reconstruct relationships.\n"
+        )
+    elif lead_cluster == 'nfl':
+        body.append(
+            "- **What this pattern often means:** team/role triangulation — multiple roster-position pages in the same day suggests audiences are filling in ‘who is this person and why do they matter now?’ context.\n"
+        )
+
+    # Reddit corroboration (public .json)
+    reddit_posts = []
+    seen_urls = set()
+    for it in top3:
+        for p in search_reddit(session, it['topic_title'], limit=2):
+            u = p.get('url')
+            if u and u not in seen_urls:
+                reddit_posts.append(p)
+                seen_urls.add(u)
+        time.sleep(1.0)  # throttle
+
+    if reddit_posts:
+        subs = sorted({p.get('subreddit') for p in reddit_posts if p.get('subreddit')})
+        body.append(
+            f"- **Reddit cross-check:** {len(reddit_posts)} high-engagement post(s) surfaced via public Reddit JSON "
+            f"for today’s dominant topics (subreddits: {', '.join(subs[:8])}{'…' if len(subs) > 8 else ''}).\n"
+        )
+
+    body.append('\n## Competing Explanations\n')
     # Make these specific to the dominant cluster
     if lead_cluster == 'superbowl':
         body.append("- **Organic curiosity:** a major live event creates genuine, decentralized lookups across rules, performers, and personalities — Wikipedia is the common ‘second screen.’\n")
@@ -251,9 +337,17 @@ def main():
         body.append("- **Media routing/amplification:** distribution channels funnel attention toward a small set of reference pages, creating spikes.\n")
 
     body.append('\n## Receipts\n')
+    body.append('**Wikipedia (top drivers):**\n')
     for it in top3:
         if it.get('topic_url'):
             body.append(f"- [{it['topic_title']}]({it['topic_url']})\n")
+
+    if reddit_posts:
+        body.append('\n**Reddit (public JSON cross-check):**\n')
+        for p in reddit_posts[:8]:
+            score = p.get('score')
+            score_txt = f" · score {score}" if isinstance(score, int) else ''
+            body.append(f"- [{p['title']}]({p['url']}) (r/{p.get('subreddit','?')}{score_txt})\n")
 
     body.append('\n## The 10 Picks\n')
     body.append('<div class="grid">')
