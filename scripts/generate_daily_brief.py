@@ -27,7 +27,7 @@ LANG = 'en'
 PROJECT = 'wikipedia'
 ACCESS = 'all-access'
 USER_AGENT = 'WikiLedgerBot/1.0'
-REDDIT_USER_AGENT = 'WikiLedgerBot/1.0 (daily brief; contact: none)'
+COMMUNITY_USER_AGENT = 'WikiLedgerBot/1.0 (daily brief; contact: none)'
 BRIEFS_DIR = Path('_briefs')
 
 
@@ -104,8 +104,8 @@ def weighted_sample_without_replacement(pop, weights, k, rng: random.Random):
     return chosen
 
 
-def search_reddit(session: requests.Session, query: str, limit: int = 3):
-    """Search public Reddit JSON for corroborating chatter.
+def search_community_sources(session: requests.Session, query: str, limit: int = 3):
+    """Search public community discussion JSON for corroborating chatter.
 
     Uses unauthenticated endpoints; keep it small + throttled.
     """
@@ -113,7 +113,6 @@ def search_reddit(session: requests.Session, query: str, limit: int = 3):
     if not q:
         return []
 
-    # Reddit is picky about UA; set a reddit-specific UA per request.
     url = (
         'https://www.reddit.com/r/all/search.json?'
         + urllib.parse.urlencode({
@@ -125,10 +124,9 @@ def search_reddit(session: requests.Session, query: str, limit: int = 3):
         })
     )
 
-    # Use a short timeout; if Reddit blocks/429s, just return no results.
     try:
         old_ua = session.headers.get('User-Agent')
-        session.headers['User-Agent'] = REDDIT_USER_AGENT
+        session.headers['User-Agent'] = COMMUNITY_USER_AGENT
         js, code = get_json(session, url, tries=3, timeout=15)
         if code != 200 or not js:
             return []
@@ -139,7 +137,7 @@ def search_reddit(session: requests.Session, query: str, limit: int = 3):
             if not permalink:
                 continue
             posts.append({
-                'title': d.get('title') or 'Reddit post',
+                'title': d.get('title') or 'Community post',
                 'subreddit': d.get('subreddit') or 'unknown',
                 'score': d.get('score'),
                 'url': 'https://www.reddit.com' + permalink,
@@ -306,22 +304,22 @@ def main():
             "- **What this pattern often means:** team/role triangulation — multiple roster-position pages in the same day suggests audiences are filling in ‘who is this person and why do they matter now?’ context.\n"
         )
 
-    # Reddit corroboration (public .json)
-    reddit_posts = []
+    # Community discussion corroboration (public JSON)
+    community_posts = []
     seen_urls = set()
     for it in top3:
-        for p in search_reddit(session, it['topic_title'], limit=2):
+        for p in search_community_sources(session, it['topic_title'], limit=2):
             u = p.get('url')
             if u and u not in seen_urls:
-                reddit_posts.append(p)
+                community_posts.append(p)
                 seen_urls.add(u)
         time.sleep(1.0)  # throttle
 
-    if reddit_posts:
-        subs = sorted({p.get('subreddit') for p in reddit_posts if p.get('subreddit')})
+    if community_posts:
+        subs = sorted({p.get('subreddit') for p in community_posts if p.get('subreddit')})
         body.append(
-            f"- **Reddit cross-check:** {len(reddit_posts)} high-engagement post(s) surfaced via public Reddit JSON "
-            f"for today’s dominant topics (subreddits: {', '.join(subs[:8])}{'…' if len(subs) > 8 else ''}).\n"
+            f"- **Cross-check:** {len(community_posts)} high-engagement community post(s) surfaced for today’s dominant topics "
+            f"(sub-communities: {', '.join(subs[:8])}{'…' if len(subs) > 8 else ''}).\n"
         )
 
     body.append('\n## Competing Explanations\n')
@@ -342,9 +340,9 @@ def main():
         if it.get('topic_url'):
             body.append(f"- [{it['topic_title']}]({it['topic_url']})\n")
 
-    if reddit_posts:
-        body.append('\n**Reddit (public JSON cross-check):**\n')
-        for p in reddit_posts[:8]:
+    if community_posts:
+        body.append('\n**Additional sources (community discussion):**\n')
+        for p in community_posts[:8]:
             score = p.get('score')
             score_txt = f" · score {score}" if isinstance(score, int) else ''
             body.append(f"- [{p['title']}]({p['url']}) (r/{p.get('subreddit','?')}{score_txt})\n")
