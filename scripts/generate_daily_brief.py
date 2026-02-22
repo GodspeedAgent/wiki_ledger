@@ -28,6 +28,7 @@ PROJECT = 'wikipedia'
 ACCESS = 'all-access'
 USER_AGENT = 'WikiLedgerBot/1.0'
 COMMUNITY_USER_AGENT = 'WikiLedgerBot/1.0 (daily brief; contact: none)'
+BRAVE_USER_AGENT = 'WikiLedgerBot/1.0 (brave search; daily brief)'
 BRIEFS_DIR = Path('_briefs')
 
 
@@ -153,6 +154,101 @@ def search_community_sources(session: requests.Session, query: str, limit: int =
             pass
 
 
+def brave_web_search(session: requests.Session, query: str, limit: int = 3):
+    """Optional: Brave web search if BRAVE_API_KEY is set.
+
+    Returns [{title, url, description}]. Throttling is caller's responsibility.
+    """
+    import os
+
+    api_key = os.environ.get('BRAVE_API_KEY')
+    q = (query or '').strip()
+    if not api_key or not q:
+        return []
+
+    url = 'https://api.search.brave.com/res/v1/web/search?' + urllib.parse.urlencode({
+        'q': q,
+        'count': str(max(1, min(10, limit))),
+        'safesearch': 'moderate',
+        'freshness': 'pd',
+        'text_decorations': 'false',
+    })
+
+    try:
+        old_ua = session.headers.get('User-Agent')
+        session.headers['User-Agent'] = BRAVE_USER_AGENT
+        session.headers['Accept'] = 'application/json'
+        session.headers['X-Subscription-Token'] = api_key
+        js, code = get_json(session, url, tries=3, timeout=20)
+        if code != 200 or not js:
+            return []
+        out = []
+        for r in ((js.get('web') or {}).get('results') or [])[:limit]:
+            out.append({
+                'title': r.get('title') or 'Result',
+                'url': r.get('url'),
+                'description': (r.get('description') or '').strip(),
+            })
+        return [x for x in out if x.get('url')]
+    except Exception:
+        return []
+    finally:
+        # Clean up headers we set
+        try:
+            session.headers.pop('X-Subscription-Token', None)
+            session.headers.pop('Accept', None)
+            if old_ua:
+                session.headers['User-Agent'] = old_ua
+        except Exception:
+            pass
+
+
+def infer_why_line(it: dict, community_posts: list[dict], web_results: list[dict]):
+    """Create a single 'why trending' line, preferring sourced explanations."""
+
+    title = it.get('topic_title') or 'This'
+    sent = (it.get('lead_sentence') or '').strip()
+
+    # 1) Death heuristic: Wikipedia lead often switches to past tense.
+    if re.search(r'\bwas an?\b', sent) and any(k in sent.lower() for k in [' was an ', ' was a ']):
+        if any(k in sent.lower() for k in ['actor', 'actress', 'singer', 'politician', 'musician', 'model', 'athlete', 'businessman', 'journalist']):
+            return {
+                'line': f"{title}: likely spiking because news of their death is circulating.",
+                'source': None,
+                'confidence': 'medium',
+            }
+
+    # 2) If we have a strong community driver, use that headline as the reason.
+    if community_posts:
+        p = community_posts[0]
+        headline = (p.get('title') or '').strip()
+        if headline and len(headline) >= 12:
+            return {
+                'line': f"{title}: trending off the back of chatter/headlines like \"{headline}\".",
+                'source': {'label': f"Reddit r/{p.get('subreddit','?')}", 'url': p.get('url')},
+                'confidence': 'medium',
+            }
+
+    # 3) Prefer a web result from Brave (if available), because it’s usually 'the' news hook.
+    if web_results:
+        r = web_results[0]
+        hook = (r.get('title') or r.get('description') or '').strip()
+        hook = re.sub(r'\s+', ' ', hook)
+        if hook:
+            return {
+                'line': f"{title}: likely connected to \"{hook}\".",
+                'source': {'label': 'Web', 'url': r.get('url')},
+                'confidence': 'medium',
+            }
+
+    # 4) Fallback: honest uncertainty.
+    return {
+        'line': f"{title}: unclear from this snapshot alone — likely a fresh headline or viral clip.",
+        'source': None,
+        'confidence': 'low',
+    }
+
+
 def main():
     BRIEFS_DIR.mkdir(exist_ok=True)
 
@@ -207,132 +303,66 @@ def main():
             'rank': rank,
             'pageviews': views,
             'lead_sentence': sent,
+            'description': (sumj.get('description') or '').strip(),
             'thumbnail_url': thumb,
             'topic_url': topic_url,
         })
 
     total_views = sum(i['pageviews'] for i in items)
 
-    # Tighter content skeleton; narrative can be edited/enriched by the agent.
     body = []
-    # Auto-draft (specific to today’s 10 picks; no placeholders)
-    body.append('## The Pulse\n')
     items_by_views = sorted(items, key=lambda x: x['pageviews'], reverse=True)
     top3 = items_by_views[:3]
 
-    body.append(f"- **Dominant:** {top3[0]['topic_title']} (rank {top3[0]['rank']}, {top3[0]['pageviews']:,} views) leads the day.\n")
-    body.append(f"- **Scale:** ~{total_views:,} total views across today’s 10-pick snapshot (top-100 weighted sample).\n")
+    # --- What’s trending ---
+    body.append('## What’s trending (10 picks, quick read)\n')
+    body.append(f"Total attention in this 10-pick snapshot: **~{total_views:,} pageviews**.\n\n")
+    for it in items_by_views:
+        body.append(f"- **{it['topic_title']}** — rank {it['rank']} · **{it['pageviews']:,}** views\n")
 
-    # cluster heuristics
-    has_superbowl = any('super bowl' in (i['topic_title'] + ' ' + i.get('lead_sentence','')).lower() or 'halftime' in (i['topic_title'] + ' ' + i.get('lead_sentence','')).lower() for i in items)
+    # --- Why you’re seeing these ---
+    # Enrichment policy:
+    # - Always attempt external verification for top 3 by views
+    # - For the rest: only if we have an obvious driver (community post) or Brave API key is available
+    # - Keep it small + throttled
+    why_blocks = []
+    external_sources = []
 
-    def bucket(it):
-        t = (it['topic_title'] + ' ' + it.get('lead_sentence','')).lower()
-        if any(k in t for k in ['super bowl', 'halftime']):
-            return 'superbowl'
-        # If the day includes Super Bowl/halftime, treat performers as part of that attention engine.
-        if has_superbowl and any(k in t for k in ['singer', 'songwriter', 'rapper', 'record producer', 'actor', 'actress', 'concert']):
-            return 'superbowl'
-        if any(k in t for k in ['seahawks', 'nfl', 'quarterback', 'placekicker']):
-            return 'nfl'
-        if any(k in t for k in ['epstein', 'maxwell']):
-            return 'epstein'
-        if 'winter olympics' in t or 'olympic' in t:
-            return 'olympics'
-        return 'other'
+    body.append('\n\n## Why you’re seeing these (best guess)\n')
 
-    buckets = {}
-    for it in items:
-        b = bucket(it)
-        buckets.setdefault(b, []).append(it)
+    for idx, it in enumerate(items_by_views):
+        # Community driver: small reddit search (often catches the "what happened" headline)
+        comm = []
+        if idx < 3 or (it.get('topic_title') and len(it['topic_title']) >= 3):
+            comm = search_community_sources(session, it['topic_title'], limit=1)
+            time.sleep(1.0)
 
-    # Summarize top clusters by total views
-    cluster_order = sorted(buckets.items(), key=lambda kv: sum(x['pageviews'] for x in kv[1]), reverse=True)
-    lead_cluster, lead_items = cluster_order[0]
-    body.append(f"- **Cluster signal:** today’s list concentrates around **{lead_cluster}** ("
-                f"{len(lead_items)} of 10 picks). That kind of density often points to a single real-world ‘attention engine’ driving multiple lookups.\n")
+        # Web driver: Brave search if configured; only for top3 or if we didn't get a comm headline
+        web = []
+        if idx < 3 or (not comm):
+            web = brave_web_search(session, f"{it['topic_title']} why trending", limit=1)
+            if web:
+                time.sleep(1.0)
 
-    # a concrete connective bullet
-    # If superbowl + epstein both present, mention the contrast explicitly.
-    if 'superbowl' in buckets and 'epstein' in buckets:
-        body.append("- **Contrast:** a high-gloss spectacle thread (Super Bowl / performers) sits alongside an accountability thread (Epstein / Maxwell) — a common ‘two-track day’ where entertainment and legal salience compete for mindshare.\n")
-    elif 'nfl' in buckets and 'superbowl' in buckets:
-        body.append("- **Connection:** multiple Seahawks-linked lookups inside a Super Bowl-shaped day suggests fans are triangulating rosters, key plays, and names in real time.\n")
+        why = infer_why_line(it, comm, web)
+        line = why['line']
+        src = why.get('source')
 
-    body.append('\n## Analysis\n')
+        if src and src.get('url'):
+            label = src.get('label') or 'Source'
+            body.append(f"- **{it['topic_title']}:** {line.split(':',1)[1].strip()} ([{label}]({src['url']}))\n")
+            external_sources.append({'title': it['topic_title'], 'label': label, 'url': src['url']})
+        else:
+            body.append(f"- **{it['topic_title']}:** {line.split(':',1)[1].strip()}\n")
 
-    # One unified analysis section, grounded in the actual 10-pick snapshot.
-    def fmt_topic_list(its, limit=6):
-        links = [f"[{x['topic_title']}]({x['topic_url']})" for x in its if x.get('topic_url')]
-        return ', '.join(links[:limit])
-
-    # Lead cluster detail
-    lead_views = sum(x['pageviews'] for x in lead_items)
-    body.append(
-        f"- **Center of gravity:** **{lead_cluster}** accounts for {lead_views:,} of ~{total_views:,} views in this 10-pick snapshot "
-        f"({len(lead_items)} of 10 picks). Topics: {fmt_topic_list(lead_items)}.\n"
-    )
-
-    # Second cluster + outliers
-    if len(cluster_order) > 1:
-        b2, its2 = cluster_order[1]
-        v2 = sum(x['pageviews'] for x in its2)
-        body.append(
-            f"- **Second thread:** **{b2}** contributes {v2:,} views ({len(its2)} picks). Topics: {fmt_topic_list(its2)}.\n"
-        )
-
-    outliers = [it for it in items if bucket(it) == 'other']
-    if outliers:
-        body.append(
-            "- **Outliers / side-quests:** "
-            + fmt_topic_list(sorted(outliers, key=lambda x: x['pageviews'], reverse=True), limit=6)
-            + ". These usually indicate either a single viral moment (clip/headline) or readers using Wikipedia as quick context while a story travels elsewhere.\n"
-        )
-
-    # Interpretation cueing based on cluster type
-    if lead_cluster == 'superbowl':
-        body.append(
-            "- **What this pattern often means:** live-event ‘second screen’ behavior — people look up rules, performers, and adjacent names in near-real-time. "
-            "If an alternative/online halftime node appears alongside the main event node, it’s often a sign of a parallel conversation track rather than a separate event.\n"
-        )
-    elif lead_cluster == 'epstein':
-        body.append(
-            "- **What this pattern often means:** network-mapping behavior — readers aren’t just reading one recap; they’re hopping across people, filings, and timeline nodes to reconstruct relationships.\n"
-        )
-    elif lead_cluster == 'nfl':
-        body.append(
-            "- **What this pattern often means:** team/role triangulation — multiple roster-position pages in the same day suggests audiences are filling in ‘who is this person and why do they matter now?’ context.\n"
-        )
-
-    # Community discussion corroboration (public JSON)
-    community_posts = []
-    seen_urls = set()
-    for it in top3:
-        for p in search_community_sources(session, it['topic_title'], limit=2):
-            u = p.get('url')
-            if u and u not in seen_urls:
-                community_posts.append(p)
-                seen_urls.add(u)
-        time.sleep(1.0)  # throttle
-
-    if community_posts:
-        subs = sorted({p.get('subreddit') for p in community_posts if p.get('subreddit')})
-        body.append(
-            f"- **Cross-check:** {len(community_posts)} high-engagement community post(s) surfaced for today’s dominant topics "
-            f"(sub-communities: {', '.join(subs[:8])}{'…' if len(subs) > 8 else ''}).\n"
-        )
-
-    body.append('\n## Competing Explanations\n')
-    # Make these specific to the dominant cluster
-    if lead_cluster == 'superbowl':
-        body.append("- **Organic curiosity:** a major live event creates genuine, decentralized lookups across rules, performers, and personalities — Wikipedia is the common ‘second screen.’\n")
-        body.append("- **Media routing/amplification:** broadcast + social clips + official promos can funnel attention toward a tight set of pages (performers + event), making the spike look more unified than the underlying reasons.\n")
-    elif lead_cluster == 'epstein':
-        body.append("- **Organic curiosity:** a resurfacing scandal drives people to rebuild the timeline and relationships.\n")
-        body.append("- **Media routing/amplification:** a concentrated wave of coverage routes audiences into a small cluster of reference pages, which can persist even if no new facts were added that day.\n")
-    else:
-        body.append("- **Organic curiosity:** readers converge on the same pages because the same real-world events are salient.\n")
-        body.append("- **Media routing/amplification:** distribution channels funnel attention toward a small set of reference pages, creating spikes.\n")
+    # --- Quick context ---
+    body.append('\n\n## Quick context\n')
+    for it in items_by_views:
+        desc = (it.get('description') or '').strip()
+        if desc:
+            body.append(f"- **{it['topic_title']}** — {desc}.\n")
+        else:
+            body.append(f"- **{it['topic_title']}** — {it.get('lead_sentence','').strip()}\n")
 
     body.append('\n## Receipts\n')
     body.append('**Wikipedia (top drivers):**\n')
@@ -340,12 +370,18 @@ def main():
         if it.get('topic_url'):
             body.append(f"- [{it['topic_title']}]({it['topic_url']})\n")
 
-    if community_posts:
-        body.append('\n**Additional sources (community discussion):**\n')
-        for p in community_posts[:8]:
-            score = p.get('score')
-            score_txt = f" · score {score}" if isinstance(score, int) else ''
-            body.append(f"- [{p['title']}]({p['url']}) (r/{p.get('subreddit','?')}{score_txt})\n")
+    # External sources used to justify specific 'why trending' claims
+    if external_sources:
+        body.append('\n**Additional sources:**\n')
+        seen = set()
+        for s in external_sources:
+            u = s.get('url')
+            if not u or u in seen:
+                continue
+            seen.add(u)
+            label = s.get('label') or 'Source'
+            t = s.get('title') or 'Link'
+            body.append(f"- [{t} — {label}]({u})\n")
 
     body.append('\n## The 10 Picks\n')
     body.append('<div class="grid">')
